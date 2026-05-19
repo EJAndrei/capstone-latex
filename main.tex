@@ -1,0 +1,832 @@
+% main.tex - Updated Research Template with new title page
+\documentclass{research}
+
+\usepackage{graphicx} %LaTeX package to import graphics
+\graphicspath{{images/}} %configuring the graphicx package
+
+\usepackage{ragged2e} % Add this to your preamble
+
+% Title Page Info
+\title{}
+\author{Fritzgerald Enric T. Imperial}
+\submission{A Special Project Presented to the Faculty of the College of Computer Studies, Naga College Foundation, Inc., Naga City}
+\researchyear{2026}
+
+\usepackage{float}
+\usepackage{longtable}
+\usepackage{amsmath}      % REQUIRED for equation*, \Sigma, \times, \frac
+\usepackage{amssymb}      % for math symbols
+\usepackage{enumitem}     % for custom list labels
+\usepackage{booktabs} % Required for professional horizontal rules
+\usepackage{caption}  % For proper spacing between caption and table
+\usepackage{array}
+
+\graphicspath{{./}{./figures/}}
+
+\begin{document}
+
+% Generate Title Page
+\thispagestyle{empty}
+\begin{center}
+  \vspace*{1in}
+  {\Huge\bfseries E-Health for All: A User-Centered Telemedicine System \par}
+  \vspace{1in}
+  An Undergraduate Research Paper\\
+  Presented to the Faculty of the\\
+  College of Computer Studies\\
+  Naga College Foundation, Inc.\\
+  Naga City\\
+  \vspace{1in}
+  In Partial Fulfillment of\\
+  The Requirements for the Degree\\
+  Bachelor of Science in Information System\\
+  \vspace{0.5in}
+  Bruzo, Ian\\
+  Narvato, Dominnica SL.\\
+  Paraiso, Kristine Carla I.\\
+  Villamer, EJ Andrei J.\\
+   \vspace*{0.8in}
+  2027
+\end{center}
+
+\clearpage
+
+\tableofcontents
+
+\clearpage
+
+\listoffigures
+
+\clearpage
+
+\listoftables
+
+\clearpage
+
+\clearpage
+
+%-----------------------------
+% Chapter 1
+%-----------------------------
+\chapter{Introduction}
+
+\section{Background of the Study}
+
+Healthcare access remains one of the most persistent global inequalities, with limited specialist availability and inadequate infrastructure keeping millions from critical care. The World Health Organization estimates that half of the global population lacks access to essential health services, with rural communities disproportionately affected \cite{ref66}, leading to delayed diagnoses and preventable deaths. Telemedicine presents a promising solution by delivering healthcare across distances, connecting remote patients with specialists without requiring travel and making scarce resources available to underserved populations.
+
+In the Philippines, these challenges are especially severe. The country's geography and urban concentration of medical specialists leave rural populations with limited healthcare options. In response, the Philippine government and health institutions have begun embracing telemedicine to broaden coverage. The National Telehealth Center has launched SMS and web-based platforms connecting rural patients with specialist consultations \cite{ref25}, \cite{ref59}, and various health institutions have adopted electronic medical records to improve continuity of care across facilities \cite{ref36}, \cite{ref40}.
+
+Despite these efforts, significant barriers persist. Poor transportation infrastructure hinders facility access, particularly during emergencies and follow-up care. Unreliable internet connectivity, limited computing resources, and low digital literacy among both patients and healthcare workers further compound these challenges \cite{ref1}, \cite{ref46}. Existing telemedicine initiatives, while promising, remain fragmented and rarely address the unique technological constraints and cultural context of rural Filipino communities \cite{ref49}, \cite{ref51}.
+
+This research seeks to bridge these gaps by developing an integrated telemedicine platform specifically designed for the selected rural barangays. The platform combines three components, a comprehensive doctors' database, a patient records management system, and an appointment scheduling system into one user-friendly interface accessible to users with different levels of digital literacy. 
+
+This initiative aligns with multiple UN Sustainable Development Goals: good health and well-being (sdg3), by improving healthcare access and quality. It supports industry, innovation, and infrastructure (sdg9), by demonstrating how technology can address healthcare infrastructure gaps in underserved areas. It advances reduced inequalities (sdg10), by examining how digital health solutions reduce disparities in healthcare access across different populations and socioeconomic groups.
+
+\section{Review of Related Literature}
+
+\subsection*{Telemedicine Adoption and Implementation }
+
+Telemedicine, the delivery of healthcare services using information and communication technologies, has emerged as a vital solution for healthcare access issues in isolated and underserved communities. Telemedicine allows healthcare providers to assess, diagnose, and treat patients in remote areas by utilizing telecommunications technology to effectively connects medical experts with populations that have limited access to healthcare facilities. It has shown great promise in overcoming healthcare access issues in rural communities around the world. 
+
+Research shows that telemedicine consultations promote better clinical decision-making, reduce unnecessary patient transfers, and increase the chances of local admissions instead of costly transfers to far-off hospitals \cite{ref30}, \cite{ref27}. These advantages apply to many medical fields, from primary care to specialized areas like neurology and emergency medicine \cite{ref15}.
+
+However, the pandemic highlighted the shortcomings of telemedicine: access services at lower rates \cite{ref10},\cite{ref21}. Digital literacy among older adults and low-income individuals \cite{ref1},\cite{ref46}, equal access concerns \cite{ref16},\cite{ref12},\cite{ref6}, implementation costs and maintenance \cite{ref43},\cite{ref9}, infrastructure issues \cite{ref31},\cite{ref48},\cite{ref62}., and data security and patient privacy concerns \cite{ref41}.
+
+On the one hand, communities with integrated systems achieve better health outcomes for managing chronic diseases compared to those that use fragmented record-keeping \cite{ref32}. Patient satisfaction with telemedicine in the Philippines shows encouraging trends \cite{ref32},\cite{ref39}. Even senior citizens, increasingly accepted remote consultations \cite{ref7}. The University of the Philippines Health Service successfully used tailored electronic medical records systems in various settings during COVID-19, ensuring continuity of patient care despite mobility restrictions \cite{ref36},\cite{ref59}. Thorough assessments show considerable progress in adoption over time, although significant gaps between different types of facilities and locations persist \cite{ref3},\cite{ref38}.
+
+Successfully implementing telemedicine requires careful adjustments to local circumstances. Detailed analyses reveal Philippines-specific barriers like governance issues, unclear licensure requirements, unresolved liability problems, and vague reimbursement mechanisms that hinder healthcare provider involvement \cite{ref25},\cite{ref51}. Healthcare technology must consider local cultural practices, language preferences, and health-seeking behaviors to ensure meaningful user acceptance in diverse Filipino communities \cite{ref49}. Creating user-friendly systems is crucial for sustained adoption rather than leaving behind abandoned pilot projects \cite{ref63}. 
+
+\subsection*{Patient Information Management System }
+Patient information management involves the organized collection, storage, and use of health data to support clinical decision-making and ensure continuity of care. Electronic Medical Records (EMR) systems digitize patient health information, enabling providers to access complete histories, track treatments, identify medication interactions, and coordinate care across specialties. This is especially critical in rural and underserved areas where access to prior care records is limited.
+
+EMR systems significantly improve care coordination, with integrated communities achieving better chronic disease outcomes compared to those with fragmented records \cite{ref33}, \cite{ref19}. However, while basic adoption rates are high, comprehensive implementation remains lower in rural facilities despite recognized benefits \cite{ref12}, \cite{ref6}. Technical, organizational, and workflow barriers continue to hinder smooth information sharing \cite{ref48}, \cite{ref3}, \cite{ref38}, and digital literacy gaps among older adults and low-income individuals require targeted design and training interventions \cite{ref1}.
+
+Data security and patient privacy are foundational to EMR trust, requiring encryption, access controls, and audit trails \cite{ref41}. Integrated systems reduce administrative burdens and improve care delivery \cite{ref45}, \cite{ref56}, \cite{ref26}, while predictive models using patient data enable targeted interventions and better resource allocation \cite{ref17}, \cite{ref13}, supporting a shift toward proactive, preventive primary care \cite{ref11}.
+
+In the Philippines, EMR adoption shows both progress and challenges. COVID-19 visibly impacted system usage in rural health facilities \cite{ref2}, yet implementation improved clinical decision-making and reduced medication errors compared to paper systems \cite{ref40}. Sustained adoption is linked to training, technical support, and gradual workflow integration rather than rapid rollouts \cite{ref28}, though research representation across specialties, settings, and facility types remains uneven \cite{ref14}. The absence of centralized provider databases causes referral delays and disjointed care \cite{ref60}, while comprehensive physician databases with specialization and scheduling details enhance diagnostic workflows \cite{ref53}. Keeping such databases accurate remains challenging, necessitating automated verification and validation processes \cite{ref35}.
+
+\subsection*{Appointment Scheduling in Healthcare }
+Appointment scheduling systems are essential to healthcare delivery, coordinating patient needs, provider availability, and facility resources. Well-designed systems reduce waiting times, lower missed appointments through automated reminders, improve provider productivity, and ensure urgent cases receive prompt attention. In rural settings, where patients face long travel distances and transportation barriers, efficient scheduling is especially critical for maintaining access and treatment adherence.
+
+Digital scheduling significantly reduces no-show rates compared to offline booking, with automated reminders proving particularly effective \cite{ref45}. AI-driven tools further improve efficiency by predicting non-attendance and optimizing resource allocation \cite{ref56}, while open-access scheduling reduces no-shows by offering same-day or next-day appointments \cite{ref26}. Predictive models incorporating patient demographics and appointment history identify high lead time and prior missed appointments as the strongest predictors of non-attendance \cite{ref17}, \cite{ref13}. Integrated systems also improve patient flow and reduce waiting area congestion in underserved facilities \cite{ref65}, supporting broader proactive primary care initiatives through timely referrals and fewer missed appointments \cite{ref11}, \cite{ref35}.
+
+In the Philippines, digital appointment management in rural health centers has shortened waiting times and reduced missed appointments through better time slot management and automated reminders \cite{ref50}. However, rural contexts require flexible approaches, as rigid scheduling is ineffective where patients face unreliable transportation or inflexible work schedules. Systems must therefore incorporate easy rescheduling options and reminder methods that function without internet access \cite{ref37}.
+
+\section{Synthesis of the State-of-the-Art }
+The detailed collection of works and studies offered valuable insights into the topic. These studies backed their claims with relevant data and detailed information. This section will provide a brief overview of the reviews of relevant literature.
+
+Telemedicine has emerged as a viable solution to geographic barriers, improving clinical decision-making, reducing unnecessary transfers, and expanding specialist access \cite{ref15}, \cite{ref30}, \cite{ref27}. However, persistent challenges remain, including infrastructure limitations, digital literacy gaps, data security concerns, and Philippines-specific barriers such as unclear licensure, liability, and reimbursement mechanisms \cite{ref25}, \cite{ref41}, \cite{ref46}, \cite{ref51}. Despite these, large-scale pilots in the Philippines demonstrate feasibility across diverse communities, with patient satisfaction showing encouraging trends even among senior citizens \cite{ref7}, \cite{ref32}, \cite{ref39}, \cite{ref59}. Successful adoption requires culturally sensitive, user-centered design tailored to local contexts \cite{ref49}, \cite{ref63}.
+
+Patient information management systems significantly improve care coordination and clinical outcomes, yet comprehensive EMR implementation remains lower in rural facilities \cite{ref6}, \cite{ref12}. Workflow barriers, digital literacy gaps, and data security concerns continue to hinder full adoption \cite{ref1}, \cite{ref3}, \cite{ref38}, \cite{ref41}. In the Philippines, gradual integration supported by training and technical assistance yields better sustained adoption \cite{ref28}, while the absence of centralized provider databases causes referral delays and fragmented care \cite{ref53}, \cite{ref60}.
+
+Appointment scheduling systems directly reduce no-show rates, improve patient flow, and support proactive primary care \cite{ref11}, \cite{ref45}, \cite{ref56}. Predictive modeling and AI-driven tools further optimize resource allocation \cite{ref17}, \cite{ref13}, \cite{ref56}. In Philippine rural health centers, digital scheduling has measurably shortened waiting times \cite{ref50}, though flexible, offline-capable systems are essential given transportation and connectivity constraints \cite{ref37}.
+
+Across all three areas, the literature consistently points to the need for an integrated, context-sensitive platform that unifies patient records, provider information, and appointment scheduling precisely the gap this research addresses. 
+
+\section{Gap Bridged by the Study}
+This study addresses important gaps in rural healthcare delivery by creating an integrated telemedicine platform specifically for rural barangays in Naga City. Existing telemedicine systems often look at patient management and appointment scheduling separately. This research offers a more complete solution by combining a doctors' database, a patient records management system, and appointment scheduling into one platform. It addresses the unreliable internet connectivity that is common in rural areas. Healthcare workers can keep entering data and accessing patient information even without internet access. Once the connection is restored, the system syncs automatically. By bringing these features together in one practical system designed for resource-limited settings, this research shows how telemedicine solutions can be adapted to meet the real technological, infrastructure, and cultural challenges faced in rural healthcare. 
+
+
+\section{Theoretical Framework}
+
+This study is anchored on the following theories: the Task Technology Fit (TTF) Theory by Goodhue and Thompson, as cited by Thanthrige et al. \cite{ref69}; the Diffusion of Innovations (DOI) Theory by Rogers, as cited by Tsogbe et al. \cite{ref70}; and the Technology Acceptance Model (TAM) by Davis, as cited by Holtz et al. \cite{ref71}.   
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        height=0.5\textheight,
+        keepaspectratio
+    ]{Theoretical_Paradigm}
+
+    \caption{Theoretical Framework}
+\end{figure}
+The diagram illustrates the theoretical foundations guiding the development of the E-Health for All telemedicine system for improving access in rural communities. Goodhue and Thompson (1995) established that technology is most effectively utilized when its capabilities align with the tasks users must perform. Thanthrige et al. \cite{ref69} reinforced this principle in a 2025 systematic review, confirming that task-technology alignment remains a critical determinant of healthcare technology adoption. This theory anchors the study by evaluating whether the three core features of E-Health for All digital patient records management, automated health worker scheduling, and online appointment booking fit the actual daily tasks of Panicuason health facility personnel, as a technically sound system that lacks this fit will be underused or abandoned.
+
+Rogers (2003) argued that technology adoption is shaped by five key attributes: relative advantage, compatibility, complexity, trialability, and observability. Tsogbe et al. \cite{ref70} applied this framework in 2026 within a telehealth adoption context in a developing-region setting, affirming its continued relevance in guiding digital health implementation. This theory guides the study by ensuring that the E-Health for All platform offers a clear operational advantage over the current paper-based system while remaining compatible with the existing workflows of Barangay Panicuason.
+
+Davis (1989) proposed that technology adoption is primarily driven by perceived usefulness the degree to which a system improves work performance and perceived ease of use the degree to which it is free of effort. Holtz et al. \cite{ref71} applied TAM in 2022 specifically to telemedicine adoption among rural populations, affirming its applicability in this context. This theory directly shapes the acceptability evaluation instrument of the study by measuring whether health facility personnel perceive E-Health for All as useful, easy to use, and trustworthy enough to adopt.
+
+\section{Conceptual Framework}
+The Input-Process-Output (IPO) Framework, added with Feedback loop as the fourth component, is the approach utilized in the conceptualization of this study.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[
+        height=0.5\textheight,
+        keepaspectratio
+    ]{ConceptualParadigm}
+
+    \caption{Conceptual Framework}
+\end{figure}
+The enhanced system paradigm is the approach utilized in the conceptualization of this study. The input came from various sources to gain a complete understanding of rural healthcare needs and readiness for technology, such as document analysis of health records, observations of healthcare-seeking behaviors and travel times, surveys on evaluating user satisfaction and technology skills, and interviews gathering in-depth information about access challenges and provider readiness for telemedicine services. The processes involved includes, systems analysis and specification for system design, functional testing to ensure adherence to system requirements, usability testing to ensure the system meets the user needs, and acceptability evaluation to validate the system feasibility for deployment. The studys output is a web application with the following features like computer vision, security, authentication, verification, patient check-up history, Qr code security, by using the system it is expected to improve efficiency, achieve fewer documentation and smoother, admin   shorter waiting times, through better appointment, enhance user satisfaction, and improve data security of patient information. The continues feedback mechanism will ensure iterative refinement of the system to remain user friendly, operational and align with rural healthcare. 
+
+\section{Statement of the Problem}
+
+This study aims to address the problem of healthcare accessibility among rural populations. Specifically, this study seeks to answer the following questions:
+
+\begin{enumerate}
+
+    \item What are the current practices of rural healthcare providers in rural populations with respect to:
+    \begin{enumerate}
+        \item Patient records management
+        \item Doctor scheduling
+        \item Appointment systems
+    \end{enumerate}
+
+    \item What are the challenges encountered in the current system with respect to:
+    \begin{enumerate}
+        \item Patient records management
+        \item Doctor scheduling
+        \item Appointment systems
+    \end{enumerate}
+
+    \item What system can be designed to address the challenges encountered?
+
+    \item What is the level of acceptability of the system in terms of:
+    \begin{enumerate}
+        \item Usability
+        \item Reliability
+        \item Data security
+    \end{enumerate}
+
+\end{enumerate}
+
+\section{Assumptions}
+This research study is anchored on the following key assumptions:
+
+\begin{enumerate}
+
+    \item Rural healthcare providers in Panicuason, Naga City have specific practices for managing patient records, scheduling doctors, and handling appointments.
+
+    \item There are challenges with the current systems for managing patient records, scheduling doctors, and setting up appointments in rural healthcare facilities.
+
+    \item A user-centered telemedicine platform can be designed and developed to address these challenges in the current healthcare delivery system.
+
+    \item Rural healthcare providers and clinic staff are willing to transition from the current manual practices to the proposed user-friendly telemedicine platform and digital records management system.
+
+\end{enumerate}
+
+\section{Scope and Delimitation}
+
+This study focuses on the design and development of a user-centered telemedicine platform for Barangay Panicuason Rural Health Unit in Naga City, intended to improve patient records management, health worker scheduling, and appointment systems for rural healthcare delivery.
+
+The study covers the full design and development of a web-based prototype with the following features: digital patient health profiles, clinical encounter documentation, vital signs monitoring, medication tracking, medical history access, appointment generation, and an integrated doctor database.
+
+The respondents of the study are the health facility personnel of Barangay Panicuason Rural Health Unit, consisting of physicians, nurses, midwives, and administrative staff, as well as rural community residents who are primary users of the facility.
+
+The system is developed using PHP, HTML, CSS, and JavaScript, with a MySQL database deployed through XAMPP local server. It is compatible with Windows 10/11, macOS, Linux, and Android devices (version 8.0 or higher) with a minimum screen resolution of 720$\times$1280 pixels.
+
+This study is delimited to Barangay Panicuason only and does not extend to other rural or urban healthcare facilities, which may limit the generalizability of the findings.
+
+The system excludes advanced features such as laboratory integration, payment and billing, pharmacy management, patient portals, and iOS compatibility.
+
+Furthermore, the evaluation is limited to the initial prototype development and early user feedback, and does not assess long-term system performance, cost-effectiveness, or sustained implementation.
+
+External factors such as internet instability, power interruptions, varying levels of digital literacy, and changes in healthcare policies are also beyond the scope of this study.
+
+\section{Significance of the Study}
+
+This study benefits the following stakeholders in advancing rural healthcare delivery and digital health innovation:
+
+\textbf {Patients in Rural Communities}. Rural residents gain access to healthcare services without costly travel, reducing time and financial burdens while ensuring continuity of care for chronic conditions.
+
+\textbf {Rural Healthcare Providers}. Healthcare providers benefit from automated records management, streamlined appointment scheduling, and simplified specialist referrals, enabling more efficient and accurate patient care.
+
+\textbf {Community Health Workers.} Frontline healthcare workers gain faster access to patient information, reducing paperwork and allowing greater focus on direct care, remote consultations, and early detection of emerging health trends.
+
+\textbf {Health Administrators and Local Government Officials.} Administrators gain data-driven insights into service utilization, disease prevalence, and resource allocation, along with a replicable model for digital health initiatives in underserved communities.
+
+\textbf {Technology Developers.} Developers gain practical, evidence-based insights into building offline-capable and low-bandwidth healthcare systems designed for users with limited digital literacy.
+
+\textbf {Academic Researchers.} The study provides validated frameworks and tools for designing context-sensitive digital health solutions, addressing existing research gaps on integrated telemedicine platforms in resource-limited environments.
+
+\section{Definition of Terms}
+
+This section provides clear and precise definitions of key terms used throughout the study, both conceptually and operationally.
+
+\textbf {E-health.} E-health refers to the use of information and communication technologies in healthcare delivery, including telemedicine, electronic medical records, and digital health platforms \cite{ref66}. In this study, it encompasses all electronically delivered health services through the proposed telemedicine platform for rural communities.
+
+\textbf {E-health for All.} E-health for All is a principle that advocates equal access to digital health technologies regardless of location, income, or technical ability \cite{ref20}. In this study, it refers to the commitment to developing inclusive and user-friendly telemedicine solutions for rural communities in Naga City.
+
+\textbf {Telemedicine.} Telemedicine is the delivery of healthcare services and clinical information through communication technologies to overcome geographical barriers \cite{ref24}. In this study, it refers to the proposed remote healthcare delivery system developed for Naga City.
+
+\textbf {User-Centered Design.} User-centered design is a development methodology that focuses on the needs, preferences, and limitations of end-users throughout the design process \cite{ref55}. In this study, it refers to the participatory design approach used in developing the telemedicine platform.
+
+\textbf {Rural Healthcare.} Rural healthcare refers to the provision of medical services in isolated or underserved areas with limited infrastructure and specialist access \cite{ref47}. In this study, it refers to healthcare delivery in rural barangays of Naga City.
+
+\textbf {Telehealth Platform}. A telehealth platform is a digital healthcare ecosystem integrating provider directories, patient information systems, and scheduling tools to facilitate remote healthcare delivery \cite{ref61}. In this study, it refers to the web-based system developed for Naga City.
+
+\textbf {Healthcare Accessibility.} Healthcare accessibility refers to the ease with which individuals obtain necessary health services considering physical, geographical, economic, and organizational factors. In this study, it refers to how rural residents of Naga City access healthcare services through the proposed telemedicine platform.
+
+
+\clearpage
+
+%-----------------------------
+% Chapter 2
+%-----------------------------
+\chapter{Methodology}
+
+This section outlines the research methodology. It covers the research design, participants, location, data collection methods and tools, ethical considerations, statistical analysis, project timeline, and validation methods to ensure the reliability of the findings.
+
+\section{Research Design}
+This study adopted a developmental-descriptive research design to document current healthcare practices, identify operational challenges, and develop a telemedicine solution suited to the needs of Barangay Panicuason RHU. Data were collected through surveys, interviews, observations, and document analysis, following four phases: preparation, assessment, data collection, and analysis. 
+
+\section{Population and Sampling}
+The respondents were the 13 health facility personnel of Barangay Panicuason Rural Health Unit, selected through total enumeration as primary end-users of the proposed system. The respondents comprised 7 Dental Health Workers, 1 Midwife, 1 Encoder, 1 Barangay Nutrition Scholar (BNS), 1 Supplemental Feeding Volunteer (SFV), 1 Community-Based Rehabilitation Specialist (CBRS), and 1 Barangay Social Welfare Aide (BSWA).
+
+For the succeeding phase involving rural community residents as secondary respondents, purposive sampling will be applied, limited to residents with direct experience accessing the barangay health facility. The required sample size will be determined using Slovin's formula:
+\begin{equation}
+    n = \frac{N}{1 + Ne^2}
+\end{equation}
+
+ where:
+\begin{itemize}
+    \item $n$ = required sample size
+    \item $N$ = total population of Barangay Panicuason
+    \item $e$ = margin of error (set at 0.05 or 5\%)
+\end{itemize}
+
+ This formula helps ensure our sample size is adequate to represent the 
+barangay population while maintaining statistical reliability.
+
+
+% ============================================================
+% RESEARCH LOCALE
+% ============================================================
+
+\subsection{Research Locale}
+
+ The study was conducted at Barangay Panicuason Rural Health Unit in Naga City, 
+Camarines Sur, a barangay situated outside the urban center and characterized by limited 
+specialist availability, long travel distances to medical facilities, and insufficient 
+healthcare infrastructure. The facility served as the primary healthcare provider for residents of Barangay Panicuason, offering basic services including primary care, maternal and child health, immunization, and disease prevention, and referring cases requiring specialized care to hospitals in Naga City proper.
+
+\subsection{Data Gathering Procedure}
+
+\indent This section describes the methods and tools the researchers used to capture 
+data from stakeholders essential to this study.
+
+\indent \textbf{Preparation Phase.} The researchers secured formal permissions from 
+barangay officials and local health officers, prepared consent forms, and coordinated 
+with community leaders to schedule observation and interview dates within the first 
+two weeks.
+
+\indent \textbf{Document Analysis.} The researchers examined health records, referral 
+systems, and community health profiles from barangay health stations to document current 
+healthcare access patterns and identify existing challenges.
+
+\indent \textbf{Direct Observation.} The researchers observed and recorded how the 
+health facility personnel managed patient consultations, handled records, and coordinated 
+scheduling and appointments in their actual work setting.
+
+ \textbf{Surveys.} A structured questionnaire was administered to all 13 health 
+facility personnel to gather data on current practices, encountered challenges, importance 
+of proposed system features, and level of system acceptability.
+
+ \textbf{Interviews.} One-on-one interviews lasting 30 to 45 minutes were 
+conducted with the 13 health facility personnel of Barangay Panicuason Rural Health Unit 
+to explore current healthcare practices, operational challenges, and readiness for a 
+telemedicine solution.
+
+ \textbf{Data Analysis and Documentation.} Survey responses were tallied and 
+computed using weighted mean and frequency distribution, while interview data were 
+organized by themes and used as the basis for the final findings and recommendations.
+
+\section{Research Instrument}
+
+\indent This study will use various research instruments to collect accurate and relevant data from participants. These instruments are designed to gather both qualitative and quantitative information to gather specific information that will help us understand the current healthcare access situation and identify what is needed for an effective telemedicine platform.
+
+\textbf{Interview Guides.} Researchers will prepare interview guides for rural residents 
+of Barangay Panicuason covering healthcare experiences, travel distance to facilities, 
+medical costs including transportation, common health problems, mobile and internet 
+access, technology comfort level, and desired telemedicine features. For health center 
+staff, guides will cover record-keeping systems, data management challenges, internet 
+connectivity, available devices, and infrastructure needs. All guides will include 
+follow-up questions to explore key points further.
+
+\textbf{Survey Questionnaires.} For healthcare providers and health workers, the 
+questionnaire covers demographic profile, years of experience, and current practices 
+in patient records management, doctor scheduling, and appointment systems using a 
+5-point frequency scale. It also addresses challenges encountered in each of these 
+areas, the importance of proposed system features such as digital record storage, 
+automated scheduling, online appointment booking, and role-based access control, and 
+the perceived level of system acceptability in terms of usability, reliability, and 
+data security.
+
+\section{Ethical Considerations}
+
+This research will follow strict ethical guidelines to protect all participants and 
+ensure responsible handling of operational data. The following measures will be 
+implemented:
+
+\textbf{Voluntary Participation.} Participation was completely voluntary, with no 
+pressure or undue incentives influencing the decision to join. Participants may skip 
+any question or withdraw at any time without consequences or effect on their access 
+to healthcare services.
+
+\textbf{Informed Consent.} All participants received detailed information covering 
+the study's purpose, data collection and use, potential risks and benefits, 
+confidentiality measures, and the right to withdraw before agreeing to participate. 
+Those who agreed signed an informed consent form.
+
+\textbf{Parental/Guardian Consent and Minor Assent.} For participants under 18, 
+written parental or guardian consent will be obtained prior to any research 
+involvement, and minors aged 7--17 will provide written assent after receiving 
+age-appropriate study information. Minors may decline participation even if parents 
+have given consent.
+
+\textbf{Consent from Barangay Health Workers (BHWs).} BHWs will sign informed 
+consent forms acknowledging permission to collect and use their personal information, 
+professional insights, and community health observations. The form will clarify how 
+their contributions will be used and ensure their information is protected under 
+data privacy regulations.
+
+\textbf{Privacy and Confidentiality.} Individual identities were not revealed without 
+explicit written permission, and all interview recordings and transcripts were stored 
+in password-protected files accessible only to the research team. Researchers will 
+not photograph or record any actual patient medical records containing private health 
+information.
+
+\textbf{Data Protection.} All research data will be handled in accordance with the 
+Data Privacy Act of 2012 (Republic Act No. 10173), with personal identifiers removed 
+and survey responses kept anonymous. All data will be securely destroyed after thesis 
+completion and any required retention period.
+
+\textbf{Minimizing Risk.} Research procedures present minimal risk, and researchers 
+will travel to participants' communities to reduce inconvenience. If participants feel 
+uncomfortable during interviews, sessions will be paused or ended immediately with 
+appropriate referrals provided if needed.
+
+\textbf{Cultural Sensitivity.} Researchers will approach all interactions with 
+cultural humility and respect for local practices, collaborating with community 
+leaders to ensure research activities are culturally appropriate and scheduled at 
+convenient times.
+
+\textbf{Researcher Responsibilities.} The research team is committed to accurately 
+recording and reporting all data without fabrication or selective omission, properly 
+citing all sources, and honestly reporting the research process including challenges 
+and limitations. Findings will be shared with participating communities upon request.
+
+\subsection{Statistical Tools}
+
+This section explains how we will analyze and interpret the collected data to answer 
+the research questions.
+
+\subsubsection{Descriptive Statistics}
+
+The study employed descriptive statistical methods to summarize and describe the 
+characteristics of the sample and their responses. The following descriptive 
+statistics were used: percentage, frequency distribution, and weighted mean.
+
+\textbf{Percentage.} To show the proportion of respondents who chose each answer 
+option, we will calculate percentages using the formula:
+
+\begin{equation*}
+    \text{Percentage} = \frac{f}{N} \times 100
+\end{equation*}
+
+\noindent where:
+\begin{itemize}[label={}, leftmargin=0pt, itemsep=0pt]
+    \item $f$ = frequency or number of responses for a specific option
+    \item $N$ = total number of respondents
+\end{itemize}
+
+For example, if 45 out of 60 rural residents say they want mobile access to health 
+records, the percentage would be calculated as $(45/60) \times 100 = 75\%$.
+
+\textbf{Frequency Distribution.} We will create frequency tables displaying how many 
+respondents selected each response option. For instance, for a satisfaction question 
+with a 5-point scale, the frequency distribution might be presented as:
+
+\begin{table}[h]
+    \centering
+    \caption{Frequency Distribution}
+    \label{tab:frequency_distribution}
+    \begin{tabular}{ccc} % Removed vertical bars (|) for the clean layout
+        \toprule
+        \textbf{Response Category} & \textbf{Number of Respondents} & \textbf{Percentage} \\
+        \midrule % Line sits cleanly below the header row
+        Very Satisfied      & 5  & 8.3\%  \\ 
+        Satisfied           & 25 & 41.7\% \\ 
+        Neutral             & 15 & 25.0\% \\ 
+        Dissatisfied        & 10 & 16.7\% \\ 
+        Very Dissatisfied   & 5  & 8.3\%  \\
+        \textbf{Total}      & \textbf{60} & \textbf{100\%} \\
+        \bottomrule % Final closing line at the bottom
+    \end{tabular}
+\end{table}
+
+\textbf{Weighted Mean.} For Likert-scale items where we want to account for the 
+frequency of each response, we will calculate the weighted mean using the formula:
+
+\begin{equation*}
+    \text{Weighted Mean} = \frac{\Sigma(W \times f)}{N}
+\end{equation*}
+
+\noindent where:
+\begin{itemize}[label={}, leftmargin=0pt, itemsep=0pt]
+    \item $W$ = weight or scale value (1--5 for a 5-point Likert scale)
+    \item $f$ = frequency or number of respondents who chose that value
+    \item $N$ = total number of respondents
+    \item $\Sigma$ = summation symbol
+\end{itemize}
+
+\section{Statistical Treatment of Data}
+
+The data gathered will be interpreted using a five-point Likert scale to measure the respondents' attitudes, opinions, perceptions, and preferences regarding the user-centered telemedicine system. 
+	
+Interpretation Scale. To interpret the weighted mean values obtained from Likert-scale questions, the following scale will be used
+
+\begin{table}[h]
+    \centering
+    \caption{Frequency Distribution}
+    \label{tab:frequency_distribution}
+    \begin{tabular}{lcc} % Removed vertical bars (|) and adjusted alignment for clean look
+        \toprule
+        \textbf{Response Category} & \textbf{Number of Respondents} & \textbf{Percentage} \\
+        \midrule % This line sits directly under the header row
+        Very Satisfied      & 5  & 8.3\%  \\ 
+        Satisfied           & 25 & 41.7\% \\ 
+        Neutral             & 15 & 25.0\% \\ 
+        Dissatisfied        & 10 & 16.7\% \\ 
+        Very Dissatisfied   & 5  & 8.3\%  \\
+        \textbf{Total}      & \textbf{60} & \textbf{100\%} \\
+        \bottomrule % This is the final closing line at the very bottom
+    \end{tabular}
+\end{table}
+
+\section{System Design and Architecture}
+
+The system design process employed several modeling techniques such as use case and 
+system workflows to map user interactions and the system architecture. These techniques 
+directly captured the functional requirements, user actions, and step-by-step procedures 
+within the system. This ensured a thorough understanding for designing a robust and 
+efficient telemedicine platform.
+
+\subsection*{Use Case}
+
+The use case diagram in the study showed the specific interactions between patients, 
+healthcare providers, and system administrators with the system. It defined the actions 
+between these actors and the use cases, along with the functional requirements. The use 
+case model for this study was shown in Figure~\ref{fig:use_case_diagram}.
+
+In the use case diagram, there were three actors: patients, doctors, and system 
+administrators. All actors can register and log in to the system. Patients and doctors 
+utilize a mobile application, while system administrators access a dedicated website 
+application.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.80\textwidth]{UseCaseDiagram.jpg}
+    \caption{Use Case Diagram}
+    \label{fig:use_case_diagram}
+\end{figure}
+
+\subsubsection{System Workflows}
+
+The system workflows illustrate the sequential processes and decision points for key operations within the E-Health for All Telemedicine System. These workflows ensure standardized procedures and guide users through various system functionalities.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{System_Workflows}
+    \caption{System Workflow Diagram}
+    \label{fig:workflows}
+\end{figure}
+
+\textbf{Patient Flow.} The patient workflow begins with login or registration. After authentication, patients can select services, check appointment availability, choose dates and times, confirm bookings, receive reminders, and complete their system appointments. This streamlined process ensures efficient access to healthcare services.
+
+\textbf{Health Worker Flow.} Health workers log into the web interface, search patients by name or QR code, update medical records, manage diagnosis and prescriptions, sync data to the database, and complete patient consultations. This workflow maintains accurate and up-to-date patient information.
+
+\textbf{Admin Flow.} Administrators access the admin portal through secure authentication, manage users by creating or deactivating accounts, conduct audit log reviews, perform system configuration, generate analytical reports on health data, and monitor overall system performance. These workflows ensure proper governance and system integrity.
+
+\subsection{System Architecture}	
+
+\indent The E-Health for All Telemedicine System architecture, shown in Figure 5, connects three stakeholder groups healthcare providers, rural residents, and system administrators through a layered structure spanning user devices, connectivity, application services, integration, and data storage. The system is built around three core components in the Application Layer: (1) a web-based platform for healthcare providers, offering secure login, patient records management, clinical documentation, and digital prescription and certificate generation; (2) a mobile application for rural residents, enabling appointment scheduling, medical record access, video consultations, SMS reminders, health education content, and emergency contacts; and (3) a doctor and health worker scheduling system, maintaining provider profiles including specializations, availability, and consultation details 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{E-Health_for_All_System_design_Architecture}
+    \caption {System Design Architecture of E-Health for All System}
+    \label{fig:architecture}
+\end{figure}
+
+\section{Software Development Process}
+
+\section{Validation and Testing Methods}
+
+To ensure the comprehensive validation and testing of the system's quality and reliability, multiple testing methodologies were employed throughout the development process.
+
+\textbf{Functionality Testing.} Unit testing verified individual components using test cases covering normal inputs, edge cases, and invalid inputs. Integration testing confirmed that data flowed correctly between modules and that integrated components worked together as expected. This approach ensured that each system component functioned correctly both independently and as part of the integrated system.
+
+\textbf{User Acceptance Testing.} This involved healthcare providers evaluating whether the system met their needs through a structured checklist validating that all functional requirements were implemented. Healthcare workers and administrators participated in real-world scenario testing to verify that the system addressed their operational needs and workflow requirements.
+
+\textbf{Performance Testing.} Load testing simulated 10, 20, and 30 concurrent users to ensure acceptable performance under typical and peak loads. Response time was tracked with a target of under 3 seconds for most operations, ensuring a smooth user experience. Offline functionality testing confirmed data entry and retrieval capabilities without internet connection, which is critical for rural healthcare settings with intermittent connectivity.
+
+\textbf{Security Testing.} Access control verification confirmed users could only access role-appropriate features and that unauthorized access attempts were blocked. Data encryption validation confirmed sensitive information was encrypted in transit via HTTPS and at rest in the database. Passwords were hashed using strong algorithms, and sessions were tested for appropriate expiration and hijacking prevention to protect patient confidentiality and data integrity.
+
+\textbf{Usability Testing.} The think-aloud protocol was conducted with 5 to 8 representative users who verbalized their thoughts while completing tasks as researchers observed and recorded difficulties and errors. Metrics included task completion rates, time on-task, error rates, and post-task satisfaction ratings. This qualitative and quantitative approach provided insights into user experience and identified areas for interface improvement.
+
+
+\clearpage
+
+%-----------------------------
+% Chapter 3
+%-----------------------------
+\chapter{Results and Discussions}
+This chapter presents the findings gathered from the survey administered to the health facility personnel of Barangay Panicuason Rural Health Unit in Naga City. Results are organized according to the specific research objectives: (1) current healthcare practices, (2) challenges encountered in the current system, (3) system design plans as the prototype response to identified challenges, and (4) the level of acceptability of the initial prototype in terms of usability, reliability, and data security. Data are presented using weighted mean scores and frequency distributions, discussed in relation to the reviewed literature, and linked to the theoretical frameworks guiding the study.
+
+\section{Profile of Respondents}
+
+\indent A total of 13 health facility personnel completed the survey questionnaire during the data-gathering phase. Table 4 presents the demographic profile of the respondents.
+
+\begin{table}[H]
+    \centering
+    \caption{Demographic Profile of Survey Respondents ($n = 13$)}
+    \label{tab:demographic_profile}
+    \begin{tabular}{lcc}
+        \toprule
+        \textbf{Category} & \textbf{Frequency (f)} & \textbf{Percentage (\%)} \\
+        \midrule
+        
+        % SECTION A
+        \multicolumn{3}{l}{\textbf{A. Sex}} \\
+        \hspace{1em} Female & 12 & 92.3\% \\
+        \hspace{1em} Male   & 1  & 7.7\%  \\
+        \hspace{1em} \textbf{Total} & \textbf{13} & \textbf{100\%} \\
+        \addlinespace
+        
+        % SECTION B
+        \multicolumn{3}{l}{\textbf{B. Position / Designation}} \\
+        \hspace{1em} Dental Health Worker (DHW)               & 7 & 53.8\% \\
+        \hspace{1em} Midwife                                  & 1 & 7.7\%  \\
+        \hspace{1em} Encoder                                  & 1 & 7.7\%  \\
+        \hspace{1em} Barangay Nutrition Scholar (BNS)         & 1 & 7.7\%  \\
+        \hspace{1em} Community Based Rehabilitation Specialist (CBRS) & 1 & 7.7\% \\
+        \hspace{1em} Barangay Social Welfare Aide (BSWA)      & 1 & 7.7\%  \\
+        \hspace{1em} \textbf{Total}                           & \textbf{13} & \textbf{100\%} \\
+        \addlinespace
+        
+        % SECTION C
+        \multicolumn{3}{l}{\textbf{C. Age Bracket}} \\
+        \hspace{1em} Below 25 years old    & 1 & 7.7\%  \\
+        \hspace{1em} 25 -- 34 years old    & 6 & 46.2\% \\
+        \hspace{1em} 35 -- 44 years old    & 4 & 30.8\% \\
+        \hspace{1em} 45 years old and above & 2 & 15.4\% \\
+        \hspace{1em} \textbf{Total}        & \textbf{13} & \textbf{100\%} \\
+        \addlinespace
+        
+        % SECTION D
+        \multicolumn{3}{l}{\textbf{D. Years of Experience}} \\
+        \hspace{1em} Less than 1 year      & 0 & 0\%    \\
+        \hspace{1em} 1 -- 3 years          & 1 & 7.7\%  \\
+        \hspace{1em} 4 -- 6 years          & 3 & 30.77\%\\
+        \hspace{1em} 7 -- 9 years          & 0 & 0\%    \\
+        \hspace{1em} 10 years and above    & 8 & 61.54\%\\
+        \hspace{1em} \textbf{Total}        & \textbf{13} & \textbf{100\%} \\
+        
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+The respondents were predominantly female (92.3\%), consistent with the largely female composition of community health workforces in Panicuason. The majority were aged 25--34 (46.2\%), indicating a relatively young and potentially technology-receptive group. In terms of work experience, most respondents had 10 years or more of service (61.54\%), followed by those with 4--6 years (30.77\%), while only a small proportion had 1--3 years (7.69\%) and none fell within the 7--9 year range. This suggests that the respondents generally possess substantial professional experience, enabling them to provide informed and reliable assessments of current operational practices. These demographics align with the Task--Technology Fit (TTF) theory's premise that technology adoption is influenced by users' experiential familiarity with their work tasks \cite{ref53}.
+
+\newpage
+\subsection{Current Practices of Rural Healthcare Providers}
+
+\indent Research Question 1 asked: `What are the current practices of rural healthcare providers with respect to patient records management, doctor and health worker scheduling, and appointment systems?'' Table 5 presents the weighted mean scores for each indicator.
+
+\begin{table}[H]
+\centering
+\footnotesize\textit{Scale: 5 = Always (4.21--5.00), 4 = Often (3.41--4.20), 3 = Sometimes (2.61--3.40), 2 = Rarely (1.81--2.60), 1 = Never (1.00--1.80)}
+\label{tab:current_practices}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
+\toprule
+\textbf{Indicator} & \textbf{WM} & \textbf{Interpretation} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{A. Patient Records Management}} \\
+\quad 2.1 Records documented immediately after each consultation     & 4.70 & Always \\
+\quad 2.2 Records stored in an organized and accessible manner       & 4.60 & Always \\
+\quad 2.3 Records updated regularly to reflect current health status & 4.50 & Always \\
+\quad 2.4 Records retrieved quickly and accurately when needed       & 4.60 & Always \\
+\quad \textbf{Overall Weighted Mean --- Patient Records Management}  & \textbf{4.60} & \textbf{Always} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{B. Doctor and Health Worker Scheduling}} \\
+\quad 2.5 Schedules planned and communicated in advance                        & 4.20 & Often \\
+\quad 2.6 Availability clearly recorded and accessible to staff                & 4.20 & Often \\
+\quad 2.7 Schedule changes updated and communicated promptly                   & 4.20 & Often \\
+\quad 2.8 Backup/replacement arranged when scheduled worker is unavailable     & 4.50 & Always \\
+\quad \textbf{Overall Weighted Mean --- Doctor Scheduling}                     & \textbf{4.28} & \textbf{Often} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{C. Appointment Systems}} \\
+\quad 2.9 Appointments arranged in an orderly and systematic manner            & 4.50 & Always \\
+\quad 2.10 Patients informed of appointment schedules in advance               & 4.50 & Always \\
+\quad 2.11 Appointment records maintained accurately to avoid double-booking   & 4.30 & Often \\
+\quad 2.12 Patients attended within a reasonable waiting time                  & 4.20 & Often \\
+\quad \textbf{Overall Weighted Mean --- Appointment Systems}                   & \textbf{4.38} & \textbf{Often} \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\caption{Current Practices of Rural Healthcare Providers}
+\end{table}
+
+The results revealed consistently high practice scores across all three domains. Patient records 
+management registered the highest overall weighted mean of 4.60 (\textit{Always}), indicating that 
+health facility personnel demonstrate strong commitment to documenting, organizing, and retrieving 
+patient records. Notably, records are documented immediately after consultations (WM = 4.70), 
+reflecting adherence to standard clinical documentation protocols.
+
+Doctor and health worker scheduling obtained an overall WM of 4.28 (\textit{Often}), with backup 
+arrangement scoring highest at 4.50 (\textit{Always}), suggesting that contingency planning is 
+well-established at the facility. Appointment systems averaged 4.38 (\textit{Often}), with systematic 
+arrangement and advance patient notification both scoring 4.50 (\textit{Always}). These high practice 
+scores align with findings by Santos, Mendoza, and Cruz \cite{ref40}, who noted that Philippine rural 
+health units have established basic operational protocols, though implementation quality varies 
+significantly between facilities.
+
+These findings support the Task Technology Fit theory \cite{ref52} in that the existing manual 
+practices are well-established and purposive. A digital system that replicates and enhances these 
+existing workflows rather than replacing them is more likely to achieve strong adoption among health 
+workers who are already familiar with structured documentation and scheduling routines.
+
+\subsection{Challenges Encountered in the Current System}
+
+\indent Research Question 2 asked: ``What are the challenges encountered in the current system?'' Table 6 presents the weighted mean scores for each challenge indicator.
+
+\begin{table}[H]
+\centering
+\footnotesize\textit{Scale: 5 = Always (4.21--5.00), 4 = Often (3.41--4.20), 3 = Sometimes (2.61--3.40), 2 = Rarely (1.81--2.60), 1 = Never (1.00--1.80)}
+\label{tab:challenges}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
+\toprule
+\textbf{Challenge Indicator} & \textbf{WM} & \textbf{Interpretation} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{A. Patient Records Management}} \\
+\quad 3.1 Patient records are difficult to organize and manage          & 3.20 & Sometimes \\
+\quad 3.2 Patient records are missing or incomplete                     & 2.80 & Sometimes \\
+\quad 3.3 Retrieving a patient's record takes too much time             & 3.00 & Sometimes \\
+\quad 3.4 Records are lost or damaged due to current storage method     & 2.80 & Sometimes \\
+\quad \textbf{Overall Weighted Mean --- Patient Records Challenges}     & \textbf{2.95} & \textbf{Sometimes} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{B. Doctor and Health Worker Scheduling}} \\
+\quad 3.5 Scheduling conflicts among doctors/health workers occur       & 3.00 & Sometimes \\
+\quad 3.6 No clear or updated record of availability                   & 2.90 & Sometimes \\
+\quad 3.7 Health workers assigned to multiple duties simultaneously     & 2.70 & Sometimes \\
+\quad 3.8 Schedule changes not communicated to concerned staff          & 2.70 & Sometimes \\
+\quad \textbf{Overall Weighted Mean --- Scheduling Challenges}          & \textbf{2.83} & \textbf{Sometimes} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{C. Appointment Systems}} \\
+\quad 3.9 Patients experience long waiting times before being attended to   & 3.00 & Sometimes \\
+\quad 3.10 Delays in processing patient appointments                        & 2.90 & Sometimes \\
+\quad 3.11 Double-bookings or missed appointments occur                     & 2.70 & Sometimes \\
+\quad 3.12 No organized system for tracking or confirming appointments      & 3.00 & Sometimes \\
+\quad \textbf{Overall Weighted Mean --- Appointment Challenges}             & \textbf{2.90} & \textbf{Sometimes} \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\caption{Challenges in Current Healthcare Practices --- Weighted Mean Scores ($n = 13$)}
+\end{table}
+
+All challenge indicators were rated in the ``Sometimes'' range (WM = 2.61--3.40), confirming that while problems were not constant, they occurred with enough regularity to warrant systematic intervention. The most frequently cited challenge across domains was the difficulty in organizing and managing patient records (WM = 3.20), consistent with findings by D'Amore et al. \cite{ref12} that paper-based record systems in rural health facilities are particularly susceptible to organizational lapses due to high patient volumes and limited administrative staffing.
+
+Scheduling challenges averaged 2.83, with scheduling conflicts (WM = 3.00) and unclear availability records (WM = 2.90) as primary concerns. This aligns with Mendoza, Cruz, and Santos \cite{ref28}, who found that the absence of a centralized scheduling system in Philippine rural health units contributes to coordination failures, particularly during peak consultation periods. Appointment system challenges averaged 2.90, with the absence of a tracking system (WM = 3.00) and long patient waiting times (WM = 3.00) as the most persistent issues. Del Rosario \cite{ref50} similarly found that the lack of digital appointment management in Philippine rural health centers contributes significantly to extended waiting times and patient dissatisfaction.
+
+These ``Sometimes'' ratings, while not alarming individually, collectively defined a pattern of recurring inefficiency that compounds over time. They validated the need for a digital solution that addresses record organization, scheduling conflict detection, appointment tracking, and automated reminders --- all of which are core features of the proposed E-Health for All system.
+
+% -------------------------------------------------------
+\subsection{System Design and Plans for the Prototype}
+
+\indent Research Question 3 asked: ``What system can be designed to address the identified challenges?'' This section presents the importance ratings for proposed system features. Table 7 describes the design plans for the prototype, including the use case, workflow, and database schema.
+
+\begin{table}[H]
+\centering
+\label{tab:proposed_features}
+\renewcommand{\arraystretch}{1.1}
+\footnotesize\textit{Scale: 5 = Very Important (4.21--5.00), 4 = Important (3.41--4.20), 3 = Moderately Important (2.61--3.40), 2 = Slightly Important (1.81--2.60), 1 = Not Important (1.00--1.80)}
+\begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
+\toprule
+\textbf{Proposed System Feature} & \textbf{WM} & \textbf{Interpretation} \\
+\midrule
+4.1 Digital storage and easy retrieval of patient records           & 4.50 & Very Important \\
+4.2 Automated doctor/worker scheduling with conflict detection      & 4.50 & Very Important \\
+4.3 Online patient appointment booking                              & 4.60 & Very Important \\
+4.4 Automated appointment reminders and notifications               & 4.80 & Very Important \\
+4.5 Secure login and role-based access control                      & 4.90 & Very Important \\
+\midrule
+\textbf{Overall Weighted Mean}                                      & \textbf{4.66} & \textbf{Very Important} \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\caption {Importance of Proposed Features --- Weighted Mean Scores ($n = 13$)}
+\end{table}
+
+All five proposed features received ``Very Important'' ratings, with an overall weighted mean of 4.66. Secure login and role-based access control (WM = 4.90) ranked highest, reflecting a strong awareness among health workers of data privacy obligations under the Data Privacy Act of 2012. Automated reminders (WM = 4.80) ranked second, directly addressing the challenge of missed appointments (Item 3.11, WM = 2.70) and long waiting times (Item 3.9, WM = 3.00). Online appointment booking (WM = 4.60) and digital storage (WM = 4.50) also scored highly, validating the core functional design of the proposed system. These ratings are consistent with the TAM framework \cite{ref58}, where perceived usefulness --- as evidenced by the high importance ratings --- is a primary determinant of technology adoption intention.
+
+\chapter{Results and Discussions}
+This section provides a concise synthesis of the study's key findings and reflects on their broader significance in advancing rural healthcare delivery through digital innovation.
+
+This study aimed to design and develop E-Health for All, a user-centered telemedicine platform for Barangay Panicuason Rural Health Unit in Naga City, addressing inefficiencies in patient records management, health worker scheduling, and appointment systems. Using a developmental-descriptive research design, data were gathered from 13 health facility personnel to document current practices, identify challenges, evaluate proposed system features, and assess prototype acceptability.
+
+The findings reveal that health facility personnel had already established strong baseline practices across all three operational domains, indicating a structured and disciplined workforce. This is significant because it confirms that the E-Health for All system enters a context where existing workflows are well-established, making adoption more likely when the platform is designed to enhance rather than replace familiar routines consistent with the Task–Technology Fit (TTF) theory.
+
+Despite these strong practices, recurring challenges were confirmed across all domains. Difficulties in organizing physical records, the absence of a systematic appointment tracking mechanism, and scheduling conflicts among health workers were the most consistently reported concerns. These findings collectively validate the study's core rationale that an integrated telemedicine platform is both necessary and timely for a facility of this scale and context.
+
+All proposed system features were rated very important, with data security, automated reminders, and online booking receiving the highest endorsements — directly corresponding to the identified challenges. This alignment confirms that the system is grounded in users' actual needs, consistent with the Technology Acceptance Model (TAM). The respondent profile, predominantly female, relatively young, and experienced, further supports readiness for a managed digital transition as affirmed by the Diffusion of Innovations (DOI) theory.
+
+Overall, this study demonstrates that E-Health for All is both technically feasible and operationally justified for Barangay Panicuason RHU. Beyond its immediate application, it offers a replicable framework for designing context-sensitive telemedicine solutions in similarly resource-limited settings.
+
+
+\section{Recomendations}
+Based on the conclusions of this study, the following recommendations are directed to the key stakeholders involved in the deployment, improvement, and continued research of the E-Health for All telemedicine system.
+
+For the Barangay Panicuason Health Unit and the Local Government Unit. The local government unit should pursue the formal adoption and full deployment of the E-Health for All system by allocating a dedicated budget for device procurement, internet connectivity, and system maintenance. A structured onboarding program should be conducted prior to deployment to ensure a smooth transition from paper-based to digital operations.
+
+For System Developers and Future Development Teams. Developers should expand the system in future iterations to include laboratory result integration, pharmacy management, a patient-facing portal, and iOS compatibility. Offline functionality should be strengthened to maintain data access during internet outages, and all development must strictly uphold the Data Privacy Act of 2012 through encryption, role-based access controls, and regular security auditing.
+
+For Health Facility Personnel. Health workers should actively engage during the pilot phase by documenting usability issues and communicating improvement suggestions through formal feedback channels. Their sustained adoption and cooperation will be essential to the system's continuous refinement and long-term success.
+
+For Academic Researchers and Future Studies. Future researchers should extend this study by including community residents as secondary respondents and conducting longitudinal evaluations to assess long-term system impact. Comparative studies across multiple rural health units are recommended, and future instruments should incorporate the System Usability Scale (SUS) and Cronbach's Alpha to strengthen methodological rigor.
+
+For Policymakers and the Department of Health. The Department of Health should consider the E-Health for All model as a pilot reference for rural health unit digitalization nationwide. Policymakers should provide technical and financial support to local government units pursuing similar initiatives and establish interoperability standards to connect locally developed platforms with national health systems such as iHOMIS and the National Health Data Repository.
+
+
+%\subsection{Problem 2}
+
+%\subsection{Problem 3}
+
+%\section{Design and System Plans}
+
+%\section{Summary of Findings}
+
+%\section{Conclusions}
+
+%\section{Recommendations}
+
+%-----------------------------
+% References
+%-----------------------------
+
+\clearpage
+\nocite{*}
+\printbibliography
+
+
+\clearpage
+
+\chapter*{}Curriculum Vitae
+\chapter*{}Appendices
+
+\nocite{ref70}
+\nocite{ref71}
+\nocite{ref72}
+\end{document}
