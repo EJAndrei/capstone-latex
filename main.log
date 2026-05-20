@@ -1,44 +1,44 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.5.10)  19 MAY 2026 02:21
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.13)  20 MAY 2026 08:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/user/Downloads/Latex-v2/main.tex
-(c:/Users/user/Downloads/Latex-v2/main.tex
+**c:/capstone-latex-main/capstone-latex/main.tex
+(c:/capstone-latex-main/capstone-latex/main.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
 (research.cls
 Document Class: research 2025/01/01 Custom Research Class
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
+(C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/base\report.cls
 Document Class: report 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
+(C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/base\size12.clo
 File: size12.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count275
-\c@chapter=\count276
-\c@section=\count277
-\c@subsection=\count278
-\c@subsubsection=\count279
-\c@paragraph=\count280
-\c@subparagraph=\count281
-\c@figure=\count282
-\c@table=\count283
+\c@part=\count271
+\c@chapter=\count272
+\c@section=\count273
+\c@subsection=\count274
+\c@subsubsection=\count275
+\c@paragraph=\count276
+\c@subparagraph=\count277
+\c@figure=\count278
+\c@table=\count279
 \abovecaptionskip=\skip49
 \belowcaptionskip=\skip50
 \bibindent=\dimen150
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2026/03/07 v6.0 Page Geometry
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count284
-\Gm@cntv=\count285
-\c@Gm@tempcnt=\count286
+\Gm@cnth=\count280
+\Gm@cntv=\count281
+\c@Gm@tempcnt=\count282
 \Gm@bindingoffset=\dimen151
 \Gm@wd@mp=\dimen152
 \Gm@odd@mp=\dimen153
@@ -48,7 +48,7 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layouthoffset=\dimen157
 \Gm@layoutvoffset=\dimen158
 \Gm@dimlist=\toks18
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty
 Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@headwidth=\skip51
 \f@nch@offset@elh=\skip52
@@ -65,7 +65,7 @@ Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
 \f@nch@widthC=\skip63
 \f@nch@widthR=\skip64
 \@temptokenb=\toks19
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/titlesec\titlesec.sty
 Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \ttl@box=\box53
 \beforetitleunit=\skip65
@@ -76,7 +76,7 @@ Package: titlesec 2025/01/04 v2.17 Sectioning titles
 \titlewidth=\dimen161
 \titlewidthlast=\dimen162
 \titlewidthfirst=\dimen163
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
 Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
 Package tocloft Info: The document has chapter divisions on input line 51.
 \cftparskip=\skip67
@@ -108,86 +108,86 @@ Package tocloft Info: The document has chapter divisions on input line 51.
 \cftbeforefigskip=\skip93
 \cftfigindent=\skip94
 \cftfignumwidth=\skip95
-\c@lofdepth=\count287
-\c@lotdepth=\count288
+\c@lofdepth=\count283
+\c@lotdepth=\count284
 \cftbeforelottitleskip=\skip96
 \cftafterlottitleskip=\skip97
 \cftbeforetabskip=\skip98
 \cfttabindent=\skip99
 \cfttabnumwidth=\skip100
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO)
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.sty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package pdftexcmds Info: \pdfdraftmode not found.
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2025/10/02 v2.5m e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count289
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+\etb@tempcnta=\count285
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+)) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count290
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+\lrq@indent=\count286
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
-)) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+)) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2024/03/16 v1.1e Standard LaTeX ifthen package (DPC)
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip17
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count291
-\c@listtotal=\count292
-\c@listcount=\count293
-\c@liststart=\count294
-\c@liststop=\count295
-\c@citecount=\count296
-\c@citetotal=\count297
-\c@multicitecount=\count298
-\c@multicitetotal=\count299
-\c@instcount=\count300
-\c@maxnames=\count301
-\c@minnames=\count302
-\c@maxitems=\count303
-\c@minitems=\count304
-\c@citecounter=\count305
-\c@maxcitecounter=\count306
-\c@savedcitecounter=\count307
-\c@uniquelist=\count308
-\c@uniquename=\count309
-\c@refsection=\count310
-\c@refsegment=\count311
-\c@maxextratitle=\count312
-\c@maxextratitleyear=\count313
-\c@maxextraname=\count314
-\c@maxextradate=\count315
-\c@maxextraalpha=\count316
-\c@abbrvpenalty=\count317
-\c@highnamepenalty=\count318
-\c@lownamepenalty=\count319
-\c@maxparens=\count320
-\c@parenlevel=\count321
-\blx@tempcnta=\count322
-\blx@tempcntb=\count323
-\blx@tempcntc=\count324
-\c@blx@maxsection=\count325
-\blx@maxsegment@0=\count326
-\blx@notetype=\count327
-\blx@parenlevel@text=\count328
-\blx@parenlevel@foot=\count329
-\blx@sectionciteorder@0=\count330
-\blx@sectionciteorderinternal@0=\count331
-\blx@entrysetcounter=\count332
-\blx@biblioinstance=\count333
+\c@tabx@nest=\count287
+\c@listtotal=\count288
+\c@listcount=\count289
+\c@liststart=\count290
+\c@liststop=\count291
+\c@citecount=\count292
+\c@citetotal=\count293
+\c@multicitecount=\count294
+\c@multicitetotal=\count295
+\c@instcount=\count296
+\c@maxnames=\count297
+\c@minnames=\count298
+\c@maxitems=\count299
+\c@minitems=\count300
+\c@citecounter=\count301
+\c@maxcitecounter=\count302
+\c@savedcitecounter=\count303
+\c@uniquelist=\count304
+\c@uniquename=\count305
+\c@refsection=\count306
+\c@refsegment=\count307
+\c@maxextratitle=\count308
+\c@maxextratitleyear=\count309
+\c@maxextraname=\count310
+\c@maxextradate=\count311
+\c@maxextraalpha=\count312
+\c@abbrvpenalty=\count313
+\c@highnamepenalty=\count314
+\c@lownamepenalty=\count315
+\c@maxparens=\count316
+\c@parenlevel=\count317
+\blx@tempcnta=\count318
+\blx@tempcntb=\count319
+\blx@tempcntc=\count320
+\c@blx@maxsection=\count321
+\blx@maxsegment@0=\count322
+\blx@notetype=\count323
+\blx@parenlevel@text=\count324
+\blx@parenlevel@foot=\count325
+\blx@sectionciteorder@0=\count326
+\blx@sectionciteorderinternal@0=\count327
+\blx@entrysetcounter=\count328
+\blx@biblioinstance=\count329
 \labelnumberwidth=\skip101
 \labelalphawidth=\skip102
 \biblabelsep=\skip103
@@ -199,86 +199,86 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read2
 \blx@bcfout=\write3
 \blx@langwohyphens=\language79
-\c@mincomprange=\count334
-\c@maxcomprange=\count335
-\c@mincompwidth=\count336
+\c@mincomprange=\count330
+\c@maxcomprange=\count331
+\c@mincompwidth=\count332
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'numeric.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count337
-\c@savedafterword=\count338
-\c@annotator=\count339
-\c@savedannotator=\count340
-\c@author=\count341
-\c@savedauthor=\count342
-\c@bookauthor=\count343
-\c@savedbookauthor=\count344
-\c@commentator=\count345
-\c@savedcommentator=\count346
-\c@editor=\count347
-\c@savededitor=\count348
-\c@editora=\count349
-\c@savededitora=\count350
-\c@editorb=\count351
-\c@savededitorb=\count352
-\c@editorc=\count353
-\c@savededitorc=\count354
-\c@foreword=\count355
-\c@savedforeword=\count356
-\c@holder=\count357
-\c@savedholder=\count358
-\c@introduction=\count359
-\c@savedintroduction=\count360
-\c@namea=\count361
-\c@savednamea=\count362
-\c@nameb=\count363
-\c@savednameb=\count364
-\c@namec=\count365
-\c@savednamec=\count366
-\c@translator=\count367
-\c@savedtranslator=\count368
-\c@shortauthor=\count369
-\c@savedshortauthor=\count370
-\c@shorteditor=\count371
-\c@savedshorteditor=\count372
-\c@labelname=\count373
-\c@savedlabelname=\count374
-\c@institution=\count375
-\c@savedinstitution=\count376
-\c@lista=\count377
-\c@savedlista=\count378
-\c@listb=\count379
-\c@savedlistb=\count380
-\c@listc=\count381
-\c@savedlistc=\count382
-\c@listd=\count383
-\c@savedlistd=\count384
-\c@liste=\count385
-\c@savedliste=\count386
-\c@listf=\count387
-\c@savedlistf=\count388
-\c@location=\count389
-\c@savedlocation=\count390
-\c@organization=\count391
-\c@savedorganization=\count392
-\c@origlocation=\count393
-\c@savedoriglocation=\count394
-\c@origpublisher=\count395
-\c@savedorigpublisher=\count396
-\c@publisher=\count397
-\c@savedpublisher=\count398
-\c@language=\count399
-\c@savedlanguage=\count400
-\c@origlanguage=\count401
-\c@savedoriglanguage=\count402
-\c@pageref=\count403
-\c@savedpageref=\count404
+\c@afterword=\count333
+\c@savedafterword=\count334
+\c@annotator=\count335
+\c@savedannotator=\count336
+\c@author=\count337
+\c@savedauthor=\count338
+\c@bookauthor=\count339
+\c@savedbookauthor=\count340
+\c@commentator=\count341
+\c@savedcommentator=\count342
+\c@editor=\count343
+\c@savededitor=\count344
+\c@editora=\count345
+\c@savededitora=\count346
+\c@editorb=\count347
+\c@savededitorb=\count348
+\c@editorc=\count349
+\c@savededitorc=\count350
+\c@foreword=\count351
+\c@savedforeword=\count352
+\c@holder=\count353
+\c@savedholder=\count354
+\c@introduction=\count355
+\c@savedintroduction=\count356
+\c@namea=\count357
+\c@savednamea=\count358
+\c@nameb=\count359
+\c@savednameb=\count360
+\c@namec=\count361
+\c@savednamec=\count362
+\c@translator=\count363
+\c@savedtranslator=\count364
+\c@shortauthor=\count365
+\c@savedshortauthor=\count366
+\c@shorteditor=\count367
+\c@savedshorteditor=\count368
+\c@labelname=\count369
+\c@savedlabelname=\count370
+\c@institution=\count371
+\c@savedinstitution=\count372
+\c@lista=\count373
+\c@savedlista=\count374
+\c@listb=\count375
+\c@savedlistb=\count376
+\c@listc=\count377
+\c@savedlistc=\count378
+\c@listd=\count379
+\c@savedlistd=\count380
+\c@liste=\count381
+\c@savedliste=\count382
+\c@listf=\count383
+\c@savedlistf=\count384
+\c@location=\count385
+\c@savedlocation=\count386
+\c@organization=\count387
+\c@savedorganization=\count388
+\c@origlocation=\count389
+\c@savedoriglocation=\count390
+\c@origpublisher=\count391
+\c@savedorigpublisher=\count392
+\c@publisher=\count393
+\c@savedpublisher=\count394
+\c@language=\count395
+\c@savedlanguage=\count396
+\c@origlanguage=\count397
+\c@savedoriglanguage=\count398
+\c@pageref=\count399
+\c@savedpageref=\count400
 \shorthandwidth=\skip109
 \shortjournalwidth=\skip110
 \shortserieswidth=\skip111
@@ -293,43 +293,46 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \localshorttitlewidth=\skip120
 \localshortauthorwidth=\skip121
 \localshorteditorwidth=\skip122
+Package biblatex Info: Trying to load enhanced support for Unicode engines...
+Package biblatex Info: ... file 'blx-unicode.def' found.
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-unicode.def)
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count405
-\c@textcitetotal=\count406
-\c@textcitemaxnames=\count407
-\c@biburlbigbreakpenalty=\count408
-\c@biburlbreakpenalty=\count409
-\c@biburlnumpenalty=\count410
-\c@biburlucpenalty=\count411
-\c@biburllcpenalty=\count412
+\c@textcitecount=\count401
+\c@textcitetotal=\count402
+\c@textcitemaxnames=\count403
+\c@biburlbigbreakpenalty=\count404
+\c@biburlbreakpenalty=\count405
+\c@biburlnumpenalty=\count406
+\c@biburlucpenalty=\count407
+\c@biburllcpenalty=\count408
 \biburlbigskip=\muskip18
 \biburlnumskip=\muskip19
 \biburlucskip=\muskip20
 \biburllcskip=\muskip21
-\c@smartand=\count413
+\c@smartand=\count409
 )
 Package biblatex Info: Trying to load bibliography style 'numeric'...
 Package biblatex Info: ... file 'numeric.bbx' found.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\numeric.bbx
 File: numeric.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count414
-\c@bbx:relatedtotal=\count415
+\c@bbx:relatedcount=\count410
+\c@bbx:relatedtotal=\count411
 ))
 Package biblatex Info: Trying to load citation style 'numeric'...
 Package biblatex Info: ... file 'numeric.cbx' found.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric.cbx
 File: numeric.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
@@ -345,48 +348,51 @@ Package biblatex Info: Redefining '\smartcites'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 )
-Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Document encoding is UTF8 ....
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2026-03-20 L3 programming layer (loader) 
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2026-02-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count416
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-xetex.def
+File: l3backend-xetex.def 2026-02-18 L3 backend support: XeTeX
+\g__graphics_track_int=\count412
+\g__pdfannot_backend_int=\count413
+\g__pdfannot_backend_link_int=\count414
 ))
 Package biblatex Info: ... and expl3
 (biblatex)             2026-03-20 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
 Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
-)) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+)) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 106.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
+Package graphics Info: Driver file: xetex.def on input line 106.
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\xetex.def
+File: xetex.def 2025/11/01 v5.0p Graphics/color driver for xetex
 ))
 \Gin@req@height=\dimen164
 \Gin@req@width=\dimen165
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count417
+\c@float@type=\count415
 \float@exts=\toks21
 \float@box=\box54
 \@float@everytoks=\toks22
 \@floatcapt=\box55
-)) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
+)) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.sty
 Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \CenteringLeftskip=\skip123
 \RaggedLeftLeftskip=\skip124
@@ -402,49 +408,49 @@ Package: ragged2e 2023/06/22 v3.6 ragged2e Package
 \RaggedLeftParindent=\skip134
 \RaggedRightParindent=\skip135
 \JustifyingParindent=\skip136
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2025-10-13 v4.24 Multi-page Table package (DPC)
 \LTleft=\skip137
 \LTright=\skip138
 \LTpre=\skip139
 \LTpost=\skip140
-\LTchunksize=\count418
+\LTchunksize=\count416
 \LTcapwidth=\dimen166
 \LT@head=\box56
 \LT@firsthead=\box57
 \LT@foot=\box58
 \LT@lastfoot=\box59
 \LT@gbox=\box60
-\LT@cols=\count419
-\LT@rows=\count420
-\c@LT@tables=\count421
-\c@LT@chunks=\count422
+\LT@cols=\count417
+\LT@rows=\count418
+\c@LT@tables=\count419
+\c@LT@chunks=\count420
 \LT@p@ftn=\toks23
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
 Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip141
 
 For additional information on amsmath, use the `?' option.
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+(C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
 Package: amstext 2024/11/17 v2.01 AMS text
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks24
 \ex@=\dimen167
-)) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+)) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen168
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
 Package: amsopn 2022/04/08 v2.04 operator names
 )
-\inf@bad=\count423
+\inf@bad=\count421
 LaTeX Info: Redefining \frac on input line 233.
-\uproot@=\count424
-\leftroot@=\count425
+\uproot@=\count422
+\leftroot@=\count423
 LaTeX Info: Redefining \overline on input line 398.
 LaTeX Info: Redefining \colon on input line 409.
-\classnum@=\count426
-\DOTSCASE@=\count427
+\classnum@=\count424
+\DOTSCASE@=\count425
 LaTeX Info: Redefining \ldots on input line 495.
 LaTeX Info: Redefining \dots on input line 498.
 LaTeX Info: Redefining \cdots on input line 619.
@@ -457,20 +463,20 @@ LaTeX Info: Redefining \Bigg on input line 724.
 \big@size=\dimen169
 LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
-\macc@depth=\count428
+\macc@depth=\count426
 LaTeX Info: Redefining \bmod on input line 904.
 LaTeX Info: Redefining \pmod on input line 909.
 LaTeX Info: Redefining \smash on input line 939.
 LaTeX Info: Redefining \relbar on input line 969.
 LaTeX Info: Redefining \Relbar on input line 970.
-\c@MaxMatrixCols=\count429
+\c@MaxMatrixCols=\count427
 \dotsspace@=\muskip22
-\c@parentequation=\count430
-\dspbrk@lvl=\count431
+\c@parentequation=\count428
+\dspbrk@lvl=\count429
 \tag@help=\toks25
-\row@=\count432
-\column@=\count433
-\maxfields@=\count434
+\row@=\count430
+\column@=\count431
+\maxfields@=\count432
 \andhelp@=\toks26
 \eqnshift@=\dimen170
 \alignsep@=\dimen171
@@ -484,24 +490,24 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks28
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
-)) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+)) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
 Package: enumitem 2025/02/06 v3.11 Customized lists
 \labelindent=\skip144
 \enit@outerparindent=\dimen176
 \enit@toks=\toks29
 \enit@inbox=\box63
-\enit@count@id=\count435
-\enitdp@description=\count436
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+\enit@count@id=\count433
+\enitdp@description=\count434
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
 Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \heavyrulewidth=\dimen177
 \lightrulewidth=\dimen178
@@ -513,16 +519,16 @@ Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
 \cmidrulesep=\dimen184
 \cmidrulekern=\dimen185
 \defaultaddspace=\dimen186
-\@cmidla=\count437
-\@cmidlb=\count438
+\@cmidla=\count435
+\@cmidlb=\count436
 \@aboverulesep=\dimen187
 \@belowrulesep=\dimen188
-\@thisruleclass=\count439
-\@lastruleclass=\count440
+\@thisruleclass=\count437
+\@lastruleclass=\count438
 \@thisrulewidth=\dimen189
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2023/08/05 v3.6o Customizing captions (AR)
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@tempdima=\dimen190
 \captionmargin=\dimen191
@@ -534,13 +540,13 @@ Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
 \caption@hangindent=\dimen197
 Package caption Info: Standard document class detected.
 )
-\c@caption@flags=\count441
-\c@continuedfloat=\count442
+\c@caption@flags=\count439
+\c@continuedfloat=\count440
 Package caption Info: float package is loaded.
 Package caption Info: longtable package is loaded.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
 Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
-)) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+)) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
 Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen198
 \ar@mcellbox=\box64
@@ -549,9 +555,11 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \extratabsurround=\skip145
 \backup@length=\skip146
 \ar@cellbox=\box65
+) (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
 )
-\@quotelevel=\count443
-\@quotereset=\count444
+\@quotelevel=\count441
+\@quotereset=\count442
  (main.aux
 
 LaTeX Warning: Label `tab:frequency_distribution' multiply defined.
@@ -559,25 +567,27 @@ LaTeX Warning: Label `tab:frequency_distribution' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 26.
-LaTeX Font Info:    ... okay on input line 26.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 27.
+LaTeX Font Info:    ... okay on input line 27.
 
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: xetex
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -610,10 +620,11 @@ LaTeX Font Info:    ... okay on input line 26.
 
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
-(C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
+(C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lbx
 File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
-Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: XeTeX detected.
+(biblatex)             Assuming input encoding 'utf8'.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 \openout3 = `main.bcf'.
@@ -621,38 +632,19 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 26.
-Package biblatex Info: Reference segment=0 on input line 26.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count445
-\scratchdimen=\dimen256
-\scratchbox=\box66
-\nofMPsegments=\count446
-\nofMParguments=\count447
-\everyMPshowfont=\toks31
-\MPscratchCnt=\count448
-\MPscratchDim=\dimen257
-\MPnumerator=\count449
-\makeMPintoPDFobject=\count450
-\everyMPtoPDFconversion=\toks32
-) (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
-))
+Package biblatex Info: Reference section=0 on input line 27.
+Package biblatex Info: Reference segment=0 on input line 27.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  [1
 
-{C:/Users/user/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (main.toc
+] (main.toc
 LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
- (C:\Users\user\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+ (C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ))
 \tf@toc=\write4
@@ -675,8 +667,8 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 Chapter 1.
 
-Overfull \hbox (7.29828pt too wide) in paragraph at lines 81--82
-[]\OT1/cmr/m/n/12 This re-search seeks to bridge these gaps by de-vel-op-ing an in-te-grated telemedicine
+Overfull \hbox (7.30702pt too wide) in paragraph at lines 82--83
+[]\TU/lmr/m/n/12 This research seeks to bridge these gaps by developing an integrated telemedicine
  []
 
 [5
@@ -684,8 +676,8 @@ Overfull \hbox (7.29828pt too wide) in paragraph at lines 81--82
 
 
 ]
-Overfull \hbox (4.84831pt too wide) in paragraph at lines 91--92
-[]\OT1/cmr/m/n/12 Research shows that telemedicine con-sul-ta-tions pro-mote bet-ter clin-i-cal decision-
+Overfull \hbox (4.85901pt too wide) in paragraph at lines 92--93
+[]\TU/lmr/m/n/12 Research shows that telemedicine consultations promote better clinical decision-
  []
 
 
@@ -696,8 +688,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [6]
-Overfull \hbox (3.18132pt too wide) in paragraph at lines 106--107
-[]\OT1/cmr/m/n/12 In the Philip-pines, EMR adop-tion shows both progress and chal-lenges. COVID-
+Overfull \hbox (3.18388pt too wide) in paragraph at lines 107--108
+[]\TU/lmr/m/n/12 In the Philippines, EMR adoption shows both progress and challenges. COVID-
  []
 
 
@@ -716,11 +708,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [8]
-<Theoretical_Paradigm.jpg, id=30, 703.62875pt x 583.17876pt>
-File: Theoretical_Paradigm.jpg Graphic file (type jpg)
-<use Theoretical_Paradigm.jpg>
-Package pdftex.def Info: Theoretical_Paradigm.jpg  used on input line 139.
-(pdftex.def)             Requested size: 392.39746pt x 325.215pt.
+File: Theoretical_Paradigm.jpg Graphic file (type bmp)
+<Theoretical_Paradigm.jpg>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -737,12 +726,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[10 <./Theoretical_Paradigm.jpg>]
-<ConceptualParadigm.jpg, id=37, 433.62pt x 497.60907pt>
-File: ConceptualParadigm.jpg Graphic file (type jpg)
-<use ConceptualParadigm.jpg>
-Package pdftex.def Info: ConceptualParadigm.jpg  used on input line 157.
-(pdftex.def)             Requested size: 283.39792pt x 325.215pt.
+[10]
+File: ConceptualParadigm.jpg Graphic file (type bmp)
+<ConceptualParadigm.jpg>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -751,7 +737,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[11 <./ConceptualParadigm.jpg>]
+[11]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -785,12 +771,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 [15]
 Chapter 2.
+
+Overfull \hbox (6.37766pt too wide) in paragraph at lines 261--262
+\TU/lmr/m/n/12 current healthcare practices, identify operational challenges, and develop a telemedicine
+ []
+
 [16
 
 
 ]
-Overfull \hbox (11.93924pt too wide) in paragraph at lines 309--313
-[]\OT1/cmr/bx/n/12 Preparation Phase. \OT1/cmr/m/n/12 The re-searchers se-cured for-mal per-mis-sions from barangay
+Overfull \hbox (11.99634pt too wide) in paragraph at lines 298--302
+[]\TU/lmr/bx/n/12 Preparation Phase. \TU/lmr/m/n/12 The researchers secured formal permissions from barangay
  []
 
 
@@ -828,11 +819,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [20]
-<UseCaseDiagram.jpg, id=73, 433.62pt x 563.85657pt>
-File: UseCaseDiagram.jpg Graphic file (type jpg)
-<use UseCaseDiagram.jpg>
-Package pdftex.def Info: UseCaseDiagram.jpg  used on input line 520.
-(pdftex.def)             Requested size: 346.89732pt x 451.11168pt.
+File: UseCaseDiagram.jpg Graphic file (type bmp)
+<UseCaseDiagram.jpg>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -842,11 +830,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [21]
-<System_Workflows.jpg, id=77, 733.74126pt x 889.3225pt>
-File: System_Workflows.jpg Graphic file (type jpg)
-<use System_Workflows.jpg>
-Package pdftex.def Info: System_Workflows.jpg  used on input line 531.
-(pdftex.def)             Requested size: 368.57965pt x 446.73636pt.
+File: System_Workflows.jpg Graphic file (type bmp)
+<System_Workflows.jpg>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -855,7 +840,7 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[22 <./UseCaseDiagram.jpg>]
+[22]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -863,12 +848,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[23 <./System_Workflows.jpg>]
-<E-Health_for_All_System_design_Architecture.jpg, id=84, 401.24907pt x 599.99156pt>
-File: E-Health_for_All_System_design_Architecture.jpg Graphic file (type jpg)
-<use E-Health_for_All_System_design_Architecture.jpg>
-Package pdftex.def Info: E-Health_for_All_System_design_Architecture.jpg  used on input line 548.
-(pdftex.def)             Requested size: 411.93768pt x 616.01155pt.
+[23]
+File: E-Health_for_All_System_design_Architecture.jpg Graphic file (type bmp)
+<E-Health_for_All_System_design_Architecture.jpg>
 
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
@@ -885,7 +867,12 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[25 <./E-Health_for_All_System_design_Architecture.jpg>]
+[25]
+File: dfd_level0.png Graphic file (type bmp)
+<dfd_level0.png>
+File: dfd_level1_fixed.png Graphic file (type bmp)
+<dfd_level1_fixed.png>
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -894,20 +881,17 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [26]
-Chapter 3.
-
-Overfull \hbox (59.3396pt too wide) in paragraph at lines 586--629
- [][] 
- []
-
-[27
+File: User-DrivenHealthcare.png Graphic file (type bmp)
+<User-DrivenHealthcare.png>
 
 
-]
-Overfull \hbox (5.14413pt too wide) in paragraph at lines 631--632
-[]\OT1/cmr/m/n/12 The re-spon-dents were pre-dom-i-nantly fe-male (92.3%), con-sis-tent with the largely
- []
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
+[27]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -924,14 +908,20 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [29]
+Chapter 3.
 
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+Overfull \hbox (58.80006pt too wide) in paragraph at lines 610--653
+ [][] 
+ []
 
-[30]
+[30
+
+
+]
+Overfull \hbox (5.17181pt too wide) in paragraph at lines 655--656
+[]\TU/lmr/m/n/12 The respondents were predominantly female (92.3%), consistent with the largely
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -948,10 +938,14 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [32]
-Chapter 4.
-[33
 
-]
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[33]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -960,11 +954,19 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [34]
-Overfull \hbox (9.00392pt too wide) in paragraph at lines 822--822
-[]\OT1/cmr/m/n/12 R. S. Domingo, A. B. San-tos, and L. M. Reyes. ``Of-fline ca-pa-bil-i-ties in telemedicine
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[35]
+Overfull \hbox (8.9393pt too wide) in paragraph at lines 846--846
+[]\TU/lmr/m/n/12 R. S. Domingo, A. B. Santos, and L. M. Reyes. “Offline capabilities in telemedicine
  []
 
-[35
+[36
 
 
 ]
@@ -975,26 +977,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[36]
-Overfull \hbox (2.56029pt too wide) in paragraph at lines 822--822
-[]\OT1/cmr/m/n/12 J. Adler-Milstein and E. Pfeifer. ``Pre-pandemic as-sess-ment: A decade of progress
- []
-
-
-Overfull \hbox (1.00473pt too wide) in paragraph at lines 822--822
-\OT1/cmr/m/n/12 needed?'' In: \OT1/cmr/m/it/12 In-ter-na-tional Jour-nal of Med-i-cal In-for-mat-ics \OT1/cmr/m/n/12 137 (2020), p. 104102.
- []
-
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller:
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
 [37]
-Overfull \hbox (3.20412pt too wide) in paragraph at lines 822--822
-\OT1/cmr/m/it/12 HEALTH \OT1/cmr/m/n/12 10 (2024), p. 20552076231224605. \OT1/cmr/m/sc/12 doi\OT1/cmr/m/n/12 : $\OT1/cmtt/m/n/12 10 . 1177 / 20552076231224605$\OT1/cmr/m/n/12 . 
+Overfull \hbox (2.12354pt too wide) in paragraph at lines 846--846
+[]\TU/lmr/m/n/12 J. Adler-Milstein and E. Pfeifer. “Pre-pandemic assessment: A decade of progress
  []
 
 
@@ -1005,13 +990,8 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [38]
-Overfull \hbox (3.04651pt too wide) in paragraph at lines 822--822
-\OT1/cmtt/m/n/12 https : / / s -[] pro . io / blog / telemedicine -[] system -[] components -[] architecture$\OT1/cmr/m/n/12 .
- []
-
-
-Overfull \hbox (2.13911pt too wide) in paragraph at lines 822--822
-\OT1/cmr/m/it/12 gional De-vel-op-ment Plan 2023--2028\OT1/cmr/m/n/12 . $\OT1/cmtt/m/n/12 https : / / rdc5 . gov . ph / bicol -[] regional -[]
+Overfull \hbox (3.02066pt too wide) in paragraph at lines 846--846
+\TU/lmr/m/it/12 HEALTH \TU/lmr/m/n/12 10 (2024), p. 20552076231224605. \TU/lmr/m/sc/12 doi\TU/lmr/m/n/12 : $[][] [] [][][][] [] [][][][][][][][][][][][][][][][][]$. 
  []
 
 
@@ -1022,6 +1002,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [39]
+Overfull \hbox (3.63152pt too wide) in paragraph at lines 846--846
+[][][][][] [] [] [] [] [][] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][][] [][] [][][][][][] [][] [][][][][][][][][][] [][] [][][][][][][][][][][][]$\TU/lmr/m/n/12 .
+ []
+
+
+Overfull \hbox (1.95953pt too wide) in paragraph at lines 846--846
+\TU/lmr/m/it/12 gional Development Plan 2023–2028\TU/lmr/m/n/12 . $[][][][][] [] [] [] [][][][] [] [][][] [] [][] [] [][][][][] [][] [][][][][][][][] [][]
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1029,10 +1018,22 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                You might also make \topmargin smaller:
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[40] [41
+[40]
+Overfull \hbox (2.85284pt too wide) in paragraph at lines 846--846
+\TU/lmr/m/n/12 MAiBest project”. In: \TU/lmr/m/it/12 Implementation Science Communications \TU/lmr/m/n/12 5.1 (2024), p. 74.
+ []
 
 
-] [42
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller:
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[41] [42
+
+
+] [43
 
 ] (main.aux)
  ***********
@@ -1048,17 +1049,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14723 strings out of 467691
- 274395 string characters out of 5415471
- 1111291 words of memory out of 5000000
- 43626 multiletter control sequences out of 15000+600000
- 637997 words of font info for 79 fonts, out of 8000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 78i,12n,80p,1422b,1331s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\user\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/user/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on main.pdf (42 pages, 630953 bytes).
-PDF statistics:
- 203 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 14439 strings out of 402807
+ 267614 string characters out of 5443272
+ 1129519 words of memory out of 5000000
+ 43175 multiletter control sequences out of 15000+600000
+ 634193 words of font info for 82 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 75i,12n,80p,1427b,4925s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
+Output written on main.xdv (43 pages, 722228 bytes).
