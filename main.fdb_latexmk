@@ -1,17 +1,30 @@
 # Fdb version 4
-["biber main"] 1779128510.46517 "main.bcf" "main.bbl" "main" 1779236352.59984 0
-  "main.bcf" 1779236347 115207 e2aa77041f100abc75d39d1304694455 "xelatex"
+["biber main"] 1779128510.46517 "main.bcf" "main.bbl" "main" 1779265579.18064 0
+  "main.bcf" 1779265572 115207 e2aa77041f100abc75d39d1304694455 "xelatex"
   "references.bib" 1779155114 25153 1631fb097a7fa5d10ec9d792817ada25 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1779236347.39785 "main.xdv" "main.pdf" "main" 1779236352.60671 0
-  "main.xdv" 1779236347 722228 179e48ce938d37397931189e469d7e44 "xelatex"
+["xdvipdfmx"] 1779265572.98845 "main.xdv" "main.pdf" "main" 1779265579.18623 0
+  "main.xdv" 1779265572 723736 02baeab864d2d1c33b7c770f32c2b871 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1779236341.61205 "c:/capstone-latex-main/capstone-latex/main.tex" "main.xdv" "main" 1779236352.60037 0
+["xelatex"] 1779265566.43369 "c:/capstone-latex-main/capstone-latex/main.tex" "main.xdv" "main" 1779265579.18093 0
+  "1.jpg" 1779264652 239771 5191ad4ab1f6af07acfb93fd4be425c6 ""
+  "10.jpg" 1779264901 227949 4d1e1116b3c41a353a862a6d7cd22d33 ""
+  "11.jpg" 1779264915 238117 f5531569e8268f806cf25e5c72cde10c ""
+  "12.jpg" 1779264976 240258 657c3c704381d73c14ae210a1d9589ca ""
+  "13.jpg" 1779264995 191623 d9edc173367c064fde0e249dcc154f0a ""
+  "2.jpg" 1779264669 326523 5ddb4ecb23196b5436d7b99d628a71a5 ""
+  "3.jpg" 1779264683 239498 ffcf66be3174d80488516f25955a042a ""
+  "4.jpg" 1779264701 205628 bf0a971277c99ffef0b87c8dcae4189e ""
+  "5.jpg" 1779264738 262475 7c413a18530c237f5c292312d032853b ""
+  "6.jpg" 1779264767 237387 552ee744046a8199d81fb7e17d511d08 ""
+  "7.jpg" 1779264805 259810 423f12b7c0ec2f9953fe2497cd301957 ""
+  "8.jpg" 1779264839 237389 b9360c11b19a5e0c12dc7bc61c90eb66 ""
+  "9.jpg" 1779264875 231863 b050f46c5af361daef5354ed347c8ce2 ""
   "C:/Users/Jan Iris Bruzo/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1778650202 27200580 d8a2c3b3a83f26085e962280b7bb8b3b ""
   "C:/Users/Jan Iris Bruzo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/Jan Iris Bruzo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -96,16 +109,17 @@
   "Theoretical_Paradigm.jpg" 1779155114 42028 59a1db713635eec4481345f35ae4eb39 ""
   "UseCaseDiagram.jpg" 1779155114 66435 e453a8517170c9075675895c91d3c2fc ""
   "User-DrivenHealthcare.png" 1779155114 2197659 79e342e791d2b2cdaa9ce5c26b044f63 ""
-  "c:/capstone-latex-main/capstone-latex/main.tex" 1779236338 68007 fc0a70763ccd13df2c0bf8b5adeec5f6 ""
+  "c:/capstone-latex-main/capstone-latex/main.tex" 1779265565 70302 0cdca4e94586e535670440fdc95a1ff1 ""
+  "data schema.png" 1779257216 543903 d7edfa15be2d20f2c51c6bba40f541ea ""
   "dfd_level0.png" 1779155114 171497 420ae96c6b369895cc10d9ca74042e5c ""
   "dfd_level1_fixed.png" 1779155114 261050 ff4a5fbc7a480f22eb695cbe13a1706f ""
-  "main.aux" 1779236347 18529 88b6b72e99ef0dcbe0d1e155a753f967 "xelatex"
+  "main.aux" 1779265572 18347 e9c8ceaa1953dcbe74a5d1e66ca19258 "xelatex"
   "main.bbl" 1779155114 116149 09123c9ec08fe61d7569c96bae3d90ff "biber main"
-  "main.lof" 1779236347 762 a7c006966456e24a1802f8e56caca061 "xelatex"
-  "main.lot" 1779236347 649 25f6bc767d41d56baf21f6af3885ccee "xelatex"
-  "main.run.xml" 1779236347 2340 6db8a715c2a4d89a32bb73ebd4fd78a0 "xelatex"
-  "main.tex" 1779236338 68007 fc0a70763ccd13df2c0bf8b5adeec5f6 ""
-  "main.toc" 1779236347 2524 2b3600f21806b70a00f63ed7c8d71a56 "xelatex"
+  "main.lof" 1779265572 838 5ee99a01c15b79e2045e0b612c43774b "xelatex"
+  "main.lot" 1779265572 563 9153ddb0e4b2d27bc623f076b73f92e6 "xelatex"
+  "main.run.xml" 1779265572 2340 6db8a715c2a4d89a32bb73ebd4fd78a0 "xelatex"
+  "main.tex" 1779265565 70302 0cdca4e94586e535670440fdc95a1ff1 ""
+  "main.toc" 1779265572 2422 7c6c008b02ef9e20a07afeaa2f925a97 "xelatex"
   "research.cls" 1779155114 2472 75463a56bdaa531d288f4b94e1b2d35b ""
   (generated)
   "main.aux"

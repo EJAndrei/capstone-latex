@@ -187,14 +187,16 @@ INPUT .\UseCaseDiagram.jpg
 INPUT .\UseCaseDiagram.jpg
 INPUT .\System_Workflows.jpg
 INPUT .\System_Workflows.jpg
-INPUT .\E-Health_for_All_System_design_Architecture.jpg
-INPUT .\E-Health_for_All_System_design_Architecture.jpg
 INPUT .\dfd_level0.png
 INPUT .\dfd_level0.png
 INPUT .\dfd_level1_fixed.png
 INPUT .\dfd_level1_fixed.png
 INPUT .\User-DrivenHealthcare.png
 INPUT .\User-DrivenHealthcare.png
+INPUT .\data schema.png
+INPUT .\data schema.png
+INPUT .\E-Health_for_All_System_design_Architecture.jpg
+INPUT .\E-Health_for_All_System_design_Architecture.jpg
 INPUT C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 INPUT C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
@@ -203,6 +205,32 @@ INPUT C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\ams
 INPUT C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
 INPUT C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm7.tfm
 INPUT C:\Users\Jan Iris Bruzo\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm5.tfm
+INPUT .\1.jpg
+INPUT .\1.jpg
+INPUT .\2.jpg
+INPUT .\2.jpg
+INPUT .\3.jpg
+INPUT .\3.jpg
+INPUT .\4.jpg
+INPUT .\4.jpg
+INPUT .\5.jpg
+INPUT .\5.jpg
+INPUT .\6.jpg
+INPUT .\6.jpg
+INPUT .\7.jpg
+INPUT .\7.jpg
+INPUT .\8.jpg
+INPUT .\8.jpg
+INPUT .\9.jpg
+INPUT .\9.jpg
+INPUT .\10.jpg
+INPUT .\10.jpg
+INPUT .\11.jpg
+INPUT .\11.jpg
+INPUT .\12.jpg
+INPUT .\12.jpg
+INPUT .\13.jpg
+INPUT .\13.jpg
 INPUT main.aux
 INPUT main.run.xml
 OUTPUT main.run.xml

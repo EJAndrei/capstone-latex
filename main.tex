@@ -460,29 +460,29 @@ frequency of each response, we will calculate the weighted mean using the formul
     \item $\Sigma$ = summation symbol
 \end{itemize}
 
-\section{Statistical Treatment of Data}
+% \section{Statistical Treatment of Data}
 
-The data gathered will be interpreted using a five-point Likert scale to measure the respondents' attitudes, opinions, perceptions, and preferences regarding the user-centered telemedicine system. 
+% The data gathered will be interpreted using a five-point Likert scale to measure the respondents' attitudes, opinions, perceptions, and preferences regarding the user-centered telemedicine system. 
 	
-Interpretation Scale. To interpret the weighted mean values obtained from Likert-scale questions, the following scale will be used
+% Interpretation Scale. To interpret the weighted mean values obtained from Likert-scale questions, the following scale will be used
 
-\begin{table}[h]
-    \centering
-    \caption{Frequency Distribution}
-    \label{tab:frequency_distribution}
-    \begin{tabular}{lcc} % Removed vertical bars (|) and adjusted alignment for clean look
-        \toprule
-        \textbf{Response Category} & \textbf{Number of Respondents} & \textbf{Percentage} \\
-        \midrule % This line sits directly under the header row
-        Very Satisfied      & 5  & 8.3\%  \\ 
-        Satisfied           & 25 & 41.7\% \\ 
-        Neutral             & 15 & 25.0\% \\ 
-        Dissatisfied        & 10 & 16.7\% \\ 
-        Very Dissatisfied   & 5  & 8.3\%  \\
-        \textbf{Total}      & \textbf{60} & \textbf{100\%} \\
-        \bottomrule % This is the final closing line at the very bottom
-    \end{tabular}
-\end{table}
+% \begin{table}[h]
+%     \centering
+%     \caption{Frequency Distribution}
+%     \label{tab:frequency_distribution}
+%     \begin{tabular}{lcc} % Removed vertical bars (|) and adjusted alignment for clean look
+%         \toprule
+%         \textbf{Response Category} & \textbf{Number of Respondents} & \textbf{Percentage} \\
+%         \midrule % This line sits directly under the header row
+%         Very Satisfied      & 5  & 8.3\%  \\ 
+%         Satisfied           & 25 & 41.7\% \\ 
+%         Neutral             & 15 & 25.0\% \\ 
+%         Dissatisfied        & 10 & 16.7\% \\ 
+%         Very Dissatisfied   & 5  & 8.3\%  \\
+%         \textbf{Total}      & \textbf{60} & \textbf{100\%} \\
+%         \bottomrule % This is the final closing line at the very bottom
+%     \end{tabular}
+% \end{table}
 
 \section{System Design and Architecture}
 
@@ -528,19 +528,6 @@ The system workflows illustrate the sequential processes and decision points for
 
 \textbf{Admin Flow.} Administrators access the admin portal through secure authentication, manage users by creating or deactivating accounts, conduct audit log reviews, perform system configuration, generate analytical reports on health data, and monitor overall system performance. These workflows ensure proper governance and system integrity.
 
-\subsection{System Architecture}	
-
-\indent The E-Health for All Telemedicine System architecture, shown in Figure 5, connects three stakeholder groups healthcare providers, rural residents, and system administrators through a layered structure spanning user devices, connectivity, application services, integration, and data storage. The system is built around three core components in the Application Layer: (1) a web-based platform for healthcare providers, offering secure login, patient records management, clinical documentation, and digital prescription and certificate generation; (2) a mobile application for rural residents, enabling appointment scheduling, medical record access, video consultations, SMS reminders, health education content, and emergency contacts; and (3) a doctor and health worker scheduling system, maintaining provider profiles including specializations, availability, and consultation details 
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.95\textwidth]{E-Health_for_All_System_design_Architecture}
-    \caption {System Design Architecture of E-Health for All System}
-    \label{fig:architecture}
-\end{figure}
-
-\subsection{Data Flow Diagrams}
-
 \subsubsection{DFD Level 0}
 
 The Context Diagram shows the entire data flow of the E-Health for All Telemedicine System, where four external entities --- Patient, Doctor, BHW, and Admin exchange certain data with the system. This diagram serves as a foundation for designing the system. The data coming into and out of the system is clearly represented.
@@ -575,6 +562,29 @@ The ERD visualizes each entity within the database design of the system, which i
     \caption{Entity Relationship Diagram}
     \label{fig:erd}
 \end{figure}
+
+\subsubsection{Data Schema}
+The Data Schema presents the complete database structure of the E-Health for All Telemedicine System, detailing the tables, fields, data types, and constraints that define how data is stored and managed within the system. It complements the ERD by providing a more technical view of the database design, showing the specific attributes and relationships that support the system's core functionalities.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{data schema}
+    \caption{Data Schema}
+    \label{fig:dataschema}
+\end{figure}
+
+\subsection{System Architecture}	
+
+\indent The E-Health for All Telemedicine System architecture, shown in Figure 5, connects three stakeholder groups healthcare providers, rural residents, and system administrators through a layered structure spanning user devices, connectivity, application services, integration, and data storage. The system is built around three core components in the Application Layer: (1) a web-based platform for healthcare providers, offering secure login, patient records management, clinical documentation, and digital prescription and certificate generation; (2) a mobile application for rural residents, enabling appointment scheduling, medical record access, video consultations, SMS reminders, health education content, and emergency contacts; and (3) a doctor and health worker scheduling system, maintaining provider profiles including specializations, availability, and consultation details 
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{E-Health_for_All_System_design_Architecture}
+    \caption {System Design Architecture of E-Health for All System}
+    \label{fig:architecture}
+\end{figure}
+
+% \subsection{Data Flow Diagrams}
 
 \section{Validation and Testing Methods}
 
@@ -847,8 +857,85 @@ All five proposed features received ``Very Important'' ratings, with an overall 
 
 \clearpage
 
-\chapter*{}Curriculum Vitae
-\chapter*{}Appendices
+\chapter*{Appendices}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{1}
+    \caption*{Appendices A-1}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{2}
+    \caption*{Appendices A-2}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{3}
+    \caption*{Appendices A-3}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{4}
+    \caption*{Appendices A-4}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{5}
+    \caption*{Appendices A-5}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{6}
+    \caption*{Appendices A-6}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{7}
+    \caption*{Appendices A-7}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{8}
+    \caption*{Appendices A-8}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{9}
+    \caption*{Appendices A-9}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{10}
+    \caption*{Appendices A-10}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{11}
+    \caption*{Appendices A-11}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{12}
+    \caption*{Appendices A-12}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{13}
+    \caption*{Appendices A-13}
+\end{figure}
 
 \nocite{ref70}
 \nocite{ref71}
