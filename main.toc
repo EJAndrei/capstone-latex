@@ -20,9 +20,9 @@
 \contentsline {subsection}{\numberline {2.4.1}Statistical Tools}{19}{}%
 \contentsline {subsubsection}{Descriptive Statistics}{19}{}%
 \contentsline {section}{\numberline {2.5}System Design and Architecture}{20}{}%
-\contentsline {subsubsection}{System Workflows}{21}{}%
+\contentsline {subsubsection}{System Workflows}{22}{}%
 \contentsline {subsubsection}{DFD Level 0}{23}{}%
-\contentsline {subsubsection}{DFD Level 1}{23}{}%
+\contentsline {subsubsection}{DFD Level 1}{24}{}%
 \contentsline {subsubsection}{Entity Relationship Diagram}{24}{}%
 \contentsline {subsubsection}{Data Schema}{25}{}%
 \contentsline {subsection}{\numberline {2.5.1}System Architecture}{26}{}%
