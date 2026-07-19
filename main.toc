@@ -32,3 +32,4 @@
 \contentsline {subsection}{\numberline {3.1.1}Current Practices of Rural Healthcare Providers}{31}{}%
 \contentsline {subsection}{\numberline {3.1.2}Challenges Encountered in the Current System}{32}{}%
 \contentsline {subsection}{\numberline {3.1.3}System Design and Plans for the Prototype}{34}{}%
+\contentsline {subsection}{\numberline {3.1.4}Perceived Acceptability of the Proposed System }{35}{}%

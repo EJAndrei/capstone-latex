@@ -1,30 +1,28 @@
 # Fdb version 4
-["biber main"] 0 "main.bcf" "main.bbl" "main" 1783779411.43124 -1
-  "main.bcf" 1783779401 115207 e2aa77041f100abc75d39d1304694455 "xelatex"
+["biber main"] 1784450069.22401 "main.bcf" "main.bbl" "main" 1784450319.42046 0
+  "main.bcf" 1784450313 115145 d9b2655ea28851ec79313bf770b26ebe "xelatex"
   "references.bib" 1779155114 25153 1631fb097a7fa5d10ec9d792817ada25 ""
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["xdvipdfmx"] 1783779402.32908 "main.xdv" "main.pdf" "main" 1783779411.44361 0
-  "main.xdv" 1783779401 757648 11b2cd08563ae89c6547f37ca270daff "xelatex"
+["xdvipdfmx"] 1784450313.40421 "main.xdv" "main.pdf" "main" 1784450319.42582 0
+  "main.xdv" 1784450313 829284 8d229036ad1dd806125b3822c081f1b4 "xelatex"
   (generated)
   "main.pdf"
   (rewritten before read)
-["xelatex"] 1783779396.3797 "c:/capstone-latex-main/capstone-latex/main.tex" "main.xdv" "main" 1783779411.43152 0
+["xelatex"] 1784450309.27859 "c:/capstone-latex-main/capstone-latex/main.tex" "main.xdv" "main" 1784450319.42079 0
+  "1 survey(2).png" 1784448783 36486 994501e4b8057f881ce63ef9b5db6bc3 ""
   "1.jpg" 1779284539 1535487 e73a551a3bebf726f7ed5d0715d443dc ""
-  "10.jpg" 1779295146 1702469 72d21066c94f96fecde4f4b4a63e022d ""
-  "11.jpg" 1779295195 1528972 2f3c2de3117000286d0bedc27c608cbd ""
   "12.jpg" 1779295248 1633932 b6386ec75d806a5613635183ac8519c5 ""
   "13.jpg" 1779295296 1665564 e7940beb36b40f66320d21c9d6ac98bd ""
+  "2 survey(3).png" 1784448830 41703 1b345f9ddf53753a7e260662dfb7c324 ""
   "2.jpg" 1779284578 2116233 37c9765f45b10e974ac4c2b8340db8a3 ""
+  "3 survey(4).png" 1784448896 40160 01d6b28756530e402d5a4698ca8ab809 ""
   "3.jpg" 1779294023 1469460 a1dc564a14261a59d4c81137f0b77cf9 ""
+  "4 survey(5).png" 1784448986 42979 ed2eb6e5fd4fa20f72adfabcb592f370 ""
   "4.jpg" 1779284657 1572185 5a6612d7d62a58e81e3f3fedda3c1658 ""
-  "5.jpg" 1779294076 1542747 8662817ebc0e8579a9fa1993423b772e ""
-  "6.jpg" 1779294159 1737055 7706fa507fc6de3326e4ad572f568b4f ""
-  "7.jpg" 1779294643 1506462 7c4e88c296954e72fd2aee7477cb6723 ""
-  "8.jpg" 1779295099 1726551 4557c6f4b17a30b82817c9809eff9b62 ""
-  "9.jpg" 1779295065 1390751 120380ca42a1f1964415c4e5833f447c ""
+  "5 survey(6).png" 1784449023 26616 ba9fbafdb4c14f3fb4b2d8b25f40a5f8 ""
   "C:/Users/Jan Iris Bruzo/AppData/Local/MiKTeX/miktex/data/le/xetex/xelatex.fmt" 1778650202 27200580 d8a2c3b3a83f26085e962280b7bb8b3b ""
   "C:/Users/Jan Iris Bruzo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/Jan Iris Bruzo/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -109,17 +107,17 @@
   "Theoretical_Paradigm.jpg" 1779155114 42028 59a1db713635eec4481345f35ae4eb39 ""
   "UseCaseDiagram.jpg" 1779155114 66435 e453a8517170c9075675895c91d3c2fc ""
   "User-DrivenHealthcare.png" 1779155114 2197659 79e342e791d2b2cdaa9ce5c26b044f63 ""
-  "c:/capstone-latex-main/capstone-latex/main.tex" 1783779389 73805 1617618831ba454e20c1f3cc6ad5b740 ""
+  "c:/capstone-latex-main/capstone-latex/main.tex" 1784450303 84710 5696352d8af72434756a5dcb52c084fd ""
   "data schema.png" 1779257216 543903 d7edfa15be2d20f2c51c6bba40f541ea ""
   "dfd_level0.png" 1779155114 171497 420ae96c6b369895cc10d9ca74042e5c ""
   "dfd_level1_fixed.png" 1779155114 261050 ff4a5fbc7a480f22eb695cbe13a1706f ""
-  "main.aux" 1783779401 18347 9bb4fcea8a426fd2159e2aad227fd648 "xelatex"
-  "main.bbl" 1779155114 116149 09123c9ec08fe61d7569c96bae3d90ff "biber main"
-  "main.lof" 1783779401 838 5ee99a01c15b79e2045e0b612c43774b "xelatex"
-  "main.lot" 1783779401 563 9153ddb0e4b2d27bc623f076b73f92e6 "xelatex"
-  "main.run.xml" 1783779401 2340 6db8a715c2a4d89a32bb73ebd4fd78a0 "xelatex"
-  "main.tex" 1783779389 73805 1617618831ba454e20c1f3cc6ad5b740 ""
-  "main.toc" 1783779401 2422 8d9d34ec6da92b0f0c9815b22f70ea0b "xelatex"
+  "main.aux" 1784450313 18749 82e113e13634629aa8f571d859ae83c9 "xelatex"
+  "main.bbl" 1784450076 116170 3d493c1d9c944f19e74d22ccaa40d82c "biber main"
+  "main.lof" 1784450313 838 5ee99a01c15b79e2045e0b612c43774b "xelatex"
+  "main.lot" 1784450313 673 efafc137e9cf68683858f96615884ea0 "xelatex"
+  "main.run.xml" 1784450313 2340 6db8a715c2a4d89a32bb73ebd4fd78a0 "xelatex"
+  "main.tex" 1784450303 84710 5696352d8af72434756a5dcb52c084fd ""
+  "main.toc" 1784450313 2524 e2962b0a1c952f8fb8773543e5ae1520 "xelatex"
   "research.cls" 1779288144 2472 d2ee11396e69a05045cb94892c6e9db8 ""
   (generated)
   "main.aux"
