@@ -180,8 +180,8 @@ INPUT main.lot
 OUTPUT main.lot
 INPUT .\Theoretical_Paradigm.jpg
 INPUT .\Theoretical_Paradigm.jpg
-INPUT .\ConceptualParadigm.jpg
-INPUT .\ConceptualParadigm.jpg
+INPUT .\ConceptualParadigm1.jpg
+INPUT .\ConceptualParadigm1.jpg
 INPUT .\UseCaseDiagram.jpg
 INPUT .\UseCaseDiagram.jpg
 INPUT .\UseCaseDiagram.jpg
