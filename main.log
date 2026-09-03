@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.13)  1 SEP 2026 20:16
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.13)  3 SEP 2026 13:10
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -742,7 +742,7 @@ Overfull \hbox (7.23773pt too wide) in paragraph at lines 611--672
 
 
 ] [30] [31] [32] [33] [34] [35] [36]
-Overfull \hbox (8.9393pt too wide) in paragraph at lines 906--906
+Overfull \hbox (8.9393pt too wide) in paragraph at lines 907--907
 []\TU/lmr/m/n/12 R. S. Domingo, A. B. Santos, and L. M. Reyes. “Offline capabilities in telemedicine
  []
 
@@ -750,27 +750,27 @@ Overfull \hbox (8.9393pt too wide) in paragraph at lines 906--906
 
 
 ] [38]
-Overfull \hbox (2.12354pt too wide) in paragraph at lines 906--906
+Overfull \hbox (2.12354pt too wide) in paragraph at lines 907--907
 []\TU/lmr/m/n/12 J. Adler-Milstein and E. Pfeifer. “Pre-pandemic assessment: A decade of progress
  []
 
 [39]
-Overfull \hbox (3.02066pt too wide) in paragraph at lines 906--906
+Overfull \hbox (3.02066pt too wide) in paragraph at lines 907--907
 \TU/lmr/m/it/12 HEALTH \TU/lmr/m/n/12 10 (2024), p. 20552076231224605. \TU/lmr/m/sc/12 doi\TU/lmr/m/n/12 : $[][] [] [][][][] [] [][][][][][][][][][][][][][][][][]$. 
  []
 
 [40]
-Overfull \hbox (3.63152pt too wide) in paragraph at lines 906--906
+Overfull \hbox (3.63152pt too wide) in paragraph at lines 907--907
 [][][][][] [] [] [] [] [][] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][][] [][] [][][][][][] [][] [][][][][][][][][][] [][] [][][][][][][][][][][][]$\TU/lmr/m/n/12 .
  []
 
 
-Overfull \hbox (2.85284pt too wide) in paragraph at lines 906--906
+Overfull \hbox (2.85284pt too wide) in paragraph at lines 907--907
 \TU/lmr/m/n/12 MAiBest project”. In: \TU/lmr/m/it/12 Implementation Science Communications \TU/lmr/m/n/12 5.1 (2024), p. 74.
  []
 
 
-Overfull \hbox (1.95953pt too wide) in paragraph at lines 906--906
+Overfull \hbox (1.95953pt too wide) in paragraph at lines 907--907
 \TU/lmr/m/it/12 gional Development Plan 2023–2028\TU/lmr/m/n/12 . $[][][][][] [] [] [] [][][][] [] [][][] [] [][] [] [][][][][] [][] [][][][][][][][] [][]
  []
 
@@ -827,4 +827,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  75i,12n,80p,1427b,4921s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (53 pages, 829136 bytes).
+Output written on main.xdv (53 pages, 844424 bytes).
