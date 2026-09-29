@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.13)  4 SEP 2026 01:16
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.13)  29 SEP 2026 09:43
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -718,15 +718,16 @@ File: dfd_level0.png Graphic file (type bmp)
  [23]
 File: dfd_level1_fixed.png Graphic file (type bmp)
 <dfd_level1_fixed.png>
+ [24]
 File: User-DrivenHealthcare.png Graphic file (type bmp)
 <User-DrivenHealthcare.png>
- [24]
+ [25]
 File: data schema.png Graphic file (type bmp)
 <data schema.png>
- [25]
+ [26]
 File: E-Health_for_All_System_design_Architecture.jpg Graphic file (type bmp)
 <E-Health_for_All_System_design_Architecture.jpg>
- [26] [27] [28]
+ [27] [28] [29]
 Chapter 3.
 
 Overfull \hbox (7.86009pt too wide) in paragraph at lines 616--672
@@ -738,28 +739,28 @@ Overfull \hbox (7.23773pt too wide) in paragraph at lines 611--672
 []\TU/lmr/m/n/12 These demographics align with the Task–Technology Fit (TTF) theory’s premise
  []
 
-[29
+[30
 
 
-] [30] [31] [32] [33] [34] [35] [36]
+] [31] [32] [33] [34] [35] [36] [37]
 Overfull \hbox (8.9393pt too wide) in paragraph at lines 907--907
 []\TU/lmr/m/n/12 R. S. Domingo, A. B. Santos, and L. M. Reyes. “Offline capabilities in telemedicine
  []
 
-[37
+[38
 
 
-] [38]
+] [39]
 Overfull \hbox (2.12354pt too wide) in paragraph at lines 907--907
 []\TU/lmr/m/n/12 J. Adler-Milstein and E. Pfeifer. “Pre-pandemic assessment: A decade of progress
  []
 
-[39]
+[40]
 Overfull \hbox (3.02066pt too wide) in paragraph at lines 907--907
 \TU/lmr/m/it/12 HEALTH \TU/lmr/m/n/12 10 (2024), p. 20552076231224605. \TU/lmr/m/sc/12 doi\TU/lmr/m/n/12 : $[][] [] [][][][] [] [][][][][][][][][][][][][][][][][]$. 
  []
 
-[40]
+[41]
 Overfull \hbox (3.63152pt too wide) in paragraph at lines 907--907
 [][][][][] [] [] [] [] [][] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][][] [][] [][][][][][] [][] [][][][][][][][][][] [][] [][][][][][][][][][][][]$\TU/lmr/m/n/12 .
  []
@@ -774,46 +775,55 @@ Overfull \hbox (1.95953pt too wide) in paragraph at lines 907--907
 \TU/lmr/m/it/12 gional Development Plan 2023–2028\TU/lmr/m/n/12 . $[][][][][] [] [] [] [][][][] [] [][][] [] [][] [] [][][][][] [][] [][][][][][][][] [][]
  []
 
-[41] [42]
+[42] [43]
 File: 1.jpg Graphic file (type bmp)
 <1.jpg>
 File: 2.jpg Graphic file (type bmp)
 <2.jpg>
- [43
+ [44
 
 
 ]
 File: 3.jpg Graphic file (type bmp)
 <3.jpg>
- [44]
+ [45]
 File: 4.jpg Graphic file (type bmp)
 <4.jpg>
- [45]
+ [46]
 File: 1 survey(2).png Graphic file (type bmp)
 <1 survey(2).png>
- [46]
+ [47]
 File: 2 survey(3).png Graphic file (type bmp)
 <2 survey(3).png>
- [47]
+ [48]
 File: 3 survey(4).png Graphic file (type bmp)
 <3 survey(4).png>
- [48]
+ [49]
 File: 4 survey(5).png Graphic file (type bmp)
 <4 survey(5).png>
- [49]
+ [50]
 File: 5 survey(6).png Graphic file (type bmp)
 <5 survey(6).png>
- [50]
+ [51]
 File: 12.jpg Graphic file (type bmp)
 <12.jpg>
- [51]
+ [52]
 File: 13.jpg Graphic file (type bmp)
 <13.jpg>
- [52] [53] (main.aux)
+ [53] [54] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
@@ -827,4 +837,4 @@ Here is how much of TeX's memory you used:
  1348 hyphenation exceptions out of 8191
  75i,12n,80p,1193b,4921s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (53 pages, 825780 bytes).
+Output written on main.xdv (54 pages, 839688 bytes).

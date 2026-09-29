@@ -23,13 +23,13 @@
 \contentsline {subsubsection}{System Workflows}{22}{}%
 \contentsline {subsubsection}{DFD Level 0}{23}{}%
 \contentsline {subsubsection}{DFD Level 1}{24}{}%
-\contentsline {subsubsection}{Entity Relationship Diagram}{24}{}%
-\contentsline {subsubsection}{Data Schema}{25}{}%
-\contentsline {subsection}{\numberline {2.5.1}System Architecture}{26}{}%
-\contentsline {section}{\numberline {2.6}Validation and Testing Methods}{28}{}%
-\contentsline {chapter}{\numberline {3}Results and Discussions}{29}{}%
-\contentsline {section}{\numberline {3.1}Profile of Respondents}{29}{}%
-\contentsline {subsection}{\numberline {3.1.1}Current Practices of Rural Healthcare Providers}{31}{}%
-\contentsline {subsection}{\numberline {3.1.2}Challenges Encountered in the Current System}{32}{}%
-\contentsline {subsection}{\numberline {3.1.3}System Design and Plans for the Prototype}{34}{}%
-\contentsline {subsection}{\numberline {3.1.4}Perceived Acceptability of the Proposed System }{35}{}%
+\contentsline {subsubsection}{Entity Relationship Diagram}{25}{}%
+\contentsline {subsubsection}{Data Schema}{26}{}%
+\contentsline {subsection}{\numberline {2.5.1}System Architecture}{27}{}%
+\contentsline {section}{\numberline {2.6}Validation and Testing Methods}{29}{}%
+\contentsline {chapter}{\numberline {3}Results and Discussions}{30}{}%
+\contentsline {section}{\numberline {3.1}Profile of Respondents}{30}{}%
+\contentsline {subsection}{\numberline {3.1.1}Current Practices of Rural Healthcare Providers}{32}{}%
+\contentsline {subsection}{\numberline {3.1.2}Challenges Encountered in the Current System}{33}{}%
+\contentsline {subsection}{\numberline {3.1.3}System Design and Plans for the Prototype}{35}{}%
+\contentsline {subsection}{\numberline {3.1.4}Perceived Acceptability of the Proposed System }{36}{}%
