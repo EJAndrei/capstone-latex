@@ -22,6 +22,11 @@
 \usepackage{array}
 \usepackage{indentfirst}
 
+\usepackage{etoolbox}
+\makeatletter
+\patchcmd{\@chapter}{\addtocontents{lof}{\protect\addvspace{10\p@}}}{}{}{}
+\makeatother
+
 \graphicspath{{./}{./figures/}}
 
 \begin{document}
@@ -42,10 +47,10 @@
   The Requirements for the Degree\\
   Bachelor of Science in Information Systems\\
   \vspace{0.5in}
-  Ian V. Bruzo\\
   Dominica SL. Narvato\\
-  Kristine Carla I. Paraiso\\
   EJ Andrei J. Villamer\\
+  Ian V. Bruzo\\
+  Kristine Carla I. Paraiso\\
    \vspace*{0.8in}
   2027
 \end{center}
@@ -779,7 +784,7 @@ These demographics align with the Task--Technology Fit (TTF) theory's premise th
 % The respondents were predominantly female (92.3\%), consistent with the largely female composition of community health workforces in Panicuason. The majority were aged 35--44 (46.2\%), indicating a relatively young and potentially technology-receptive group. In terms of work experience, most respondents had 10 years or more of service (61.54\%), followed by those with 4--6 years (30.77\%), while only a small proportion had 1--3 years (7.69\%) and none fell within the 7--9 year range. This suggests that the respondents generally possess substantial professional experience, enabling them to provide informed and reliable assessments of current operational practices. These demographics align with the Task--Technology Fit (TTF) theory's premise that technology adoption is influenced by users' experiential familiarity with their work tasks \cite{ref53}.
 
 \newpage
-\subsection{Current Practices of Rural Healthcare Providers}
+\section{Current Practices of Rural Healthcare Providers}
 
 \indent Research Question 1 asked: ``What are the current practices of rural healthcare providers with respect to patient records management, doctor and health worker scheduling, and appointment systems?'' Table 3.2 presents the weighted mean scores for each indicator.
 With both healthcare providers and rural resident-users now represented in the sample (n=93), the results show a markedly different pattern from the facility-only findings reported previously. Patient records management remains the strongest domain (WM = 3.43, Often).
@@ -849,7 +854,7 @@ This divergence between provider self-assessment and patient-facing experience i
 % Scheduling challenges averaged 3.26 (Sometimes overall), with the lack of a clear or updated availability record including uncommunicated changes scoring highest at 3.62 (Often), followed closely by health workers being assigned to multiple duties simultaneously at 3.72 (Often). This aligns with Mendoza, Cruz, and Santos \cite{ref28}, who found that the absence of a centralized scheduling system in Philippine rural health units contributes to coordination failures, particularly during peak consultation periods. Appointment system challenges averaged 3.58 (Often) the most severe domain in the combined results with the absence of an organized tracking system (WM = 3.73) and double-bookings or missed appointments without notice (WM = 3.69) as the most persistent issues. Del Rosario \cite{ref50} similarly found that the lack of digital appointment management in Philippine rural health centers contributes significantly to extended waiting times and patient dissatisfaction, a pattern reflected here in the elevated rating for long waiting times before being attended to (WM = 3.40).
 
 % These elevated ratings higher than the facility-only round, where the same domains averaged only ``Sometimes'' indicate that rural resident-users experience appointment-related breakdowns more acutely than facility staff report experiencing them from their own operational vantage point. This gap between provider self-assessment and patient-facing experience reinforces that the challenges are not merely occasional lapses but a recurring pattern of inefficiency that compounds over time, particularly in the appointment and scheduling domains. These findings validate the need for a digital solution that addresses record organization, scheduling conflict detection, appointment tracking, and automated reminders all of which are core features of the proposed E-Health for All system.
-\subsection{Challenges Encountered in the Current System}
+\section{Challenges Encountered in the Current System}
 
 \indent Research Question 2 asked: ``What are the challenges encountered in the current system?'' Table 3.3 presents the weighted mean scores for each challenge indicator. All challenge indicators were rated in the ``Sometimes'' range (WM = 3.25--3.40), confirming that while problems were not constant, they occurred with enough regularity to warrant systematic intervention. The most frequently cited challenge across domains was the difficulty in organizing and managing patient records (WM = 3.29), consistent with findings by D'Amore et al. \cite{ref12} that paper-based record systems in rural health facilities are particularly susceptible to organizational lapses due to high patient volumes and limited administrative staffing.
 
@@ -897,7 +902,7 @@ Scheduling challenges averaged 3.26 (Sometimes overall), with the lack of a clea
 These elevated ratings higher than the facility-only round, where the same domains averaged only ``Sometimes'' indicate that rural resident-users experience appointment-related breakdowns more acutely than facility staff report experiencing them from their own operational vantage point. This gap between provider self-assessment and patient-facing experience reinforces that the challenges are not merely occasional lapses but a recurring pattern of inefficiency that compounds over time, particularly in the appointment and scheduling domains. These findings validate the need for a digital solution that addresses record organization, scheduling conflict detection, appointment tracking, and automated reminders all of which are core features of the proposed E-Health for All system.
 
 % -------------------------------------------------------
-\subsection{System Design and Plans for the Prototype}
+\section{System Design and Plans for the Prototype}
 
 \indent Research Question 3 asked: “What system can be designed to address the identified challenges?” This section presents the importance ratings for proposed system features. Table 3.4 describes the design plans for the prototype, including the use case, workflow, and database schema. 
 
@@ -926,7 +931,7 @@ These elevated ratings higher than the facility-only round, where the same domai
 
 All five proposed features received ``Very Important'' ratings, with an overall weighted mean of 4.66. Secure login and role-based access control (WM = 4.90) ranked highest, reflecting a strong awareness among health workers of data privacy obligations under the Data Privacy Act of 2012. Automated reminders (WM = 4.80) ranked second, directly addressing the challenge of missed appointments (Item 3.11, WM = 2.70) and long waiting times (Item 3.9, WM = 3.00). Online appointment booking (WM = 4.60) and digital storage (WM = 4.50) also scored highly, validating the core functional design of the proposed system. These ratings are consistent with the TAM framework \cite{ref56}, where perceived usefulness as evidenced by the high importance ratings is a primary determinant of technology adoption intention.
 
-\subsection{Perceived Acceptability of the Proposed System }
+\section{Perceived Acceptability of the Proposed System }
 
 \indent Research Question 4 asked: "What is the level of acceptability of the proposed system, as perceived by healthcare providers and rural resident-users, in terms of usability, reliability, and data security?" Table 3.5 presents the weighted mean scores for each indicator. 
 
@@ -1014,7 +1019,7 @@ Overall, these findings suggest that confidence in technical security mechanisms
 
 %\section{Summary of Findings}
 
-\subsection{Functionality Testing}
+\section{Functionality Testing}
 
 \indent This section presents the results of the functionality testing conducted to verify whether the E-Health for All prototype performs its intended functions correctly. Testing was carried out with 93 testers composed of 13 health facility personnel and 80 resident-users of Barangay Panicuason. Testing covered the system design: registration and authentication, appointment booking and scheduling, video consultation, medical records and vitals management, e-prescription, offline synchronization, notifications, and administrator functions.
 
