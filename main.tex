@@ -25,7 +25,9 @@
 \usepackage{etoolbox}
 \makeatletter
 \patchcmd{\@chapter}{\addtocontents{lof}{\protect\addvspace{10\p@}}}{}{}{}
+\patchcmd{\@chapter}{\addtocontents{lot}{\protect\addvspace{10\p@}}}{}{}{}
 \makeatother
+
 
 \graphicspath{{./}{./figures/}}
 

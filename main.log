@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.13)  19 NOV 2026 21:11
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.13)  19 NOV 2026 21:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -563,22 +563,22 @@ Package: indentfirst 2023/07/02 v1.03 Indent first paragraph (DPC)
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
-LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 34.
+LaTeX Font Info:    ... okay on input line 34.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: xetex
@@ -628,8 +628,8 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 32.
-Package biblatex Info: Reference segment=0 on input line 32.
+Package biblatex Info: Reference section=0 on input line 34.
+Package biblatex Info: Reference segment=0 on input line 34.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
  [1
@@ -663,7 +663,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 Chapter 1.
 
-Overfull \hbox (7.30702pt too wide) in paragraph at lines 87--88
+Overfull \hbox (7.30702pt too wide) in paragraph at lines 89--90
 []\TU/lmr/m/n/12 This research seeks to bridge these gaps by developing an integrated telemedicine
  []
 
@@ -672,12 +672,12 @@ Overfull \hbox (7.30702pt too wide) in paragraph at lines 87--88
 
 
 ]
-Overfull \hbox (4.85901pt too wide) in paragraph at lines 97--98
+Overfull \hbox (4.85901pt too wide) in paragraph at lines 99--100
 []\TU/lmr/m/n/12 Research shows that telemedicine consultations promote better clinical decision-
  []
 
 [6]
-Overfull \hbox (3.18388pt too wide) in paragraph at lines 112--113
+Overfull \hbox (3.18388pt too wide) in paragraph at lines 114--115
 []\TU/lmr/m/n/12 In the Philippines, EMR adoption shows both progress and challenges. COVID-
  []
 
@@ -690,7 +690,7 @@ File: ConceptualParadigm1.jpg Graphic file (type bmp)
  [11] [12] [13] [14] [15]
 Chapter 2.
 
-Overfull \hbox (6.37766pt too wide) in paragraph at lines 273--274
+Overfull \hbox (6.37766pt too wide) in paragraph at lines 275--276
 \TU/lmr/m/n/12 current healthcare practices, identify operational challenges, and develop a telemedicine
  []
 
@@ -698,7 +698,7 @@ Overfull \hbox (6.37766pt too wide) in paragraph at lines 273--274
 
 
 ]
-Overfull \hbox (11.99634pt too wide) in paragraph at lines 295--299
+Overfull \hbox (11.99634pt too wide) in paragraph at lines 297--301
 []\TU/lmr/bx/n/12 Preparation Phase. \TU/lmr/m/n/12 The researchers secured formal permissions from barangay
  []
 
@@ -707,7 +707,7 @@ Overfull \hbox (11.99634pt too wide) in paragraph at lines 295--299
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [19]
-Overfull \hbox (37.7771pt too wide) in paragraph at lines 478--489
+Overfull \hbox (37.7771pt too wide) in paragraph at lines 480--491
  [][] 
  []
 
@@ -734,12 +734,12 @@ File: E-Health_for_All_System_design_Architecture.jpg Graphic file (type bmp)
  [28] [29] [30]
 Chapter 3.
 
-Overfull \hbox (7.86009pt too wide) in paragraph at lines 726--782
+Overfull \hbox (7.86009pt too wide) in paragraph at lines 728--784
  [][] 
  []
 
 
-Overfull \hbox (7.23773pt too wide) in paragraph at lines 721--782
+Overfull \hbox (7.23773pt too wide) in paragraph at lines 723--784
 []\TU/lmr/m/n/12 These demographics align with the Task–Technology Fit (TTF) theory’s premise
  []
 
@@ -747,7 +747,7 @@ Overfull \hbox (7.23773pt too wide) in paragraph at lines 721--782
 
 
 ] [32]
-Overfull \hbox (11.89296pt too wide) in paragraph at lines 787--787
+Overfull \hbox (11.89296pt too wide) in paragraph at lines 789--789
 |[]\TU/lmr/bx/n/17.28 Current Practices of Rural Healthcare Providers| 
  []
 
@@ -757,7 +757,7 @@ Chapter 4.
 
 
 ] [42] [43] [44]
-Overfull \hbox (8.9393pt too wide) in paragraph at lines 1167--1167
+Overfull \hbox (8.9393pt too wide) in paragraph at lines 1169--1169
 []\TU/lmr/m/n/12 R. S. Domingo, A. B. Santos, and L. M. Reyes. “Offline capabilities in telemedicine
  []
 
@@ -765,32 +765,32 @@ Overfull \hbox (8.9393pt too wide) in paragraph at lines 1167--1167
 
 
 ] [46]
-Overfull \hbox (2.12354pt too wide) in paragraph at lines 1167--1167
+Overfull \hbox (2.12354pt too wide) in paragraph at lines 1169--1169
 []\TU/lmr/m/n/12 J. Adler-Milstein and E. Pfeifer. “Pre-pandemic assessment: A decade of progress
  []
 
 [47]
-Overfull \hbox (3.02066pt too wide) in paragraph at lines 1167--1167
+Overfull \hbox (3.02066pt too wide) in paragraph at lines 1169--1169
 \TU/lmr/m/it/12 HEALTH \TU/lmr/m/n/12 10 (2024), p. 20552076231224605. \TU/lmr/m/sc/12 doi\TU/lmr/m/n/12 : $[][] [] [][][][] [] [][][][][][][][][][][][][][][][][]$. 
  []
 
 [48]
-Overfull \hbox (3.63152pt too wide) in paragraph at lines 1167--1167
+Overfull \hbox (3.63152pt too wide) in paragraph at lines 1169--1169
 [][][][][] [] [] [] [] [][] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][][] [][] [][][][][][] [][] [][][][][][][][][][] [][] [][][][][][][][][][][][]$\TU/lmr/m/n/12 .
  []
 
 
-Overfull \hbox (1.92067pt too wide) in paragraph at lines 1167--1167
+Overfull \hbox (1.92067pt too wide) in paragraph at lines 1169--1169
 \TU/lmr/m/it/12 Computer Interaction \TU/lmr/m/n/12 7.1 (1995), pp. 57–78. \TU/lmr/m/sc/12 doi\TU/lmr/m/n/12 : $[][] [] [][][][] [] [][][][][][][][][][][][][][][][][]$. 
  []
 
 
-Overfull \hbox (2.85284pt too wide) in paragraph at lines 1167--1167
+Overfull \hbox (2.85284pt too wide) in paragraph at lines 1169--1169
 \TU/lmr/m/n/12 MAiBest project”. In: \TU/lmr/m/it/12 Implementation Science Communications \TU/lmr/m/n/12 5.1 (2024), p. 74.
  []
 
 
-Overfull \hbox (1.95953pt too wide) in paragraph at lines 1167--1167
+Overfull \hbox (1.95953pt too wide) in paragraph at lines 1169--1169
 \TU/lmr/m/it/12 gional Development Plan 2023–2028\TU/lmr/m/n/12 . $[][][][][] [] [] [] [][][][] [] [][][] [] [][] [] [][][][][] [][] [][][][][][][][] [][]
  []
 
@@ -841,10 +841,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  14663 strings out of 402807
  271102 string characters out of 5443272
- 1129075 words of memory out of 5000000
+ 1129060 words of memory out of 5000000
  43388 multiletter control sequences out of 15000+600000
  635757 words of font info for 90 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  75i,12n,80p,1247b,4925s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (61 pages, 1014792 bytes).
+Output written on main.xdv (61 pages, 1014788 bytes).
