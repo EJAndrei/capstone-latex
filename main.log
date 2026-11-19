@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.13)  29 SEP 2026 09:43
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.13)  19 NOV 2026 20:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -706,135 +706,140 @@ Overfull \hbox (11.99634pt too wide) in paragraph at lines 290--294
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[19] [20]
+[19]
+Overfull \hbox (37.7771pt too wide) in paragraph at lines 473--484
+ [][] 
+ []
+
+[20] [21]
 File: UseCaseDiagram.jpg Graphic file (type bmp)
 <UseCaseDiagram.jpg>
- [21]
+ [22]
 File: System_Workflows.jpg Graphic file (type bmp)
 <System_Workflows.jpg>
- [22]
+ [23] [24]
 File: dfd_level0.png Graphic file (type bmp)
 <dfd_level0.png>
- [23]
+ [25]
 File: dfd_level1_fixed.png Graphic file (type bmp)
 <dfd_level1_fixed.png>
- [24]
 File: User-DrivenHealthcare.png Graphic file (type bmp)
 <User-DrivenHealthcare.png>
- [25]
+ [26]
 File: data schema.png Graphic file (type bmp)
 <data schema.png>
- [26]
+ [27]
 File: E-Health_for_All_System_design_Architecture.jpg Graphic file (type bmp)
 <E-Health_for_All_System_design_Architecture.jpg>
- [27] [28] [29]
+ [28] [29] [30]
 Chapter 3.
 
-Overfull \hbox (7.86009pt too wide) in paragraph at lines 616--672
+Overfull \hbox (7.86009pt too wide) in paragraph at lines 721--777
  [][] 
  []
 
 
-Overfull \hbox (7.23773pt too wide) in paragraph at lines 611--672
+Overfull \hbox (7.23773pt too wide) in paragraph at lines 716--777
 []\TU/lmr/m/n/12 These demographics align with the Task–Technology Fit (TTF) theory’s premise
  []
 
-[30
+[31
 
 
-] [31] [32] [33] [34] [35] [36] [37]
-Overfull \hbox (8.9393pt too wide) in paragraph at lines 907--907
+] [32] [33] [34] [35] [36] [37] [38] [39] [40]
+Chapter 4.
+[41
+
+
+] [42] [43] [44]
+Overfull \hbox (8.9393pt too wide) in paragraph at lines 1162--1162
 []\TU/lmr/m/n/12 R. S. Domingo, A. B. Santos, and L. M. Reyes. “Offline capabilities in telemedicine
  []
 
-[38
+[45
 
 
-] [39]
-Overfull \hbox (2.12354pt too wide) in paragraph at lines 907--907
+] [46]
+Overfull \hbox (2.12354pt too wide) in paragraph at lines 1162--1162
 []\TU/lmr/m/n/12 J. Adler-Milstein and E. Pfeifer. “Pre-pandemic assessment: A decade of progress
  []
 
-[40]
-Overfull \hbox (3.02066pt too wide) in paragraph at lines 907--907
+[47]
+Overfull \hbox (3.02066pt too wide) in paragraph at lines 1162--1162
 \TU/lmr/m/it/12 HEALTH \TU/lmr/m/n/12 10 (2024), p. 20552076231224605. \TU/lmr/m/sc/12 doi\TU/lmr/m/n/12 : $[][] [] [][][][] [] [][][][][][][][][][][][][][][][][]$. 
  []
 
-[41]
-Overfull \hbox (3.63152pt too wide) in paragraph at lines 907--907
+[48]
+Overfull \hbox (3.63152pt too wide) in paragraph at lines 1162--1162
 [][][][][] [] [] [] [] [][] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][][] [][] [][][][][][] [][] [][][][][][][][][][] [][] [][][][][][][][][][][][]$\TU/lmr/m/n/12 .
  []
 
 
-Overfull \hbox (2.85284pt too wide) in paragraph at lines 907--907
+Overfull \hbox (1.92067pt too wide) in paragraph at lines 1162--1162
+\TU/lmr/m/it/12 Computer Interaction \TU/lmr/m/n/12 7.1 (1995), pp. 57–78. \TU/lmr/m/sc/12 doi\TU/lmr/m/n/12 : $[][] [] [][][][] [] [][][][][][][][][][][][][][][][][]$. 
+ []
+
+
+Overfull \hbox (2.85284pt too wide) in paragraph at lines 1162--1162
 \TU/lmr/m/n/12 MAiBest project”. In: \TU/lmr/m/it/12 Implementation Science Communications \TU/lmr/m/n/12 5.1 (2024), p. 74.
  []
 
 
-Overfull \hbox (1.95953pt too wide) in paragraph at lines 907--907
+Overfull \hbox (1.95953pt too wide) in paragraph at lines 1162--1162
 \TU/lmr/m/it/12 gional Development Plan 2023–2028\TU/lmr/m/n/12 . $[][][][][] [] [] [] [][][][] [] [][][] [] [][] [] [][][][][] [][] [][][][][][][][] [][]
  []
 
-[42] [43]
+[49] [50]
 File: 1.jpg Graphic file (type bmp)
 <1.jpg>
 File: 2.jpg Graphic file (type bmp)
 <2.jpg>
- [44
+ [51
 
 
 ]
 File: 3.jpg Graphic file (type bmp)
 <3.jpg>
- [45]
+ [52]
 File: 4.jpg Graphic file (type bmp)
 <4.jpg>
- [46]
+ [53]
 File: 1 survey(2).png Graphic file (type bmp)
 <1 survey(2).png>
- [47]
+ [54]
 File: 2 survey(3).png Graphic file (type bmp)
 <2 survey(3).png>
- [48]
+ [55]
 File: 3 survey(4).png Graphic file (type bmp)
 <3 survey(4).png>
- [49]
+ [56]
 File: 4 survey(5).png Graphic file (type bmp)
 <4 survey(5).png>
- [50]
+ [57]
 File: 5 survey(6).png Graphic file (type bmp)
 <5 survey(6).png>
- [51]
+ [58]
 File: 12.jpg Graphic file (type bmp)
 <12.jpg>
- [52]
+ [59]
 File: 13.jpg Graphic file (type bmp)
 <13.jpg>
- [53] [54] (main.aux)
+ [60] [61] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                main
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14634 strings out of 402807
- 270344 string characters out of 5443272
- 1129614 words of memory out of 5000000
- 43361 multiletter control sequences out of 15000+600000
- 634193 words of font info for 82 fonts, out of 8000000 for 9000
+ 14663 strings out of 402807
+ 271102 string characters out of 5443272
+ 1129118 words of memory out of 5000000
+ 43388 multiletter control sequences out of 15000+600000
+ 635757 words of font info for 90 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 75i,12n,80p,1193b,4921s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,12n,80p,1247b,4925s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (54 pages, 839688 bytes).
+Output written on main.xdv (61 pages, 1014388 bytes).

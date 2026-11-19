@@ -135,7 +135,7 @@ Taken together, the literature demonstrates that while telemedicine adoption, pa
 
 \section{Theoretical Framework}
 
-This study is anchored on the following theories: the Task Technology Fit (TTF) Theory by Goodhue and Thompson, as cited by Thanthrige et al. \cite{ref69}; the Diffusion of Innovations (DOI) Theory by Rogers, as cited by Tsogbe et al. \cite{ref70}; and the Technology Acceptance Model (TAM) by Davis, as cited by Holtz et al. \cite{ref71}.   
+This study is anchored on the following theories: the Task Technology Fit (TTF) Theory by Goodhue and Thompson, as cited by Thanthrige et al. \cite{ref67}; the Diffusion of Innovations (DOI) Theory by Rogers, as cited by Tsogbe et al. \cite{ref68}; and the Technology Acceptance Model (TAM) by Davis, as cited by Holtz et al. \cite{ref47}.
 
 \begin{figure}[H]
     \centering
@@ -315,24 +315,33 @@ organized by themes and used as the basis for the final findings and recommendat
 
 \section{Research Instrument}
 
-\indent The study was used various research instruments to collect accurate and relevant data from participants. These instruments are designed to gather both qualitative and quantitative information to gather specific information that will help us understand the current healthcare access situation and identify what is needed for an effective telemedicine platform.
+\indent The study used interview guides and survey questionnaires to collect
+qualitative and quantitative data on the current healthcare access situation
+in Barangay Panicuason and on the requirements of an effective telemedicine
+platform.
 
-\textbf{Interview Guides.} Researchers will prepare interview guides for rural residents 
-of Barangay Panicuason covering healthcare experiences, travel distance to facilities, 
-medical costs including transportation, common health problems, mobile and internet 
-access, technology comfort level, and desired telemedicine features. For health center 
-staff, guides will cover record-keeping systems, data management challenges, internet 
-connectivity, available devices, and infrastructure needs. All guides will include 
-follow-up questions to explore key points further.
+\textbf{Interview Guides.} Researchers will prepare interview guides for rural
+residents of Barangay Panicuason covering healthcare experiences, travel
+distance to facilities, medical costs including transportation, common health
+problems, mobile and internet access, technology comfort level, and desired
+telemedicine features. For health center staff, the guides will cover
+record-keeping systems, data management challenges, internet connectivity,
+available devices, and infrastructure needs. All guides will include follow-up
+questions to explore key points further.
 
-\textbf{Survey Questionnaires.} For healthcare providers and health workers, the 
-questionnaire covers demographic profile, years of experience, and current practices 
-in patient records management, doctor scheduling, and appointment systems using a 
-5-point frequency scale. It also addresses challenges encountered in each of these 
-areas, the importance of proposed system features such as digital record storage, 
-automated scheduling, online appointment booking, and role-based access control, and 
-the perceived level of system acceptability in terms of usability, reliability, and 
-data security.
+\textbf{Survey Questionnaires.} The survey questionnaire was answered by two
+groups of respondents: healthcare providers or health workers, and
+resident-users of Barangay Panicuason. It covers the respondent's demographic
+profile, including role and, for health workers, years of experience, and
+current practices in patient records management, doctor scheduling, and
+appointment systems using a 5-point frequency scale. It also addresses the
+challenges encountered in each of these areas, the importance of proposed
+system features such as digital record storage, automated scheduling, online
+appointment booking, and role-based access control, and the perceived level of
+system acceptability in terms of usability, reliability, and data security.
+Following the functional testing, User Acceptance Testing (UAT) was conducted
+to assess the system's overall acceptability and its alignment with user
+needs.
 
 \section{Ethical Considerations}
 
@@ -388,7 +397,7 @@ recording and reporting all data without fabrication or selective omission, prop
 citing all sources, and honestly reporting the research process including challenges 
 and limitations. Findings will be shared with participating communities upon request.
 
-\subsection{Statistical Tools}
+\section{Statistical Tools}
 
 This section explains how we will analyze and interpret the collected data to answer 
 the research questions.
@@ -451,6 +460,102 @@ frequency of each response, we will calculate the weighted mean using the formul
     \item $N$ = total number of respondents
     \item $\Sigma$ = summation symbol
 \end{itemize}
+
+
+\textbf{Likert Scale.} In this study, a 5-point Likert scale was used to measure the respondents' level of acceptability in terms of usability, reliability, and data security of the system, with 1 being the lowest and 5 being the highest to determine the overall rating. Table~\ref{tab:likert_acceptability} presents the verbal interpretation of the mean ranges.
+
+\begin{table}[H]
+    \centering
+    \caption{Likert Scale Mean Range and Verbal Interpretation}
+    \label{tab:likert_acceptability}
+    \small
+    \setlength{\tabcolsep}{4pt}
+    \begin{tabular}{cllll}
+        \toprule
+        \textbf{Mean Range} & \textbf{Verbal Rating} & \textbf{Usability} & \textbf{Reliability} & \textbf{Data Security} \\
+        \midrule
+        4.21--5.00 & Completely Agree & Highly Usable      & Highly Reliable      & Highly Secure \\
+        3.41--4.20 & Agree            & Usable             & Reliable             & Secure \\
+        2.61--3.40 & Somewhat Agree   & Moderately Usable  & Moderately Reliable  & Moderately Secure \\
+        1.81--2.60 & Slightly Agree   & Slightly Usable    & Slightly Reliable    & Slightly Secure \\
+        1.00--1.80 & Not at All Agree & Not Usable         & Not Reliable         & Not Secure \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Likert Scale for Frequency of Occurrence}
+    \label{tab:likert_frequency}
+    \begin{tabular}{cc}
+        \toprule
+        \textbf{Range} & \textbf{Verbal Rating} \\
+        \midrule
+        4.21--5.00 & Always \\
+        3.41--4.20 & Often \\
+        2.61--3.40 & Sometimes \\
+        1.81--2.60 & Rarely \\
+        1.00--1.80 & Never \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\begin{table}[H]
+    \centering
+    \caption{Likert Scale for Functionality}
+    \label{tab:likert_functionality}
+    \begin{tabular}{cc}
+        \toprule
+        \textbf{Range} & \textbf{Verbal Rating} \\
+        \midrule
+        4.21--5.00 & Very Functional \\
+        3.41--4.20 & Functional \\
+        2.61--3.40 & Moderately Functional \\
+        1.81--2.60 & Slightly Functional \\
+        1.00--1.80 & Not Functional \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+\textbf{PSSUQ Scale.} The Post-Study System Usability Questionnaire (PSSUQ) was used to evaluate the perceived usability of the proposed system \cite{ref73}, \cite{ref74}. Table~\ref{tab:pssuq_scale} presents the 7-point Likert scale employed to interpret the perceptions of the end users towards the developed system, covering perceived system usefulness, information quality, and interface quality.
+
+\begin{table}[H]
+    \centering
+    \caption{PSSUQ Scale Range}
+    \label{tab:pssuq_scale}
+    \begin{tabular}{ccl}
+        \toprule
+        \textbf{Scale} & \textbf{Range} & \textbf{Interpretation} \\
+        \midrule
+        1 & 1.00--1.86 & Strongly Agree / Excellent Usability \\
+        2 & 1.87--2.72 & Agree / High Usability \\
+        3 & 2.73--3.58 & Somewhat Agree / Above Average Usability \\
+        4 & 3.59--4.44 & Neutral / Moderate Usability \\
+        5 & 4.45--5.30 & Somewhat Disagree / Below Average Usability \\
+        6 & 5.31--6.16 & Disagree / Poor Usability \\
+        7 & 6.17--7.00 & Strongly Disagree / Extremely Poor Usability \\
+        \bottomrule
+    \end{tabular}
+\end{table}
+
+Table~\ref{tab:pssuq_norms} presents the standardized scale norms for the PSSUQ, derived from the benchmark studies established by Sauro and Lewis \cite{ref75}. These metrics provide an empirical baseline against which the evaluated system's usability scores can be directly compared.
+
+% NOTE: confidence intervals below differ from the Word draft (its rows looked shifted); verify against Sauro and Lewis (2016).
+\begin{table}[H]
+    \centering
+    \caption{PSSUQ Scale Norms and Confidence Intervals}
+    \label{tab:pssuq_norms}
+    \begin{tabular}{lcc}
+        \toprule
+        \textbf{PSSUQ Scale} & \textbf{Mean Score Norms} & \textbf{99\% Confidence Interval} \\
+        \midrule
+        System Usefulness   & 2.80 & 2.62 -- 2.98 \\
+        Information Quality & 3.02 & 2.79 -- 3.24 \\
+        Interface Quality   & 2.49 & 2.28 -- 2.71 \\
+        Overall             & 2.82 & 2.66 -- 2.99 \\
+        \bottomrule
+    \end{tabular}
+\end{table}
 
 %  \section{Statistical Treatment of Data}
 
@@ -677,9 +782,25 @@ These demographics align with the Task--Technology Fit (TTF) theory's premise th
 \subsection{Current Practices of Rural Healthcare Providers}
 
 \indent Research Question 1 asked: ``What are the current practices of rural healthcare providers with respect to patient records management, doctor and health worker scheduling, and appointment systems?'' Table 3.2 presents the weighted mean scores for each indicator.
-With both healthcare providers and rural resident-users now represented in the sample (n=93), the results show a markedly different pattern from the facility-only findings reported previously. Patient records management remains the strongest domain (WM = 3.43, Often), but the overall rating dropped from the earlier ``Always'' (WM = 4.60) to ``Often,'' driven largely by resident perceptions of their own access to records (Item 2.5, WM = 2.92, Sometimes) a dimension the facility-only survey never captured, since staff were only assessing their own internal documentation practices, not what patients experience on the receiving end.
+With both healthcare providers and rural resident-users now represented in the sample (n=93), the results show a markedly different pattern from the facility-only findings reported previously. Patient records management remains the strongest domain (WM = 3.43, Often).
+Records were documented immediately after consultations (Item 2.1, WM = 3.86)
+and retrieved quickly and accurately (Item 2.4, WM = 3.69). The weakest
+indicator was patients' ability to view or receive a copy of their own records
+(Item 2.5, WM = 2.92, Sometimes), which indicates that records are maintained
+mainly for the facility's use and are not easily accessible to the patients
+themselves.
 
-Doctor scheduling and appointment systems both declined to ``Sometimes'' (WM = 3.02 and 2.93, respectively), compared to ``Often'' in the facility-only round. This gap suggests that while staff perceive their own scheduling and booking processes as reasonably functional, residents do not experience the same level of reliability from their side of the interaction they are less confident that appointments are booked conveniently (Item 2.15, WM = 2.98) or that availability is known to them in advance (Item 2.7, WM = 3.08).
+Doctor and health worker scheduling was practiced only ``Sometimes''
+(WM = 3.22). Schedules were managed to minimize conflicts (Item 2.10,
+WM = 3.42, Often), but availability was less consistently recorded and
+accessible (Item 2.7, WM = 3.08) and schedules were not always planned and
+communicated in advance (Item 2.6, WM = 3.11).
+
+Appointment systems were practiced ``Sometimes'' (WM = 3.34). The lowest-rated
+indicator in the table was patients being attended to within a reasonable
+waiting time (Item 2.14, WM = 2.97, Sometimes), which points to delays that
+residents experience regardless of how orderly the appointment process appears
+on paper.
 
 This divergence between provider self-assessment and patient-facing experience is consistent with provider-patient perception gap literature, and reinforces the Task--Technology Fit \cite{ref55} rationale for the proposed system: a digital platform must not only support staff workflows but close the visibility gap that residents currently experience regarding their own records, worker availability, and appointment status.
 
@@ -848,13 +969,13 @@ All five proposed features received ``Very Important'' ratings, with an overall 
 \caption{Perceived Acceptability of the Proposed System}
 \end{table}
 
-The proposed system received an overall ``Agree'' rating for Usability (WM = 3.50) and Data Security (WM = 3.53), while Reliability fell within ``Somewhat Agree'' (WM = 3.18). This indicates favorable but cautious acceptance, especially regarding the system's expected real-world performance.
+The proposed system received an overall ``Agree'' rating for Usability (WM = 3.50) and Data Security (WM = 3.53), while Reliability fell within ``Agree'' (WM = 3.57). This indicates favorable but cautious acceptance, especially regarding the system's expected real-world performance.
 
 Usability had the second-highest weighted mean (3.50, Agree). Respondents were most confident in completing tasks with minimal effort (Item 3.14, WM = 3.69) and in the system's ease of learning and navigation (Item 3.13, WM = 3.56). However, they rated the design's fit for their digital skill level lowest (Item 3.16, WM = 3.01, Somewhat Agree). This gap suggests that while the system is expected to be functional, some respondents remain unsure if it will accommodate varying digital literacy levels --- consistent with documented literacy barriers in rural Philippine telehealth studies \cite{ref6}, \cite{ref7}.
 
-Reliability was the lowest and most inconsistent dimension (WM = 3.18). Respondents were confident the system would work without errors or crashes (Item 3.17, WM = 4.50) and be consistently available (Item 3.19, WM = 4.03). However, confidence dropped for connectivity-dependent items: usability during poor connectivity (Item 3.18, WM = 3.41) and, notably, accurate and timely notifications (Item 3.20, WM = 2.33, Slightly Agree) --- the lowest score overall. This suggests respondents distinguish between the system's core stability, viewed favorably, and its reliance on external factors like connectivity and message delivery, viewed more skeptically. This aligns with the connectivity and infrastructure barriers noted earlier as unresolved constraints in Barangay Panicuason, reinforcing that skepticism stems from lived experience rather than unfamiliarity with telemedicine.
+Reliability (WM = 3.57). Respondents expected the system to work without errors or crashes (Item 3.17, WM = 4.50) and to be available whenever needed (Item 3.19, WM = 4.03). Confidence dropped for items that depend on connectivity and message delivery: use during poor connectivity (Item 3.18, WM = 3.41) and, most notably, accurate and timely notifications (Item 3.20, WM = 2.33, Slightly Agree), the lowest score in the table.
 
-Data Security scored highest overall (WM = 3.53) but showed a similar spread. Respondents strongly believed the system would restrict access to authorized personnel (Item 3.22, WM = 4.21) and include secure login authentication (Item 3.24, WM = 4.24). However, trust in the system keeping health information private (Item 3.21, WM = 3.05) and comfort in providing personal information (Item 3.23, WM = 2.78) were rated lower.
+Data Security scored overall (WM = 3.57) but showed a similar spread. Respondents strongly believed the system would restrict access to authorized personnel (Item 3.22, WM = 4.21) and include secure login authentication (Item 3.24, WM = 4.24). However, trust in the system keeping health information private (Item 3.21, WM = 3.05) and comfort in providing personal information (Item 3.23, WM = 2.78) were rated lower.
 
 Overall, these findings suggest that confidence in technical security mechanisms does not fully translate into personal trust --- consistent with the Technology Acceptance Model's distinction between perceived usefulness and the more subjective, trust-based dimensions of adoption \cite{ref56}.
 % \chapter*{Results and Discussions}
@@ -892,6 +1013,140 @@ Overall, these findings suggest that confidence in technical security mechanisms
 %\section{Design and System Plans}
 
 %\section{Summary of Findings}
+
+\subsection{Functionality Testing}
+
+\indent This section presents the results of the functionality testing conducted to verify whether the E-Health for All prototype performs its intended functions correctly. Testing was carried out with 93 testers composed of 13 health facility personnel and 80 resident-users of Barangay Panicuason. Testing covered the system design: registration and authentication, appointment booking and scheduling, video consultation, medical records and vitals management, e-prescription, offline synchronization, notifications, and administrator functions.
+
+\subsubsection{Functionality Survey Results}
+
+\indent Table 3.6 presents the weighted mean scores for each indicator. The system obtained an overall weighted mean of 3.65 (Agree). Functional Suitability was rated Functional (WM = 3.73), Performance Efficiency, Security, and Overall were rated Agree, while Reliability and Offline Capability was rated Somewhat Agree (WM = 3.19). Testers considered the main features functional, but consistency under real use needs improvement.
+
+\begin{table}[H]
+\centering
+\footnotesize\textit{Scale: 5 = Completely Agree (4.21--5.00), 4 = Agree (3.41--4.20), 3 = Somewhat Agree (2.61--3.40), 2 = Slightly Agree (1.81--2.60), 1 = Not at All Agree (1.00--1.80)}
+\label{tab:functionality}
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
+\toprule
+\textbf{Statement} & \textbf{WM} & \textbf{Interpretation} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{A. Functional Suitability}} \\
+\quad 1. Registration and login work correctly.                              & 4.46 & Very Functional \\
+\quad 2. Available dates and times appear correctly in the calendar.         & 4.47 & Very Functional \\
+\quad 3. Booked slots are blocked automatically.                             & 2.66 & Moderately Functional \\
+\quad 4. Patient records are saved and retrieved accurately.                 & 3.97 & Functional \\
+\quad 5. Vital signs are recorded and displayed correctly.                   & 3.23 & Moderately Functional \\
+\quad 6. E-prescriptions are issued and verified correctly.                  & 3.89 & Functional \\
+\quad 7. Video consultation and in-call chat work as expected.               & 3.46 & Functional \\
+\quad \textbf{Category Mean: Functional Suitability}                         & \textbf{3.73} & \textbf{Functional} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{B. Performance Efficiency}} \\
+\quad 8. Pages and records load within an acceptable time.                   & 4.14 & Agree \\
+\quad 9. The system stays responsive when several people use it.             & 3.66 & Agree \\
+\quad \textbf{Category Mean: Performance Efficiency}                         & \textbf{3.90} & \textbf{Agree} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{C. Reliability and Offline Capability}} \\
+\quad 10. The system works without errors or crashes.                        & 2.87 & Somewhat Agree \\
+\quad 11. Records entered offline are saved on the device.                   & 3.26 & Somewhat Agree \\
+\quad 12. Offline records sync automatically when internet returns.          & 3.11 & Somewhat Agree \\
+\quad 13. Notifications and reminders are accurate and on time.              & 3.54 & Agree \\
+\quad \textbf{Category Mean: Reliability and Offline Capability}             & \textbf{3.19} & \textbf{Somewhat Agree} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{D. Security}} \\
+\quad 14. I can only access features allowed for my role.                    & 4.05 & Agree \\
+\quad 15. Unauthorized access attempts are blocked.                          & 3.72 & Agree \\
+\quad 16. User activity is recorded in audit logs.                           & 3.04 & Somewhat Agree \\
+\quad \textbf{Category Mean: Security}                                       & \textbf{3.61} & \textbf{Agree} \\
+\midrule
+
+\multicolumn{3}{l}{\textbf{E. Overall}} \\
+\quad 17. All main features work as intended.                                & 4.03 & Agree \\
+\quad 18. The system helps solve records, scheduling, and appointment problems. & 4.16 & Agree \\
+\quad \textbf{Category Mean: Overall}                                        & \textbf{4.10} & \textbf{Agree} \\
+\midrule
+\textbf{Overall Weighted Mean}                                               & \textbf{3.65} & \textbf{Agree} \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\caption{Functionality Testing Results}
+\end{table}
+
+\textbf{Functional Suitability (WM = 3.73, Functional).} Registration and login (WM = 4.46) and the calendar display of available dates and times (WM = 4.47) were rated Very Functional. Patient records, e-prescriptions, and video consultation with in-call chat were rated Functional (WM = 3.97, 3.89, and 3.46). The lowest-rated statements were automatic blocking of booked slots (WM = 2.66) and vital signs recording (WM = 3.23), both Moderately Functional. Only 18 of 93 testers (19.4\%) agreed with the slot-blocking statement, so this feature should be prioritized for refinement because double-bookings were a persistent problem in the current system (WM = 3.69, Table 3.3).
+
+\textbf{Performance Efficiency (WM = 3.90, Agree).} Pages and records loaded within an acceptable time (WM = 4.14). Responsiveness with several users was rated lower (WM = 3.66), which suggests that performance may decline beyond the 30 users simulated during load testing.
+
+\textbf{Reliability and Offline Capability (WM = 3.19, Somewhat Agree).} This was the lowest-rated category. Notifications were rated Agree (WM = 3.54), an improvement over the pre-testing expectation (WM = 2.33, Table 3.5). Operation without errors or crashes (WM = 2.87), offline saving (WM = 3.26), and automatic synchronization (WM = 3.11) were rated Somewhat Agree. The error rating was well below the pre-testing expectation (WM = 4.50, Table 3.5), which suggests that hands-on use exposed errors testers did not anticipate. The offline results are consistent with the connectivity challenges in rural Philippine telemedicine \cite{ref51}.
+
+\textbf{Security (WM = 3.61, Agree).} Role-based access (WM = 4.05) and blocking of unauthorized access (WM = 3.72) were rated Agree. Audit logging was rated Somewhat Agree (WM = 3.04) and may be less visible to testers than access control.
+
+\textbf{Overall (WM = 4.10, Agree).} Testers agreed that all main features work as intended (WM = 4.03) and that the system helps solve records, scheduling, and appointment problems (WM = 4.16). This is consistent with the Technology Acceptance Model's view that perceived usefulness drives adoption \cite{ref69}.
+
+\clearpage
+
+%-----------------------------
+% Chapter 4
+%-----------------------------
+\chapter{Summary of Findings, Conclusions, and Recommendations}
+
+This chapter presents the summary of findings drawn from the data gathered from 93 respondents in Barangay Panicuason, the conclusions based on the findings, and the recommendations for the developers, the Rural Health Unit and local government, and future researchers.
+
+\section{Summary of Findings}
+
+This section presents the results of the functionality testing conducted to verify whether the E-Health for All prototype performs its intended functions correctly. Testing was carried out with 93 testers composed of 13 health facility personnel and 80 resident-users of Barangay Panicuason. Testing covered the system design: registration and authentication, appointment booking and scheduling, video consultation, medical records and vitals management, e-prescription, offline synchronization, notifications, and administrator functions.
+
+\subsection*{Current Practices in Patient Records Management, Doctor Scheduling, and Appointment Systems}
+
+The Rural Health Unit's current practices work better for staff than for patients. Patient records management was practiced Often (WM = 3.43), with records documented immediately after each consultation (WM = 3.86) and retrieved quickly and accurately (WM = 3.69). Patients' ability to view or receive a copy of their own records was rated lowest (WM = 2.92). Doctor and health worker scheduling was practiced only Sometimes (WM = 3.22). Schedules were managed to minimize conflicts (WM = 3.42), but availability was not consistently recorded (WM = 3.08) or planned and communicated in advance (WM = 3.11). Appointment systems were also practiced Sometimes (WM = 3.34). Convenient booking and confirmation was rated highest (WM = 3.55), while being attended within a reasonable waiting time was rated lowest (WM = 2.97).
+
+\subsection*{Challenges Encountered in the Current System}
+
+Challenges were experienced in all three areas. Patient records management challenges averaged Sometimes (WM = 3.28), and scheduling challenges averaged Sometimes (WM = 3.26). In scheduling, the lack of a clear or updated availability record (WM = 3.62) and health workers being assigned to multiple duties at the same time (WM = 3.72) were rated Often. Appointment system challenges were the most severe, averaging Often (WM = 3.58). They were led by the absence of an organized system for tracking or confirming appointments (WM = 3.73) and by double-bookings or missed appointments (WM = 3.69).
+
+\subsection*{System Designed to Address the Challenges}
+
+Respondents rated all five proposed features Very Important (overall WM = 4.66). Secure login and role-based access control (WM = 4.90) and automated reminders and notifications (WM = 4.80) ranked highest, followed by online appointment booking (WM = 4.60), and digital records and automated scheduling with conflict detection (both WM = 4.50). Based on these ratings, E-Health for All was developed using Dart with Flutter and Supabase, with a mobile application for residents and a web interface for health workers. The system includes online booking with a doctor-set availability calendar and booking overlap prevention, video consultation with an in-call chat box and call history, e-prescription, offline synchronization, notifications, and role-based access. Functionality testing with 93 testers gave an overall weighted mean of 3.65 (Functional). Functional Suitability (WM = 3.73) and Overall (WM = 4.10) were rated Functional, Performance Efficiency (WM = 3.90) and Security (WM = 3.61) were rated Agree, and Reliability and Offline Capability was rated lowest (WM = 3.19, Somewhat Agree). The lowest-rated statement was automatic blocking of booked slots (WM = 2.66).
+
+\subsection*{Level of Acceptability of the System}
+
+Respondents rated the proposed system Agree in usability (WM = 3.50), reliability (WM = 3.57), and data security (WM = 3.57). In usability, the lowest item was the fit of the design to users' digital skill level (WM = 3.01). In reliability, expectations for error-free operation were high (WM = 4.50), but accurate and timely notifications were rated lowest (WM = 2.33). In data security, respondents strongly believed that only authorized personnel can view records (WM = 4.21) and that the login would be secure (WM = 4.24). Trust in the system keeping health information private (WM = 3.05) and comfort in providing personal information (WM = 2.78) were lower.
+% TODO: insert user acceptance testing results here: the PSSUQ overall and category means, and the reliability and data security means.
+
+Collectively, the findings show that current practices favor staff-side record keeping but leave scheduling, waiting time, and patient access to records weak. Appointment tracking and double-booking were the most severe problems, and respondents considered the proposed features very important. The prototype performed its main functions, although slot blocking, error-free operation, and offline synchronization need improvement.
+
+\section{Conclusions}
+
+Based on the findings of the study, the following conclusions were drawn:
+
+\begin{enumerate}
+
+    \item The current practices at the Rural Health Unit support basic records keeping but are inconsistent in scheduling and appointment coordination. Patients have limited access to their own records and experience long waiting times.
+
+    \item The challenges occur regularly in patient records management, scheduling, and appointment systems, and are most severe in appointment tracking and double-bookings. This confirms the need for a digital system.
+
+    \item E-Health for All, built with Dart, Flutter, and Supabase, is a feasible response to these challenges. It combines doctor-set availability with overlap prevention, video consultation with in-call chat, e-prescription, offline synchronization, and role-based access, and respondents rated its proposed features Very Important. The prototype performs its main functions as intended, as shown by the overall rating of Functional, but automatic slot blocking, error-free operation, and offline synchronization require improvement before full deployment.
+
+    \item The system is acceptable to healthcare providers and resident-users in terms of usability, reliability, and data security, with reservations about notification accuracy, privacy trust, and fit with users' digital skills.
+
+\end{enumerate}
+
+Overall, the study concludes that E-Health for All is a viable solution to the records, scheduling, and appointment problems of the Barangay Panicuason Rural Health Unit, provided that its slot blocking, reliability, and privacy features are strengthened.
+
+\section{Recommendations}
+
+Based on the findings and conclusions of the study, the following recommendations are offered:
+
+\textbf{For the Developers.} The developers should strengthen automatic slot blocking by enforcing booking rules on the server side in Supabase, so that overlapping bookings are rejected even when two users book at the same time, and then re-test the feature. They should improve stability by adding error logging and crash reporting and by testing on a wider range of devices and connection conditions. Offline saving and synchronization should be tested under repeated connection loss, including conflicts when the same record is edited offline and online, and load testing should be repeated with more concurrent users than the 30 simulated in this study. To address privacy trust and digital skill gaps, audit logs should be presented clearly to administrators, a short privacy notice and consent screen should be added, and a simple guided tutorial should be provided for first-time users.
+
+\textbf{For the Rural Health Unit and Local Government.} The Rural Health Unit is encouraged to conduct a supervised pilot before full adoption, with trained health workers and a designated system administrator. Orientation and training should be provided to health workers and residents, and support should be given for access to smartphones and internet connectivity where these are lacking.
+
+\textbf{For Future Researchers.} Future researchers are encouraged to re-evaluate the system with licensed doctors, who were not among the testers in this study, particularly for availability setting and e-prescription. Future studies may also extend the evaluation to other barangays and health facilities. They may examine long-term adoption, cost-effectiveness, and the features excluded from this study, such as laboratory integration, referral interoperability, and payment processing.
+
 
 %\section{Conclusions}
 

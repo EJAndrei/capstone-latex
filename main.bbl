@@ -1777,6 +1777,117 @@
       \verb 10.2196/24541
       \endverb
     \endentry
+    \entry{ref67}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=78085475b55666a155daff1ce8e53cff}{%
+           family={Thanthrige},
+           familyi={T\bibinitperiod},
+           given={A.},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fb48e9d2a5084d15e25c866a2adf3d66}{%
+           family={Lu},
+           familyi={L\bibinitperiod},
+           given={B.},
+           giveni={B\bibinitperiod}}}%
+        {{hash=bed4619d913f66e28ea1fbdce62cfc72}{%
+           family={Sako},
+           familyi={S\bibinitperiod},
+           given={Z.},
+           giveni={Z\bibinitperiod}}}%
+        {{hash=87f3da913c78615b3d23b8e756292c21}{%
+           family={Wickramasinghe},
+           familyi={W\bibinitperiod},
+           given={N.},
+           giveni={N\bibinitperiod}}}%
+      }
+      \strng{namehash}{85e65b110de95435531bf5e09ae62a2e}
+      \strng{fullhash}{3bf2b418fbbbed272c7e2d2b35f85d90}
+      \strng{fullhashraw}{3bf2b418fbbbed272c7e2d2b35f85d90}
+      \strng{bibnamehash}{85e65b110de95435531bf5e09ae62a2e}
+      \strng{authorbibnamehash}{85e65b110de95435531bf5e09ae62a2e}
+      \strng{authornamehash}{85e65b110de95435531bf5e09ae62a2e}
+      \strng{authorfullhash}{3bf2b418fbbbed272c7e2d2b35f85d90}
+      \strng{authorfullhashraw}{3bf2b418fbbbed272c7e2d2b35f85d90}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Medical Internet Research}
+      \field{title}{Determinants of health care technology adoption using an integrated unified theory of acceptance and use of technology and task technology fit model: Systematic review and meta-analysis}
+      \field{year}{2025}
+      \verb{doi}
+      \verb 10.2196/64524
+      \endverb
+    \endentry
+    \entry{ref68}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=51ea346d2f489afb2b566a41a5721e45}{%
+           family={Tsogbe},
+           familyi={T\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=3ab4723487eb917b2e440151ca2390d9}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={T.},
+           giveni={T\bibinitperiod}}}%
+        {{hash=8396601b60d3c5cdb4b7eea5ac9156bd}{%
+           family={Gyanmea},
+           familyi={G\bibinitperiod},
+           given={A.\bibnamedelimi B.},
+           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=56257e7692baaaea5d3942f58830071c}{%
+           family={Gyasi},
+           familyi={G\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{8ea2e102d05115bdf949864a073e2aec}
+      \strng{fullhash}{3dcba4b9f1252e814fd39947ccf2da2b}
+      \strng{fullhashraw}{3dcba4b9f1252e814fd39947ccf2da2b}
+      \strng{bibnamehash}{8ea2e102d05115bdf949864a073e2aec}
+      \strng{authorbibnamehash}{8ea2e102d05115bdf949864a073e2aec}
+      \strng{authornamehash}{8ea2e102d05115bdf949864a073e2aec}
+      \strng{authorfullhash}{3dcba4b9f1252e814fd39947ccf2da2b}
+      \strng{authorfullhashraw}{3dcba4b9f1252e814fd39947ccf2da2b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{PLOS Global Public Health}
+      \field{month}{2}
+      \field{number}{2}
+      \field{title}{Adopting telehealth for mental health support in stroke rehabilitation in {Sub-Saharan Africa}: A conceptual analysis using {Rogers}' {Diffusion} of {Innovation Theory}}
+      \field{volume}{6}
+      \field{year}{2026}
+      \field{pages}{e0005025}
+      \range{pages}{-1}
+      \verb{doi}
+      \verb 10.1371/journal.pgph.0005025
+      \endverb
+    \endentry
+    \entry{ref47}{misc}{}{}
+      \name{author}{1}{}{%
+        {{hash=3b242b66dfe956017e7e4b5d73d0c164}{%
+           family={{Centers for Disease Control and Prevention}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3b242b66dfe956017e7e4b5d73d0c164}
+      \strng{fullhash}{3b242b66dfe956017e7e4b5d73d0c164}
+      \strng{fullhashraw}{3b242b66dfe956017e7e4b5d73d0c164}
+      \strng{bibnamehash}{3b242b66dfe956017e7e4b5d73d0c164}
+      \strng{authorbibnamehash}{3b242b66dfe956017e7e4b5d73d0c164}
+      \strng{authornamehash}{3b242b66dfe956017e7e4b5d73d0c164}
+      \strng{authorfullhash}{3b242b66dfe956017e7e4b5d73d0c164}
+      \strng{authorfullhashraw}{3b242b66dfe956017e7e4b5d73d0c164}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{\url{https://www.cdc.gov/rural-health/php/about/index.html}}
+      \field{title}{About rural health}
+      \field{year}{2025}
+    \endentry
     \entry{ref69}{article}{}{}
       \name{author}{4}{}{%
         {{hash=92c06a5d2bddf648d86908521d6870a2}{%
@@ -2013,28 +2124,6 @@
       \field{title}{{ISO 9241-210:2019} Ergonomics of human-system interaction---{Part 210}: Human-centred design for interactive systems}
       \field{year}{2019}
     \endentry
-    \entry{ref47}{misc}{}{}
-      \name{author}{1}{}{%
-        {{hash=3b242b66dfe956017e7e4b5d73d0c164}{%
-           family={{Centers for Disease Control and Prevention}},
-           familyi={C\bibinitperiod}}}%
-      }
-      \strng{namehash}{3b242b66dfe956017e7e4b5d73d0c164}
-      \strng{fullhash}{3b242b66dfe956017e7e4b5d73d0c164}
-      \strng{fullhashraw}{3b242b66dfe956017e7e4b5d73d0c164}
-      \strng{bibnamehash}{3b242b66dfe956017e7e4b5d73d0c164}
-      \strng{authorbibnamehash}{3b242b66dfe956017e7e4b5d73d0c164}
-      \strng{authornamehash}{3b242b66dfe956017e7e4b5d73d0c164}
-      \strng{authorfullhash}{3b242b66dfe956017e7e4b5d73d0c164}
-      \strng{authorfullhashraw}{3b242b66dfe956017e7e4b5d73d0c164}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{howpublished}{\url{https://www.cdc.gov/rural-health/php/about/index.html}}
-      \field{title}{About rural health}
-      \field{year}{2025}
-    \endentry
     \entry{ref61}{misc}{}{}
       \name{author}{1}{}{%
         {{hash=2e41db1ea6786c1f22c87f3e4df4e13e}{%
@@ -2056,6 +2145,111 @@
       \field{howpublished}{\url{https://s-pro.io/blog/telemedicine-system-components-architecture}}
       \field{title}{Components of telemedicine: System architecture overview for 2024}
       \field{year}{2024}
+    \endentry
+    \entry{ref73}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ffb9f0fdf450734bbcc4dbaf307be52f}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \strng{fullhash}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \strng{fullhashraw}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \strng{bibnamehash}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \strng{authorbibnamehash}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \strng{authornamehash}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \strng{authorfullhash}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \strng{authorfullhashraw}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Human-Computer Interaction}
+      \field{number}{1}
+      \field{title}{{IBM} computer usability satisfaction questionnaires: Psychometric evaluation and instructions for use}
+      \field{volume}{7}
+      \field{year}{1995}
+      \field{pages}{57\bibrangedash 78}
+      \range{pages}{22}
+      \verb{doi}
+      \verb 10.1080/10447319509526110
+      \endverb
+    \endentry
+    \entry{ref74}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=ffb9f0fdf450734bbcc4dbaf307be52f}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \strng{fullhash}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \strng{fullhashraw}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \strng{bibnamehash}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \strng{authorbibnamehash}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \strng{authornamehash}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \strng{authorfullhash}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \strng{authorfullhashraw}{ffb9f0fdf450734bbcc4dbaf307be52f}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{International Journal of Human-Computer Interaction}
+      \field{number}{3--4}
+      \field{title}{Psychometric evaluation of the {PSSUQ} using data from five years of usability studies}
+      \field{volume}{14}
+      \field{year}{2002}
+      \field{pages}{463\bibrangedash 488}
+      \range{pages}{26}
+      \verb{doi}
+      \verb 10.1080/10447318.2002.9669130
+      \endverb
+    \endentry
+    \entry{ref75}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=0365e35ee7d832c182e24e7e6f06e0c5}{%
+           family={Sauro},
+           familyi={S\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ffb9f0fdf450734bbcc4dbaf307be52f}{%
+           family={Lewis},
+           familyi={L\bibinitperiod},
+           given={J.\bibnamedelimi R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge, MA, USA}%
+      }
+      \list{publisher}{1}{%
+        {Morgan Kaufmann}%
+      }
+      \strng{namehash}{84ea59a40928d7cd0aff15ab456685d4}
+      \strng{fullhash}{84ea59a40928d7cd0aff15ab456685d4}
+      \strng{fullhashraw}{84ea59a40928d7cd0aff15ab456685d4}
+      \strng{bibnamehash}{84ea59a40928d7cd0aff15ab456685d4}
+      \strng{authorbibnamehash}{84ea59a40928d7cd0aff15ab456685d4}
+      \strng{authornamehash}{84ea59a40928d7cd0aff15ab456685d4}
+      \strng{authorfullhash}{84ea59a40928d7cd0aff15ab456685d4}
+      \strng{authorfullhashraw}{84ea59a40928d7cd0aff15ab456685d4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{Quantifying the User Experience: Practical Statistics for User Research}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.elsevier.com/books/quantifying-the-user-experience/sauro/978-012-802308-2
+      \endverb
+      \verb{url}
+      \verb https://www.elsevier.com/books/quantifying-the-user-experience/sauro/978-012-802308-2
+      \endverb
     \endentry
     \entry{ref42}{article}{}{}
       \true{moreauthor}
@@ -2496,97 +2690,6 @@
       \field{title}{Technology Acceptance Model: A review}
       \field{year}{2024}
       \true{nocite}
-    \endentry
-    \entry{ref67}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=78085475b55666a155daff1ce8e53cff}{%
-           family={Thanthrige},
-           familyi={T\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod}}}%
-        {{hash=fb48e9d2a5084d15e25c866a2adf3d66}{%
-           family={Lu},
-           familyi={L\bibinitperiod},
-           given={B.},
-           giveni={B\bibinitperiod}}}%
-        {{hash=bed4619d913f66e28ea1fbdce62cfc72}{%
-           family={Sako},
-           familyi={S\bibinitperiod},
-           given={Z.},
-           giveni={Z\bibinitperiod}}}%
-        {{hash=87f3da913c78615b3d23b8e756292c21}{%
-           family={Wickramasinghe},
-           familyi={W\bibinitperiod},
-           given={N.},
-           giveni={N\bibinitperiod}}}%
-      }
-      \strng{namehash}{85e65b110de95435531bf5e09ae62a2e}
-      \strng{fullhash}{3bf2b418fbbbed272c7e2d2b35f85d90}
-      \strng{fullhashraw}{3bf2b418fbbbed272c7e2d2b35f85d90}
-      \strng{bibnamehash}{85e65b110de95435531bf5e09ae62a2e}
-      \strng{authorbibnamehash}{85e65b110de95435531bf5e09ae62a2e}
-      \strng{authornamehash}{85e65b110de95435531bf5e09ae62a2e}
-      \strng{authorfullhash}{3bf2b418fbbbed272c7e2d2b35f85d90}
-      \strng{authorfullhashraw}{3bf2b418fbbbed272c7e2d2b35f85d90}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Medical Internet Research}
-      \field{title}{Determinants of health care technology adoption using an integrated unified theory of acceptance and use of technology and task technology fit model: Systematic review and meta-analysis}
-      \field{year}{2025}
-      \true{nocite}
-      \verb{doi}
-      \verb 10.2196/64524
-      \endverb
-    \endentry
-    \entry{ref68}{article}{}{}
-      \name{author}{4}{}{%
-        {{hash=51ea346d2f489afb2b566a41a5721e45}{%
-           family={Tsogbe},
-           familyi={T\bibinitperiod},
-           given={D.},
-           giveni={D\bibinitperiod}}}%
-        {{hash=3ab4723487eb917b2e440151ca2390d9}{%
-           family={Martin},
-           familyi={M\bibinitperiod},
-           given={T.},
-           giveni={T\bibinitperiod}}}%
-        {{hash=8396601b60d3c5cdb4b7eea5ac9156bd}{%
-           family={Gyanmea},
-           familyi={G\bibinitperiod},
-           given={A.\bibnamedelimi B.},
-           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
-        {{hash=56257e7692baaaea5d3942f58830071c}{%
-           family={Gyasi},
-           familyi={G\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-      }
-      \strng{namehash}{8ea2e102d05115bdf949864a073e2aec}
-      \strng{fullhash}{3dcba4b9f1252e814fd39947ccf2da2b}
-      \strng{fullhashraw}{3dcba4b9f1252e814fd39947ccf2da2b}
-      \strng{bibnamehash}{8ea2e102d05115bdf949864a073e2aec}
-      \strng{authorbibnamehash}{8ea2e102d05115bdf949864a073e2aec}
-      \strng{authornamehash}{8ea2e102d05115bdf949864a073e2aec}
-      \strng{authorfullhash}{3dcba4b9f1252e814fd39947ccf2da2b}
-      \strng{authorfullhashraw}{3dcba4b9f1252e814fd39947ccf2da2b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{PLOS Global Public Health}
-      \field{month}{2}
-      \field{number}{2}
-      \field{title}{Adopting telehealth for mental health support in stroke rehabilitation in {Sub-Saharan Africa}: A conceptual analysis using {Rogers}' {Diffusion} of {Innovation Theory}}
-      \field{volume}{6}
-      \field{year}{2026}
-      \true{nocite}
-      \field{pages}{e0005025}
-      \range{pages}{-1}
-      \verb{doi}
-      \verb 10.1371/journal.pgph.0005025
-      \endverb
     \endentry
     \entry{ref72}{article}{}{}
       \name{author}{4}{}{%
