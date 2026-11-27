@@ -1272,80 +1272,70 @@ Based on the findings and conclusions of the study, the following recommendation
 
 \clearpage
 \nocite{*}
-\printbibliography
+\printbibliography[heading=bibintoc,title={References}]
 
 
 \clearpage
 
 \chapter*{Appendices}
+\addcontentsline{toc}{chapter}{Appendices}
 
-\begin{figure}[H]
-    \caption*{Appendices A-1}
+% ---- automatic appendix numbering (do not edit) ----
+\newcounter{appxgroup}
+\newcounter{appxitem}
+\gdef\appxpending{}
+\gdef\appxtitle{}
+% \appxgroup{Title} starts a new lettered group: Appendix A, B, C ...
+\newcommand{\appxgroup}[1]{%
+  \stepcounter{appxgroup}%
+  \setcounter{appxitem}{0}%
+  \gdef\appxpending{#1}%
+  \gdef\appxtitle{#1}%
+}
+% \appxfig[optional label]{file}: caption = "Appendix A-1: <group title>" unless a label is given
+\newcommand{\appxfig}[2][]{%
+  \stepcounter{appxitem}%
+  \begin{figure}[H]
+    \ifdefempty{\appxpending}{}{%
+      \edef\appxtmp{\noexpand\addcontentsline{toc}{section}{Appendix \Alph{appxgroup}: \appxpending}}%
+      \appxtmp
+      \gdef\appxpending{}%
+    }%
+    \ifstrempty{#1}%
+      {\caption*{Appendix \Alph{appxgroup}-\arabic{appxitem}: \appxtitle}}%
+      {\caption*{Appendix \Alph{appxgroup}-\arabic{appxitem}: #1}}
     \centering
-    \includegraphics[width=0.95\textwidth]{1}
-\end{figure}
+    \includegraphics[width=0.95\textwidth]{#2}
+  \end{figure}%
+}
+% ----------------------------------------------------
 
-\begin{figure}[H]
-    \caption*{Appendices A-2}
-    \centering
-    \includegraphics[width=0.95\textwidth]{2}
-\end{figure}
+\appxgroup{Letter of Invitation to Respondent's}
+\appxfig{1}
+\appxfig{2}
 
-\begin{figure}[H]
-    \caption*{Appendices A-3}
-    \centering
-    \includegraphics[width=0.95\textwidth]{3}
+\appxgroup{Letter of Informed Consent}
+\appxfig{3}
+\appxfig{4}
 
-\end{figure}
+\appxgroup{Survey Questionnaire}
+\appxfig{1 survey(2).png}
+\appxfig{2 survey(3).png}
+\appxfig{3 survey(4).png}
+\appxfig{4 survey(5).png}
+\appxfig{5 survey(6).png}
 
-\begin{figure}[H]
-    \caption*{Appendices A-4}
-    \centering
-    \includegraphics[width=0.95\textwidth]{4}
-    
-\end{figure}
+\appxgroup{Request Letter to Conduct Observational Study}
+\appxfig{12}
+\appxfig{13}
 
-\begin{figure}[H]
-    \caption*{Appendices A-5}
-    \centering
-    \includegraphics[width=0.95\textwidth]{1 survey(2).png}
-\end{figure}
+\appxgroup{Survey Questionnaire for Functionality Testing}
+\appxfig{functionality.png}
+\appxfig{functionality2.png}
 
-\begin{figure}[H]
-    \caption*{Appendices A-6}
-    \centering
-    \includegraphics[width=0.95\textwidth]{2 survey(3).png}
-\end{figure}
-
-\begin{figure}[H]
-    \caption*{Appendices A-7}
-    \centering
-    \includegraphics[width=0.95\textwidth]{3 survey(4).png}
-\end{figure}
-
-\begin{figure}[H]
-    \caption*{Appendices A-8}
-    \centering
-    \includegraphics[width=0.95\textwidth]{4 survey(5).png}
-\end{figure}
-
-\begin{figure}[H]
-    \caption*{Appendices A-9}
-    \centering
-    \includegraphics[width=0.95\textwidth]{5 survey(6).png}
-\end{figure}
-
-\begin{figure}[H]
-    \caption*{Appendices A-12}
-    \centering
-    \includegraphics[width=0.95\textwidth]{12}
-\end{figure}
-
-\begin{figure}[H]
-    \caption*{Appendices A-13}
-    \centering
-    \includegraphics[width=0.95\textwidth]{13}
-\end{figure}
+\appxgroup{Questionnaire for User Acceptance Testing}
+\appxfig{System Usefulness.png}
+\appxfig{System Usefulness2.png}
 
 \nocite{ref70}
 \nocite{ref71}

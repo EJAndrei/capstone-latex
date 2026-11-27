@@ -238,6 +238,18 @@ INPUT .\12.jpg
 INPUT .\12.jpg
 INPUT .\13.jpg
 INPUT .\13.jpg
+INPUT .\functionality.png
+INPUT .\functionality.png
+INPUT .\functionality.png
+INPUT .\functionality2.png
+INPUT .\functionality2.png
+INPUT .\functionality2.png
+INPUT .\System Usefulness.png
+INPUT .\System Usefulness.png
+INPUT .\System Usefulness.png
+INPUT .\System Usefulness2.png
+INPUT .\System Usefulness2.png
+INPUT .\System Usefulness2.png
 INPUT main.aux
 INPUT main.run.xml
 OUTPUT main.run.xml
