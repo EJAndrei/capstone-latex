@@ -33,9 +33,14 @@
 \contentsline {section}{\numberline {3.3}Challenges Encountered in the Current System}{34}{}%
 \contentsline {section}{\numberline {3.4}System Design and Plans for the Prototype}{36}{}%
 \contentsline {section}{\numberline {3.5}Perceived Acceptability of the Proposed System }{37}{}%
-\contentsline {section}{\numberline {3.6}Functionality Testing}{38}{}%
-\contentsline {subsubsection}{Functionality Survey Results}{38}{}%
-\contentsline {chapter}{\numberline {4}Summary of Findings, Conclusions, and Recommendations}{41}{}%
-\contentsline {section}{\numberline {4.1}Summary of Findings}{41}{}%
-\contentsline {section}{\numberline {4.2}Conclusions}{42}{}%
-\contentsline {section}{\numberline {4.3}Recommendations}{43}{}%
+\contentsline {section}{\numberline {3.6}Extent of Software Evaluation Testing Result}{38}{}%
+\contentsline {subsection}{\numberline {3.6.1}Functionality Survey Results}{38}{}%
+\contentsline {subsection}{\numberline {3.6.2}User Acceptance Testing Results}{40}{}%
+\contentsline {subsubsection}{System Usefulness}{41}{}%
+\contentsline {subsubsection}{Information Quality}{42}{}%
+\contentsline {subsubsection}{Interface Quality}{43}{}%
+\contentsline {subsubsection}{Overall User Acceptance Testing Results}{43}{}%
+\contentsline {chapter}{\numberline {4}Summary of Findings, Conclusions, and Recommendations}{44}{}%
+\contentsline {section}{\numberline {4.1}Summary of Findings}{44}{}%
+\contentsline {section}{\numberline {4.2}Conclusions}{46}{}%
+\contentsline {section}{\numberline {4.3}Recommendations}{46}{}%

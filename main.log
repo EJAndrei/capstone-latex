@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.13)  19 NOV 2026 21:19
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.13)  27 NOV 2026 10:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -751,85 +751,85 @@ Overfull \hbox (11.89296pt too wide) in paragraph at lines 789--789
 |[]\TU/lmr/bx/n/17.28 Current Practices of Rural Healthcare Providers| 
  []
 
-[33] [34] [35] [36] [37] [38] [39] [40]
+[33] [34] [35] [36] [37] [38] [39] [40] [41] [42] [43]
 Chapter 4.
-[41
+[44
 
 
-] [42] [43] [44]
-Overfull \hbox (8.9393pt too wide) in paragraph at lines 1169--1169
+] [45] [46] [47]
+Overfull \hbox (8.9393pt too wide) in paragraph at lines 1276--1276
 []\TU/lmr/m/n/12 R. S. Domingo, A. B. Santos, and L. M. Reyes. “Offline capabilities in telemedicine
  []
 
-[45
+[48
 
 
-] [46]
-Overfull \hbox (2.12354pt too wide) in paragraph at lines 1169--1169
+] [49]
+Overfull \hbox (2.12354pt too wide) in paragraph at lines 1276--1276
 []\TU/lmr/m/n/12 J. Adler-Milstein and E. Pfeifer. “Pre-pandemic assessment: A decade of progress
  []
 
-[47]
-Overfull \hbox (3.02066pt too wide) in paragraph at lines 1169--1169
+[50]
+Overfull \hbox (3.02066pt too wide) in paragraph at lines 1276--1276
 \TU/lmr/m/it/12 HEALTH \TU/lmr/m/n/12 10 (2024), p. 20552076231224605. \TU/lmr/m/sc/12 doi\TU/lmr/m/n/12 : $[][] [] [][][][] [] [][][][][][][][][][][][][][][][][]$. 
  []
 
-[48]
-Overfull \hbox (3.63152pt too wide) in paragraph at lines 1169--1169
+[51]
+Overfull \hbox (3.63152pt too wide) in paragraph at lines 1276--1276
 [][][][][] [] [] [] [] [][] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][][] [][] [][][][][][] [][] [][][][][][][][][][] [][] [][][][][][][][][][][][]$\TU/lmr/m/n/12 .
  []
 
 
-Overfull \hbox (1.92067pt too wide) in paragraph at lines 1169--1169
+Overfull \hbox (1.92067pt too wide) in paragraph at lines 1276--1276
 \TU/lmr/m/it/12 Computer Interaction \TU/lmr/m/n/12 7.1 (1995), pp. 57–78. \TU/lmr/m/sc/12 doi\TU/lmr/m/n/12 : $[][] [] [][][][] [] [][][][][][][][][][][][][][][][][]$. 
  []
 
 
-Overfull \hbox (2.85284pt too wide) in paragraph at lines 1169--1169
+Overfull \hbox (2.85284pt too wide) in paragraph at lines 1276--1276
 \TU/lmr/m/n/12 MAiBest project”. In: \TU/lmr/m/it/12 Implementation Science Communications \TU/lmr/m/n/12 5.1 (2024), p. 74.
  []
 
 
-Overfull \hbox (1.95953pt too wide) in paragraph at lines 1169--1169
+Overfull \hbox (1.95953pt too wide) in paragraph at lines 1276--1276
 \TU/lmr/m/it/12 gional Development Plan 2023–2028\TU/lmr/m/n/12 . $[][][][][] [] [] [] [][][][] [] [][][] [] [][] [] [][][][][] [][] [][][][][][][][] [][]
  []
 
-[49] [50]
+[52] [53]
 File: 1.jpg Graphic file (type bmp)
 <1.jpg>
 File: 2.jpg Graphic file (type bmp)
 <2.jpg>
- [51
+ [54
 
 
 ]
 File: 3.jpg Graphic file (type bmp)
 <3.jpg>
- [52]
+ [55]
 File: 4.jpg Graphic file (type bmp)
 <4.jpg>
- [53]
+ [56]
 File: 1 survey(2).png Graphic file (type bmp)
 <1 survey(2).png>
- [54]
+ [57]
 File: 2 survey(3).png Graphic file (type bmp)
 <2 survey(3).png>
- [55]
+ [58]
 File: 3 survey(4).png Graphic file (type bmp)
 <3 survey(4).png>
- [56]
+ [59]
 File: 4 survey(5).png Graphic file (type bmp)
 <4 survey(5).png>
- [57]
+ [60]
 File: 5 survey(6).png Graphic file (type bmp)
 <5 survey(6).png>
- [58]
+ [61]
 File: 12.jpg Graphic file (type bmp)
 <12.jpg>
- [59]
+ [62]
 File: 13.jpg Graphic file (type bmp)
 <13.jpg>
- [60] [61] (main.aux)
+ [63] [64] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-03-20>
@@ -839,12 +839,12 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 14663 strings out of 402807
- 271102 string characters out of 5443272
- 1129060 words of memory out of 5000000
- 43388 multiletter control sequences out of 15000+600000
+ 14667 strings out of 402807
+ 271179 string characters out of 5443272
+ 1129255 words of memory out of 5000000
+ 43392 multiletter control sequences out of 15000+600000
  635757 words of font info for 90 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  75i,12n,80p,1247b,4925s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (61 pages, 1014788 bytes).
+Output written on main.xdv (64 pages, 1088724 bytes).
