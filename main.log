@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.13)  27 NOV 2026 13:24
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.5.13)  27 NOV 2026 14:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -757,7 +757,7 @@ Chapter 4.
 
 
 ] [46] [47] [48]
-Overfull \hbox (8.9393pt too wide) in paragraph at lines 1275--1275
+Overfull \hbox (8.9393pt too wide) in paragraph at lines 1263--1263
 []\TU/lmr/m/n/12 R. S. Domingo, A. B. Santos, and L. M. Reyes. “Offline capabilities in telemedicine
  []
 
@@ -765,32 +765,32 @@ Overfull \hbox (8.9393pt too wide) in paragraph at lines 1275--1275
 
 
 ] [50]
-Overfull \hbox (2.12354pt too wide) in paragraph at lines 1275--1275
+Overfull \hbox (2.12354pt too wide) in paragraph at lines 1263--1263
 []\TU/lmr/m/n/12 J. Adler-Milstein and E. Pfeifer. “Pre-pandemic assessment: A decade of progress
  []
 
 [51]
-Overfull \hbox (3.02066pt too wide) in paragraph at lines 1275--1275
+Overfull \hbox (3.02066pt too wide) in paragraph at lines 1263--1263
 \TU/lmr/m/it/12 HEALTH \TU/lmr/m/n/12 10 (2024), p. 20552076231224605. \TU/lmr/m/sc/12 doi\TU/lmr/m/n/12 : $[][] [] [][][][] [] [][][][][][][][][][][][][][][][][]$. 
  []
 
 [52]
-Overfull \hbox (3.63152pt too wide) in paragraph at lines 1275--1275
+Overfull \hbox (3.63152pt too wide) in paragraph at lines 1263--1263
 [][][][][] [] [] [] [] [][] [][][] [] [][] [] [][][][] [] [][][][][][][][][][][][] [][] [][][][][][] [][] [][][][][][][][][][] [][] [][][][][][][][][][][][]$\TU/lmr/m/n/12 .
  []
 
 
-Overfull \hbox (1.92067pt too wide) in paragraph at lines 1275--1275
+Overfull \hbox (1.92067pt too wide) in paragraph at lines 1263--1263
 \TU/lmr/m/it/12 Computer Interaction \TU/lmr/m/n/12 7.1 (1995), pp. 57–78. \TU/lmr/m/sc/12 doi\TU/lmr/m/n/12 : $[][] [] [][][][] [] [][][][][][][][][][][][][][][][][]$. 
  []
 
 
-Overfull \hbox (2.85284pt too wide) in paragraph at lines 1275--1275
+Overfull \hbox (2.85284pt too wide) in paragraph at lines 1263--1263
 \TU/lmr/m/n/12 MAiBest project”. In: \TU/lmr/m/it/12 Implementation Science Communications \TU/lmr/m/n/12 5.1 (2024), p. 74.
  []
 
 
-Overfull \hbox (1.95953pt too wide) in paragraph at lines 1275--1275
+Overfull \hbox (1.95953pt too wide) in paragraph at lines 1263--1263
 \TU/lmr/m/it/12 gional Development Plan 2023–2028\TU/lmr/m/n/12 . $[][][][][] [] [] [] [][][][] [] [][][] [] [][] [] [][][][][] [][] [][][][][][][][] [][]
  []
 
@@ -850,10 +850,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 Here is how much of TeX's memory you used:
  14719 strings out of 402807
  272237 string characters out of 5443272
- 1129255 words of memory out of 5000000
+ 1129263 words of memory out of 5000000
  43440 multiletter control sequences out of 15000+600000
  635757 words of font info for 90 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  75i,12n,80p,1247b,4933s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on main.xdv (69 pages, 1100940 bytes).
+Output written on main.xdv (69 pages, 1100944 bytes).
