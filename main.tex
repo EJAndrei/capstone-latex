@@ -1100,96 +1100,112 @@ Overall, these findings suggest that confidence in technical security mechanisms
 
 \indent This part presents the results of the Software Evaluation Questionnaire administered to 93 respondents to assess the system in terms of System Usefulness, Information Quality, and Interface Quality, using a 7-point Likert scale (1 = Strongly Agree, 7 = Strongly Disagree, so a lower mean is better). The instrument was adapted from the PSSUQ, which allows the results to be compared with the reference norms in Table~\ref{tab:pssuq_norms}.
 
+\begin{table}[H]
+\centering
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
+\toprule
+\textbf{Statement} & \textbf{Mean} & \textbf{Interpretation} \\
+\midrule
+Overall, I am satisfied with how easy it is to use this system. & 1.84 & Strongly Agree \\
+It was simple to use this system. & 1.82 & Strongly Agree \\
+I was able to complete the tasks quickly using this system. & 1.81 & Strongly Agree \\
+I felt comfortable using this system. & 1.81 & Strongly Agree \\
+It was easy to learn to use this system. & 1.80 & Strongly Agree \\
+I believe I could become productive quickly using this system. & 1.81 & Strongly Agree \\
+\midrule
+\textbf{Category Mean} & \textbf{1.81} & \textbf{Strongly Agree} \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\caption{Respondents' Ratings on System Usefulness}
+\label{tab:uat_usefulness}
+\end{table}
+
+\vspace{-1.5\baselineskip}
 \subsubsection{System Usefulness}
 
 Table~\ref{tab:uat_usefulness} presents the mean ratings for System Usefulness. The category mean of 1.81 falls under Strongly Agree and is lower (better) than the PSSUQ reference norm of 2.80 for SYSUSE. Respondents rated ease of learning (Item 2.5) most favorably at 1.80, followed closely by quick task completion (2.3), comfort of use (2.4), and the belief that they could become productive quickly (2.6), each at 1.81. Simplicity of use (2.2) scored 1.82, and overall satisfaction with ease of use (2.1) scored 1.84, the weakest item in this category. Although every item was rated Strongly Agree, System Usefulness was the least favorably rated of the three categories, and its item means sit close to the upper limit of the Strongly Agree range (1.86). These results suggest that respondents found the system easy to use and learn, with some room to make everyday tasks even more effortless.
 
 \begin{table}[H]
-    \centering
-    \caption{Respondents' Ratings on System Usefulness}
-    \label{tab:uat_usefulness}
-    \begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
-        \toprule
-        \textbf{Statement} & \textbf{Mean} & \textbf{Interpretation} \\
-        \midrule
-        Overall, I am satisfied with how easy it is to use this system. & 1.84 & Strongly Agree \\
-        It was simple to use this system. & 1.82 & Strongly Agree \\
-        I was able to complete the tasks quickly using this system. & 1.81 & Strongly Agree \\
-        I felt comfortable using this system. & 1.81 & Strongly Agree \\
-        It was easy to learn to use this system. & 1.80 & Strongly Agree \\
-        I believe I could become productive quickly using this system. & 1.81 & Strongly Agree \\
-        \midrule
-        \textbf{Category Mean} & \textbf{1.81} & \textbf{Strongly Agree} \\
-        \bottomrule
-    \end{tabular}
+\centering
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
+\toprule
+\textbf{Statement} & \textbf{Mean} & \textbf{Interpretation} \\
+\midrule
+The system gave error messages that clearly told me how to fix problems. & 1.85 & Strongly Agree \\
+Whenever I made a mistake, I could recover easily and quickly. & 1.57 & Strongly Agree \\
+The information provided with this system was clear. & 1.52 & Strongly Agree \\
+It was easy to find the information I needed. & 1.59 & Strongly Agree \\
+The information helped me complete the tasks. & 1.78 & Strongly Agree \\
+The organization of information on the screens was clear. & 1.83 & Strongly Agree \\
+\midrule
+\textbf{Category Mean} & \textbf{1.69} & \textbf{Strongly Agree} \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\caption{Respondents' Ratings on Information Quality}
+\label{tab:uat_infoquality}
 \end{table}
 
+\vspace{-1.5\baselineskip}
 \subsubsection{Information Quality}
 
 Table~\ref{tab:uat_infoquality} presents the mean ratings for Information Quality. The category mean of 1.69 falls under Strongly Agree and is lower (better) than the PSSUQ reference norm of 3.02 for INFOQUAL. This was the highest-rated category. The clarity of the information provided with the system (2.9) received the strongest rating at 1.52, with 86 of 93 respondents choosing 1 or 2. It was followed by easy recovery from mistakes (2.8, 1.57) and ease of finding needed information (2.10, 1.59). The usefulness of the information in completing tasks (2.11, 1.78) and the clarity of screen organization (2.12, 1.83) were also Strongly Agree. The clarity of error messages in telling users how to fix problems (2.7) scored comparatively weaker at 1.85, which points to the error messages and screen layout as areas for refinement. Overall, respondents found the system's information clear, easy to find, and helpful in completing their tasks.
 
 \begin{table}[H]
-    \centering
-    \caption{Respondents' Ratings on Information Quality}
-    \label{tab:uat_infoquality}
-    \begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
-        \toprule
-        \textbf{Statement} & \textbf{Mean} & \textbf{Interpretation} \\
-        \midrule
-        The system gave error messages that clearly told me how to fix problems. & 1.85 & Strongly Agree \\
-        Whenever I made a mistake, I could recover easily and quickly. & 1.57 & Strongly Agree \\
-        The information provided with this system was clear. & 1.52 & Strongly Agree \\
-        It was easy to find the information I needed. & 1.59 & Strongly Agree \\
-        The information helped me complete the tasks. & 1.78 & Strongly Agree \\
-        The organization of information on the screens was clear. & 1.83 & Strongly Agree \\
-        \midrule
-        \textbf{Category Mean} & \textbf{1.69} & \textbf{Strongly Agree} \\
-        \bottomrule
-    \end{tabular}
+\centering
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
+\toprule
+\textbf{Statement} & \textbf{Mean} & \textbf{Interpretation} \\
+\midrule
+The interface of this system was pleasant. & 1.72 & Strongly Agree \\
+I liked using the interface of this system. & 1.69 & Strongly Agree \\
+This system has all the functions and capabilities I expect it to have. & 1.73 & Strongly Agree \\
+Overall, I am satisfied with this system. & 1.68 & Strongly Agree \\
+\midrule
+\textbf{Category Mean} & \textbf{1.71} & \textbf{Strongly Agree} \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\caption{Respondents' Ratings on Interface Quality}
+\label{tab:uat_interface}
 \end{table}
 
+\vspace{-1.5\baselineskip}
 \subsubsection{Interface Quality}
 
 Table~\ref{tab:uat_interface} presents the mean ratings for Interface Quality. The category mean of 1.71 falls under Strongly Agree and is lower (better) than the PSSUQ reference norm of 2.49 for INTERQUAL. Respondents liked using the interface (2.14, 1.69), found it pleasant (2.13, 1.72), and agreed that the system has the functions and capabilities they expect (2.15, 1.73). The three items were rated within 0.04 of each other, and at least 80 of 93 respondents rated each item 1 or 2. This indicates that the interface was well received and that its design and available features met respondents' expectations.
 
 \begin{table}[H]
-    \centering
-    \caption{Respondents' Ratings on Interface Quality}
-    \label{tab:uat_interface}
-    \begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
-        \toprule
-        \textbf{Statement} & \textbf{Mean} & \textbf{Interpretation} \\
-        \midrule
-        The interface of this system was pleasant. & 1.72 & Strongly Agree \\
-        I liked using the interface of this system. & 1.69 & Strongly Agree \\
-        This system has all the functions and capabilities I expect it to have. & 1.73 & Strongly Agree \\
-        Overall, I am satisfied with this system. & 1.68 & Strongly Agree \\
-        \midrule
-        \textbf{Category Mean} & \textbf{1.71} & \textbf{Strongly Agree} \\
-        \bottomrule
-    \end{tabular}
+\centering
+\renewcommand{\arraystretch}{1.1}
+\begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
+\toprule
+\textbf{Category} & \textbf{Mean} & \textbf{Interpretation} \\
+\midrule
+System Usefulness & 1.81 & Strongly Agree \\
+Information Quality & 1.69 & Strongly Agree \\
+Interface Quality & 1.71 & Strongly Agree \\
+\midrule
+\textbf{Overall Mean} & \textbf{1.74} & \textbf{Strongly Agree} \\
+\bottomrule
+\end{tabular}
+
+\vspace{4pt}
+\caption{Overall Summary on Software Evaluation}
+\label{tab:uat_overall}
 \end{table}
 
+\vspace{-1.5\baselineskip}
 \subsubsection{Overall User Acceptance Testing Results}
 
 Table~\ref{tab:uat_overall} presents the overall summary of the UAT results. The overall weighted mean for usability was 1.74, interpreted as Strongly Agree and lower (better) than the PSSUQ overall norm of 2.82. Information Quality was the strongest category (1.69), followed by Interface Quality (1.71) and System Usefulness (1.81). All three categories were rated more favorably than their respective PSSUQ norms: Information Quality (3.02), Interface Quality (2.49), and System Usefulness (2.80). Overall satisfaction with the system (2.16) received a mean of 1.68, with 83 of 93 respondents rating it 1 or 2. These results indicate a favorable perception of the system's usability among the respondents.
-
-\begin{table}[H]
-    \centering
-    \caption{Overall Summary on Software Evaluation}
-    \label{tab:uat_overall}
-    \begin{tabular}{>{\raggedright\arraybackslash}p{9cm} c c}
-        \toprule
-        \textbf{Category} & \textbf{Mean} & \textbf{Interpretation} \\
-        \midrule
-        System Usefulness & 1.81 & Strongly Agree \\
-        Information Quality & 1.69 & Strongly Agree \\
-        Interface Quality & 1.71 & Strongly Agree \\
-        \midrule
-        \textbf{Overall Mean} & \textbf{1.74} & \textbf{Strongly Agree} \\
-        \bottomrule
-    \end{tabular}
-\end{table}
 
 \clearpage
 
